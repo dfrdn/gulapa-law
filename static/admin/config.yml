@@ -11,9 +11,8 @@ collections:
     folder: 'content/blog'
     format: 'frontmatter'
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    slug: '{{title}}'
     editor:
-      preview: false
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
@@ -25,10 +24,45 @@ collections:
     folder: 'content/lawyers'
     format: 'frontmatter'
     create: true
-    slug:
+    slug: '{{name}}'
     fields:
       - { label: 'Name', name: 'name', widget: 'string' }
       - { label: 'Email', name: 'email', widget: 'string' }
       - { label: 'Mobile', name: 'mobile', widget: 'string' }
       - { label: 'Description', name: 'description', widget: 'markdown' }
-      - { label: 'Practice Areas', name: 'practice-areas', widget: 'list' }
+      - label: 'Practice Areas'
+        name: 'practice-areas'
+        widget: 'relation'
+        collection: 'practice-areas'
+        value_field: 'title'
+        search_fields: ['title']
+  - name: 'practice-areas'
+    label: 'Practice Areas'
+    folder: 'content/practice-areas'
+    format: 'frontmatter'
+    create: true
+    slug: '{{title}}'
+    fields:
+      - { label: 'Practice Area', name: 'title', widget: 'string' }
+      - { label: 'Notable Matters', name: 'notables', widget: 'list' }
+  - name: 'pages'
+    label: 'Pages'
+    files:
+      - name: 'landing'
+        label: 'Landing Page'
+        file: 'content/landing.yml'
+        fields:
+          - label: 'Hero'
+            name: 'hero'
+            widget: 'object'
+            fields:
+              - { label: 'Heading', name: 'heading', widget: 'string' }
+              - { label: 'Subheading', name: 'subheading', widget: 'string' }
+              - { label: 'CTA', name: 'cta', widget: 'string' }
+              - label: 'Hero Points'
+                name: 'points'
+                widget: 'list'
+                fields:
+                  - { label: 'Heading', name: 'heading', widget: 'string' }
+                  - { label: 'Details', name: 'details', widget: 'string' }
+                  - { label: 'Icon', name: 'icon', widget: 'image' }
