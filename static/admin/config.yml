@@ -30,12 +30,12 @@ collections:
       - { label: 'Mobile', name: 'mobile', widget: 'string' }
       - { label: 'Description', name: 'description', widget: 'markdown' }
       - label: 'Practice Areas'
-        name: 'practice-areas'
+        name: 'practices'
         widget: 'relation'
-        collection: 'practice-areas'
+        collection: 'practices'
         value_field: 'title'
         search_fields: ['title']
-  - name: 'practice-areas'
+  - name: 'practices'
     label: 'Practice Areas'
     folder: 'content/practice-areas'
     format: 'frontmatter'
@@ -57,7 +57,7 @@ collections:
             fields:
               - { label: 'Heading', name: 'heading', widget: 'string' }
               - { label: 'Subheading', name: 'subheading', widget: 'string' }
-              - { label: 'CTA', name: 'cta', widget: 'string' }
+              - { label: 'Button', name: 'button', widget: 'string' }
               - label: 'Hero Points'
                 name: 'points'
                 widget: 'list'
@@ -65,3 +65,63 @@ collections:
                   - { label: 'Heading', name: 'heading', widget: 'string' }
                   - { label: 'Details', name: 'details', widget: 'string' }
                   - { label: 'Icon', name: 'icon', widget: 'image' }
+          - label: 'Who We Are'
+            name: 'about'
+            widget: 'object'
+            fields:
+              - { label: 'Heading', name: 'heading', widget: 'string' }
+              - { label: 'Subheading', name: 'subheading', widget: 'string' }
+              - { label: 'Description', name: 'description', widget: 'text' }
+              - { label: 'Button', name: 'button', widget: 'string' }
+              - { label: 'Image', name: 'image', widget: 'image' }
+              - label: 'Timeline'
+                name: 'timeline'
+                widget: 'list'
+                fields:
+                  - { label: 'Year', name: 'year', widget: 'string' }
+                  - { label: 'Event', name: 'event', widget: 'string' }
+          - label: 'Offices'
+            name: 'offices'
+            widget: 'object'
+            fields:
+              - { label: 'Heading', name: 'heading', widget: 'string' }
+              - { label: 'Subheading', name: 'subheading', widget: 'string' }
+              - { label: 'Description', name: 'description', widget: 'text' }
+              - label: 'Locations'
+                name: 'locations'
+                widget: 'list'
+                fields:
+                  - { label: 'Image', name: 'image', widget: 'image' }
+                  - { label: 'Location', name: 'location', widget: 'string' }
+          - label: 'What We Do'
+            name: 'practices'
+            widget: 'object'
+            fields:
+              - { label: 'Heading', name: 'heading', widget: 'string' }
+              - { label: 'Subheading', name: 'subheading', widget: 'string' }
+              - { label: 'Description', name: 'description', widget: 'text' }
+              - label: 'Practice Areas'
+                name: 'practices'
+                widget: 'relation'
+                collection: 'practices'
+                value_field: 'title'
+                search_fields: ['title']
+          - label: 'Our Lawyers'
+            name: 'lawyers'
+            widget: 'object'
+            fields:
+              - { label: 'Heading', name: 'heading', widget: 'string' }
+              - { label: 'Subheading', name: 'subheading', widget: 'string' }
+              - label: 'Lawyers'
+                name: 'lawyers'
+                widget: 'list'
+                fields:
+                  - { label: 'Name', name: 'name', widget: 'string' }
+                  - {
+                      label: 'Description',
+                      name: 'description',
+                      widget: 'text',
+                    }
+                  - { label: 'Email', name: 'email', widget: 'string' }
+                  - { label: 'Phone', name: 'phone', widget: 'string' }
+              - { label: 'Image', name: 'image', widget: 'image' }
