@@ -43,6 +43,8 @@ collections:
     slug: '{{title}}'
     fields:
       - { label: 'Practice Area', name: 'title', widget: 'string' }
+      - { label: 'Image', name: 'image', widget: 'image' }
+      - { label: 'Description', name: 'description', widget: 'text' }
       - { label: 'Notable Matters', name: 'notables', widget: 'list' }
   - name: 'pages'
     label: 'Pages'
