@@ -1,7 +1,7 @@
 <template>
   <img
     class="logo-text text-center"
-    src="~assets/images/logo-text.png"
+    src="~assets/img/logo-text.png"
     alt="logo"
     height="76px"
   />
