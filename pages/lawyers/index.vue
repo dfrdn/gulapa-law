@@ -1,6 +1,13 @@
 <template>
-  <div>Lawyers
-    <g-lawyer></g-lawyer>
+  <div>
+    Lawyers
+    <section class="container">
+      <div id="partners" class="flex space-x-4">
+        <g-lawyer></g-lawyer>
+        <g-lawyer></g-lawyer>
+        <g-lawyer></g-lawyer>
+      </div>
+    </section>
   </div>
 </template>
 
