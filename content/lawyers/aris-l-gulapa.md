@@ -11,9 +11,17 @@ admissions:
   - Vietnam, Foreign Practitioner’s License, 2006-2011
   - Philippine Bar, 2004
 education:
-  - NewYork
+  - New York University School of Law, International Trade, 2011 (Vanderbilt
+    Scholar; NYU Journal of International Law & Politics)
+  - Ateneo Law School, Juris Doctor, 2003 (Second Honors; Second Best Thesis;
+    Ateneo Law Journal; Jessup Moot)
+  - Ateneo de Manila University, Legal Management, 1999 (Honorable Mention)
 matters:
-  - National
+  - National Government Administrative Center Project
+  - Clark International Airport Expansion PPP Project
+  - Makati Skytrain Project Tamugan Bulk Water
+  - Treatment Facility Project South Integrated
+  - Transport System The new Philippine ePassport
 practices:
   - general-corporate
 ---
