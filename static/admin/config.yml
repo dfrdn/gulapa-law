@@ -36,9 +36,24 @@ collections:
       - { label: 'Mobile', name: 'mobile', widget: 'string' }
       - { label: 'Description', name: 'description', widget: 'markdown' }
       - { label: 'Image', name: 'image', widget: 'image' }
-      - { label: 'Admissions', name: 'admissions', widget: 'list' }
-      - { label: 'Education', name: 'education', widget: 'list' }
-      - { label: 'Notable Matters', name: 'matters', widget: 'list' }
+      - {
+          label: 'Admissions',
+          name: 'admissions',
+          widget: 'list',
+          field: { label: 'Admission', name: 'admission', widget: 'string' },
+        }
+      - {
+          label: 'Education',
+          name: 'education',
+          widget: 'list',
+          field: { label: 'Admission', name: 'admission', widget: 'string' },
+        }
+      - {
+          label: 'Notable Matters',
+          name: 'matters',
+          widget: 'list',
+          field: { label: 'Admission', name: 'admission', widget: 'string' },
+        }
       - label: 'Practice Areas'
         name: 'practices'
         widget: 'relation'
@@ -57,7 +72,20 @@ collections:
       - { label: 'Practice Area', name: 'title', widget: 'string' }
       - { label: 'Image', name: 'image', widget: 'image' }
       - { label: 'Description', name: 'description', widget: 'text' }
-      - { label: 'Notable Matters', name: 'notables', widget: 'list' }
+      - {
+          label: 'Notable Matters',
+          name: 'notables',
+          widget: 'list',
+          field: { label: 'Admission', name: 'admission', widget: 'string' },
+        }
+      - label: 'Contact Person/s'
+        name: 'contact'
+        widget: 'relation'
+        collection: 'lawyers'
+        value_field: '{{slug}}'
+        display_fields: ['name']
+        search_fields: ['name']
+        multiple: true
   - name: 'pages'
     label: 'Pages'
     files:
