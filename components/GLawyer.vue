@@ -7,7 +7,7 @@
         alt=""
       />
       <div class="absolute bg-white rounded-tr-lg bottom-0 pl-6 w-1/2 text-xs">
-        <h4 class="text-primary text-xs">MNL | CEB | NY | SF</h4>
+        <p class="text-primary text-xs">MNL | CEB | NY | SF</p>
       </div>
     </div>
     <div>
