@@ -17,6 +17,18 @@ collections:
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'offices'
+    label: 'Offices'
+    folder: 'content/offices'
+    identifier_field: location
+    format: 'frontmatter'
+    create: true
+    slug: '{{location}}'
+    fields:
+      - { label: 'Location', name: 'location', widget: string }
+      - { label: 'Description', name: 'description', widget: text }
+      - { label: 'Address', name: 'address', widget: string }
+      - { label: 'Image', name: 'image', widget: image }
   - name: 'lawyers'
     label: 'Lawyers'
     identifier_field: name
@@ -49,6 +61,14 @@ collections:
           widget: 'list',
           field: { label: 'Notable Matter', name: 'notable', widget: 'string' },
         }
+      - label: 'Offices'
+        name: 'offices'
+        widget: 'relation'
+        collection: offices
+        value_field: '{{slug}}'
+        display_fields: ['location']
+        search_fields: ['location']
+        multiple: true
       - label: 'Practice Areas'
         name: 'practices'
         widget: 'relation'
