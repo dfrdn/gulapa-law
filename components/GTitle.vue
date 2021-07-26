@@ -1,7 +1,18 @@
 <template>
-  <div>
-    <h2 class="uppercase text-xs font-medium">{{ heading }}</h2>
-    <h3 class="text-2xl">{{ subheading }}</h3>
+  <div class="space-y-5">
+    <h2
+      class="
+        uppercase
+        text-lg
+        font-semibold
+        tracking-wide
+        relative
+        inline-block
+      "
+    >
+      {{ heading }}
+    </h2>
+    <h3 class="text-4xl font-semibold">{{ subheading }}</h3>
   </div>
 </template>
 
@@ -26,4 +37,9 @@ export default Vue.extend({
 })
 </script>
 
-<style scoped></style>
+<style lang="scss" scoped>
+h2:after {
+  content: '';
+  @apply block absolute border border-secondary right-0 w-screen mt-2;
+}
+</style>

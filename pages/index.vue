@@ -39,7 +39,7 @@
     <section id="about" class="bg-primary text-white">
       <div class="container">
         <div class="flex space-x-8">
-          <div class="w-1/2">
+          <div class="w-5/12">
             <g-title :heading="about.heading" :subheading="about.subheading" />
             <div class="ml-4">
               <p>{{ about.description }}</p>
@@ -48,7 +48,7 @@
               </button>
             </div>
           </div>
-          <div class="w-1/2">
+          <div class="w-7/12">
             <img :src="about.image" alt="" />
           </div>
         </div>
