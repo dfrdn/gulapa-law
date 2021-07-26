@@ -14,6 +14,9 @@ module.exports = {
       container: {
         center: true,
       },
+      scale: {
+        '102': '1.02'
+      },
       colors: {
         primary: '#243467',
         secondary: '#C59B27',
