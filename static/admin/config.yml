@@ -46,13 +46,13 @@ collections:
           label: 'Education',
           name: 'education',
           widget: 'list',
-          field: { label: 'Admission', name: 'admission', widget: 'string' },
+          field: { label: 'Education', name: 'education', widget: 'string' },
         }
       - {
           label: 'Notable Matters',
           name: 'matters',
           widget: 'list',
-          field: { label: 'Admission', name: 'admission', widget: 'string' },
+          field: { label: 'Notable Matter', name: 'notable', widget: 'string' },
         }
       - label: 'Practice Areas'
         name: 'practices'
@@ -76,7 +76,7 @@ collections:
           label: 'Notable Matters',
           name: 'notables',
           widget: 'list',
-          field: { label: 'Admission', name: 'admission', widget: 'string' },
+          field: { label: 'Notable Matter', name: 'notable', widget: 'string' },
         }
       - label: 'Contact Person/s'
         name: 'contact'
