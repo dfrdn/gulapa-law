@@ -1,6 +1,6 @@
 ---
 name: Aris L. Gulapa
-isAssociate: true
+isAssociate: false
 email: aris.gulapa@gulapalaw.com
 mobile: +6329602845 loc. 201
 description: After accumulating a wealth of experience from his legal practice
