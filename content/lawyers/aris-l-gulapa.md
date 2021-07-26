@@ -22,6 +22,11 @@ matters:
   - Makati Skytrain Project Tamugan Bulk Water
   - Treatment Facility Project South Integrated
   - Transport System The new Philippine ePassport
+offices:
+  - cebu
+  - manila
+  - new-york
+  - san-francisco
 practices:
   - general-corporate
 ---
