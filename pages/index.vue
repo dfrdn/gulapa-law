@@ -126,7 +126,11 @@ export default Vue.extend({
       'landing'
     ).fetch()
 
-    return { hero, about, offices, practices }
+    const practiceAreas = await $content('practice-areas').fetch()
+
+    console.log(practiceAreas)
+
+    return { hero, about, offices, practices, practiceAreas }
   },
 })
 </script>

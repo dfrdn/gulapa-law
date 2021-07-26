@@ -29,6 +29,10 @@ collections:
       - { label: 'Email', name: 'email', widget: 'string' }
       - { label: 'Mobile', name: 'mobile', widget: 'string' }
       - { label: 'Description', name: 'description', widget: 'markdown' }
+      - { label: 'Image', name: 'image', widget: 'image' }
+      - { label: 'Admissions', name: 'admissions', widget: 'list' }
+      - { label: 'Education', name: 'education', widget: 'list' }
+      - { label: 'Notable Matters', name: 'matters', widget: 'list' }
       - label: 'Practice Areas'
         name: 'practices'
         widget: 'relation'
