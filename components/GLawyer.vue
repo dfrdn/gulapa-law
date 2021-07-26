@@ -6,16 +6,31 @@
         class="w-full object-cover block"
         alt=""
       />
-      <div class="absolute bg-white rounded-tr-lg bottom-0 pl-6 w-1/2 text-xs">
-        <p class="text-primary text-xs">MNL | CEB | NY | SF</p>
+      <div class="absolute bg-white rounded-tr-lg bottom-0 w-1/2">
+        <p
+          class="text-primary"
+          :class="[variant === 'partner' ? 'pl-10 text-sm' : 'pl-5 text-xs']"
+        >
+          MNL | CEB | NY | SF
+        </p>
       </div>
     </div>
     <div>
-      <div class="px-6 py-1">
-        <h3 class="text-secondary text-lg uppercase">Angel Machuca</h3>
+      <div
+        class="py-1"
+        :class="[
+          variant === 'partner' ? 'text-2xl pl-10 pr-5' : 'text-xl pl-5 pr-2',
+        ]"
+      >
+        <h3 class="text-secondary uppercase font-semibold">Angel Machuca</h3>
       </div>
       <hr class="border-t-0 border-2 border-secondary" />
-      <div class="text-white px-6 py-1 text-xs">
+      <div
+        class="text-white py-1"
+        :class="[
+          variant === 'partner' ? 'text-sm pl-10 pr-5' : 'text-xs pl-5 pr-2',
+        ]"
+      >
         <p>angel.machuca@gulapalaw.com</p>
       </div>
     </div>
@@ -23,7 +38,14 @@
 </template>
 
 <script>
-export default {}
+export default {
+  props: {
+    variant: {
+      type: String,
+      default: 'partner',
+    },
+  },
+}
 </script>
 
 <style lang="scss" scoped></style>

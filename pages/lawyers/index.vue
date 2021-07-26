@@ -7,6 +7,13 @@
         <g-lawyer></g-lawyer>
         <g-lawyer></g-lawyer>
       </div>
+      <div id="associates" class="gap-4 grid grid-auto-flow grid-cols-4">
+        <g-lawyer variant="associate"></g-lawyer>
+        <g-lawyer variant="associate"></g-lawyer>
+        <g-lawyer variant="associate"></g-lawyer>
+        <g-lawyer variant="associate"></g-lawyer>
+        <g-lawyer variant="associate"></g-lawyer>
+      </div>
     </section>
   </div>
 </template>
