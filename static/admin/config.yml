@@ -26,12 +26,7 @@ collections:
     slug: '{{name}}'
     fields:
       - { label: 'Name', name: 'name', widget: 'string' }
-      - {
-          label: 'Is an associate',
-          name: 'isAssociate',
-          widget: 'boolean',
-          default: true,
-        }
+      - { label: 'Is an associate', name: 'isAssociate', widget: 'boolean' }
       - { label: 'Email', name: 'email', widget: 'string' }
       - { label: 'Mobile', name: 'mobile', widget: 'string' }
       - { label: 'Description', name: 'description', widget: 'markdown' }
