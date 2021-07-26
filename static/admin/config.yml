@@ -37,8 +37,10 @@ collections:
         name: 'practices'
         widget: 'relation'
         collection: 'practices'
-        value_field: 'title'
+        value_field: '{{slug}}'
+        display_fields: ['title']
         search_fields: ['title']
+        multiple: true
   - name: 'practices'
     label: 'Practice Areas'
     folder: 'content/practice-areas'
@@ -110,8 +112,10 @@ collections:
                 name: 'practices'
                 widget: 'relation'
                 collection: 'practices'
-                value_field: 'title'
+                value_field: '{{slug}}'
+                display_fields: ['title']
                 search_fields: ['title']
+                multiple: true
           - label: 'Our Lawyers'
             name: 'lawyers'
             widget: 'object'
