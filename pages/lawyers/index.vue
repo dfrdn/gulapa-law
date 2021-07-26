@@ -2,7 +2,7 @@
   <div>
     Lawyers
     <section class="container">
-      <div id="partners" class="flex space-x-4">
+      <div id="partners" class="gap-5 grid grid-auto-flow grid-cols-3">
         <g-lawyer></g-lawyer>
         <g-lawyer></g-lawyer>
         <g-lawyer></g-lawyer>
