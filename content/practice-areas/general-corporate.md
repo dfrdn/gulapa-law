@@ -8,4 +8,12 @@ description: The firm and its lawyers have extensive experience in corporate and
   and asset acquisitions, mergers and acquisitions, mergers of equals, proxy
   fights, capital restructuring, financial rehabilitation and liquidation,
   franchising, and corporate governance.
+notables:
+  - Ayala Land, Inc.
+  - APO-UGEC Joint Venture
+  - Pivot Hawks Manila, Inc.
+  - Duke Manufacturing Co.
+  - Francorp Philippines
+contact:
+  - aris-l-gulapa
 ---
