@@ -4,12 +4,13 @@ module.exports = {
   theme: {
     extend: {
       container: {
-        center: true
+        center: true,
       },
       colors: {
         primary: '#243467',
-        secondary: '#675724'
-      }
+        secondary: '#C59B27',
+        tertiary: '#101010',
+      },
     },
   },
   variants: {

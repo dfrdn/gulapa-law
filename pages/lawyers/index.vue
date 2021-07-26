@@ -1,5 +1,7 @@
 <template>
-  <div>Lawyers</div>
+  <div>Lawyers
+    <g-lawyer></g-lawyer>
+  </div>
 </template>
 
 <script lang="ts">
