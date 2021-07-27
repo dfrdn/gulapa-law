@@ -204,7 +204,7 @@ collections:
             fields:
               - { label: 'Heading', name: 'heading', widget: 'string' }
               - { label: 'Description', name: 'description', widget: 'text' }
-        - name: 'lawyers'
+      - name: 'lawyers'
         label: 'Lawyer Page'
         file: 'content/lawyers.yml'
         fields:
@@ -217,6 +217,4 @@ collections:
                   label: 'Page Description',
                   name: 'description',
                   widget: 'text',
-                } 
-
-
+                }
