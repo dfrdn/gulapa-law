@@ -1,6 +1,6 @@
 <template>
   <div class="bg-primary mb-20">
-    <div class="container space-y-10 text-white pt-32 pb-14">
+    <div class="container space-y-16 text-white pt-32 pb-14">
       <h2
         class="
           uppercase
