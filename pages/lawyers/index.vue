@@ -1,9 +1,8 @@
 <template>
   <div>
-    <g-header
-      :heading="lawyersHeader.heading"
-      :description="lawyersHeader.description"
-    />
+    <!-- <g-header -->
+    :heading="lawyersHeader.heading" :description="lawyersHeader.description" />
+    -->
     <section class="container space-y-8">
       <div id="partners" class="gap-5 grid grid-auto-flow grid-cols-3">
         <g-lawyer
@@ -29,7 +28,7 @@ import Vue from 'vue'
 
 export default Vue.extend({
   async asyncData({ $content }) {
-    const { lawyersHeader } = await $content('lawyers-page').fetch()
+    // const { lawyersHeader } = await $content('lawyers-page').fetch()
 
     const associates = await $content('lawyers')
       .only(['slug', 'name', 'offices', 'email', 'image'])
@@ -41,7 +40,7 @@ export default Vue.extend({
       .where({ isAssociate: false })
       .fetch()
 
-    return { associates, partners, lawyersHeader }
+    return { associates, partners }
   },
 })
 </script>
