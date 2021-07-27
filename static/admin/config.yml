@@ -184,3 +184,23 @@ collections:
                   - { label: 'Email', name: 'email', widget: 'string' }
                   - { label: 'Phone', name: 'phone', widget: 'string' }
               - { label: 'Image', name: 'image', widget: 'image' }
+      - name: 'about'
+        label: 'About Page'
+        file: 'content/about.yml'
+        fields:
+          - label: 'Page Header'
+            name: 'header'
+            widget: 'object'
+            fields:
+              - { label: 'Page Heading', name: 'heading', widget: 'string' }
+              - {
+                  label: 'Page Description',
+                  name: 'description',
+                  widget: 'text',
+                }
+          - label: 'About Page Information'
+            name: 'about'
+            widget: 'object'
+            fields:
+              - { label: 'Heading', name: 'heading', widget: 'string' }
+              - { label: 'Description', name: 'description', widget: 'text' }
