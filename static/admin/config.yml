@@ -185,36 +185,44 @@ collections:
                   - { label: 'Phone', name: 'phone', widget: 'string' }
               - { label: 'Image', name: 'image', widget: 'image' }
       - name: 'about'
-              label: 'About Page'
-              file: 'content/about.yml'
-              fields:
-                - label: 'About Page Header'
-                  name: 'aboutHeader'
-                  widget: 'object'
-                  fields:
-                    - { label: 'About Page Heading', name: 'heading', widget: 'string' }
-                    - {
-                        label: 'Page Description',
-                        name: 'description',
-                        widget: 'text',
-                      }
-                - label: 'About Page Information'
-                  name: 'about'
-                  widget: 'object'
-                  fields:
-                    - { label: 'Heading', name: 'heading', widget: 'string' }
-                    - { label: 'Description', name: 'description', widget: 'text' }
+        label: 'About Page'
+        file: 'content/about.yml'
+        fields:
+          - label: 'About Page Header'
+            name: 'aboutHeader'
+            widget: 'object'
+            fields:
+              - {
+                  label: 'About Page Heading',
+                  name: 'heading',
+                  widget: 'string',
+                }
+              - {
+                  label: 'Page Description',
+                  name: 'description',
+                  widget: 'text',
+                }
+          - label: 'About Page Information'
+            name: 'about'
+            widget: 'object'
+            fields:
+              - { label: 'Heading', name: 'heading', widget: 'string' }
+              - { label: 'Description', name: 'description', widget: 'text' }
       - name: 'lawyers-page'
-              label: 'Lawyer Page'
-              file: 'content/lawyers-page.yml'
-              fields:
-                - label: 'Lawyers Page Header'
-                  name: 'lawyersHeader'
-                  widget: 'object'
-                  fields:
-                    - { label: 'Lawyers Page Heading', name: 'heading', widget: 'string' }
-                    - {
-                        label: 'Page Description',
-                        name: 'description',
-                        widget: 'text',
-                      }
+        label: 'Lawyer Page'
+        file: 'content/lawyers-page.yml'
+        fields:
+          - label: 'Lawyers Page Header'
+            name: 'lawyersHeader'
+            widget: 'object'
+            fields:
+              - {
+                  label: 'Lawyers Page Heading',
+                  name: 'heading',
+                  widget: 'string',
+                }
+              - {
+                  label: 'Page Description',
+                  name: 'description',
+                  widget: 'text',
+                }
