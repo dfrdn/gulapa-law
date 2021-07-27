@@ -11,19 +11,30 @@
           inline-block
         "
       >
-        Our Lawyers
+        {{ heading }}
       </h2>
       <p class="ml-20 text-xl w-7/12">
-        Gulapa Law has a wide range of lawyers in different fields to cater
-        various legal needs. We strive to add more diversity in our team to
-        boost our creativity.
+        {{ description }}
       </p>
     </div>
   </div>
 </template>
 
 <script>
-export default {}
+import Vue from 'vue'
+
+export default Vue.extend({
+  props: {
+    heading: {
+      type: String,
+      required: true,
+    },
+    description: {
+      type: String,
+      required: true,
+    },
+  },
+})
 </script>
 
 <style lang="scss" scoped>
