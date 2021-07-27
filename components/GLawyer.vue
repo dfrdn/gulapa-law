@@ -31,7 +31,7 @@
       </div>
       <div>
         <div
-          class="py-1"
+          class="py-2"
           :class="[
             variant === 'partner' ? 'text-2xl pl-10 pr-5' : 'text-xl pl-5 pr-2',
           ]"
@@ -42,7 +42,7 @@
         </div>
         <hr class="border-t-0 border-2 border-secondary" />
         <div
-          class="text-white py-1"
+          class="text-white py-2"
           :class="[
             variant === 'partner' ? 'text-sm pl-10 pr-5' : 'text-xs pl-5 pr-2',
           ]"
