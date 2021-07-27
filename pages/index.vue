@@ -45,7 +45,6 @@
             <h3 class="uppercase text-primary text-sm">{{ point.heading3 }}</h3>
             <p class="text-xs">{{ point.details3 }}</p>
           </div>
-
         </div>
       </div>
     </header>
