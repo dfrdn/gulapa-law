@@ -189,7 +189,7 @@ collections:
         file: 'content/about.yml'
         fields:
           - label: 'Page Header'
-            name: 'header'
+            name: 'about-header'
             widget: 'object'
             fields:
               - { label: 'Page Heading', name: 'heading', widget: 'string' }
@@ -208,8 +208,8 @@ collections:
         label: 'Lawyer Page'
         file: 'content/lawyers-page.yml'
         fields:
-          - label: 'Page Header'
-            name: 'header'
+          - label: 'Lawyers Page Header'
+            name: 'lawyers-header'
             widget: 'object'
             fields:
               - { label: 'Page Heading', name: 'heading', widget: 'string' }
