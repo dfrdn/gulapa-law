@@ -1,6 +1,7 @@
 <template>
   <div>
     Lawyers
+    <g-header></g-header>
     <section class="container space-y-8">
       <div id="partners" class="gap-5 grid grid-auto-flow grid-cols-3">
         <g-lawyer
