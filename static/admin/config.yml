@@ -188,11 +188,11 @@ collections:
               label: 'About Page'
               file: 'content/about.yml'
               fields:
-                - label: 'Page Header'
+                - label: 'About Page Header'
                   name: 'aboutHeader'
                   widget: 'object'
                   fields:
-                    - { label: 'Page Heading', name: 'heading', widget: 'string' }
+                    - { label: 'About Page Heading', name: 'heading', widget: 'string' }
                     - {
                         label: 'Page Description',
                         name: 'description',
@@ -212,7 +212,7 @@ collections:
                   name: 'lawyersHeader'
                   widget: 'object'
                   fields:
-                    - { label: 'Page Heading', name: 'heading', widget: 'string' }
+                    - { label: 'Lawyers Page Heading', name: 'heading', widget: 'string' }
                     - {
                         label: 'Page Description',
                         name: 'description',
