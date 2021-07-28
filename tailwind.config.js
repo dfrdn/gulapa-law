@@ -4,18 +4,18 @@ module.exports = {
   theme: {
     container: {
       screens: {
-        '2xl': "1280px",
-      }
+        '2xl': '1280px',
+      },
     },
     fontFamily: {
-      sans: ['Poppins', 'ui-sans-serif', 'system-ui', 'arial']
+      sans: ['Poppins', 'ui-sans-serif', 'system-ui', 'arial'],
     },
     extend: {
       container: {
         center: true,
       },
       scale: {
-        '102': '1.02'
+        102: '1.02',
       },
       colors: {
         primary: '#243467',
@@ -25,7 +25,9 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      display: ['hover'],
+    },
   },
   plugins: [],
 }

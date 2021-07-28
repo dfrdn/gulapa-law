@@ -7,7 +7,7 @@
     <section class="container space-y-8">
       <div
         class="
-          xl:gap-4
+          xl:gap-20
           gap-10
           grid grid-auto-flow
           lg:grid-cols-4
