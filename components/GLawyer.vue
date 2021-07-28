@@ -11,7 +11,10 @@
         transition
         duration-200
         ease-in-out
+        flex
+        md:flex-col
       "
+      :class="[variant === 'partner' ? 'flex-col' : '']"
     >
       <div class="relative">
         <img
@@ -20,18 +23,28 @@
           :class="[variant === 'partner' ? 'partner' : 'associate']"
           :alt="details.name"
         />
-        <div class="absolute bg-white rounded-tr-lg bottom-0">
+        <div
+          class="absolute bg-white top-0 md:bottom-0 md:top-auto md:left-0"
+          :class="[
+            variant === 'partner'
+              ? 'bottom-0 top-auto left-0 rounded-tr-lg'
+              : 'left-full rounded-br-lg md:rounded-br-none md:rounded-tr-lg ',
+          ]"
+        >
           <p
-            class="text-primary"
+            class="text-primary py-1"
             :class="[variant === 'partner' ? 'px-10 text-sm' : 'px-5 text-xs']"
           >
             {{ offices }}
           </p>
         </div>
       </div>
-      <div>
+      <div
+        class="flex-grow"
+        :class="[variant === 'partner' ? '' : 'self-end md:self-stretch']"
+      >
         <div
-          class="py-1"
+          class="py-2"
           :class="[
             variant === 'partner' ? 'text-2xl pl-10 pr-5' : 'text-xl pl-5 pr-2',
           ]"
@@ -40,9 +53,9 @@
             {{ details.name }}
           </h3>
         </div>
-        <hr class="border-t-0 border-2 border-secondary" />
+        <hr class="border-2 border-secondary" />
         <div
-          class="text-white py-1"
+          class="text-white py-2"
           :class="[
             variant === 'partner' ? 'text-sm pl-10 pr-5' : 'text-xs pl-5 pr-2',
           ]"
@@ -88,9 +101,18 @@ export default {
 <style lang="scss" scoped>
 .partner {
   height: 30rem;
+  @media screen and (min-width: 768px) {
+    height: 30rem;
+  }
 }
 
 .associate {
-  height: 20rem;
+  height: 7rem;
+  @media screen and (min-width: 768px) {
+    img {
+      width: 120px;
+    }
+    height: 20rem;
+  }
 }
 </style>

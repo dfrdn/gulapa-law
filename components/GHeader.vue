@@ -1,6 +1,19 @@
 <template>
-  <div class="bg-primary mb-20">
-    <div class="container space-y-16 text-white pt-32 pb-14">
+  <div class="bg-primary xl:mb-20 mb-10">
+    <div
+      class="
+        container
+        space-y-16
+        text-white
+        xl:px-0
+        px-10
+        xl:pt-32
+        lg:pt-24
+        md:pt-16
+        pt-12
+        pb-14
+      "
+    >
       <h2
         class="
           uppercase
@@ -13,7 +26,7 @@
       >
         {{ heading }}
       </h2>
-      <p class="ml-20 text-xl w-7/12">
+      <p class="xl:ml-20 xl:text-xl text-lg xl:w-7/12">
         {{ description }}
       </p>
     </div>
