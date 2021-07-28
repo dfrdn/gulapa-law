@@ -24,15 +24,12 @@
           :alt="details.name"
         />
         <div
-          class="
-            absolute
-            bg-white
-            rounded-br-lg
-            md:rounded-br-none md:rounded-tr-lg
-            top-0
-            left-full
-            md:bottom-0 md:top-auto md:left-0
-          "
+          class="absolute bg-white top-0 md:bottom-0 md:top-auto md:left-0"
+          :class="[
+            variant === 'partner'
+              ? 'bottom-0 top-auto left-0 rounded-tr-lg'
+              : 'left-full rounded-br-lg md:rounded-br-none md:rounded-tr-lg ',
+          ]"
         >
           <p
             class="text-primary py-1"
