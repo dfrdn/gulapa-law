@@ -11,6 +11,8 @@
         transition
         duration-200
         ease-in-out
+        flex
+        md:flex-col
       "
     >
       <div class="relative">
@@ -20,16 +22,26 @@
           :class="[variant === 'partner' ? 'partner' : 'associate']"
           :alt="details.name"
         />
-        <div class="absolute bg-white rounded-tr-lg bottom-0">
+        <div
+          class="
+            absolute
+            bg-white
+            rounded-br-lg
+            md:rounded-br-none md:rounded-tr-lg
+            top-0
+            left-full
+            md:bottom-0 md:top-auto md:left-0
+          "
+        >
           <p
-            class="text-primary"
+            class="text-primary py-1"
             :class="[variant === 'partner' ? 'px-10 text-sm' : 'px-5 text-xs']"
           >
             {{ offices }}
           </p>
         </div>
       </div>
-      <div>
+      <div class="flex-grow self-end md:self-stretch">
         <div
           class="py-2"
           :class="[
@@ -40,7 +52,7 @@
             {{ details.name }}
           </h3>
         </div>
-        <hr class="border-t-0 border-2 border-secondary" />
+        <hr class="border-2 border-secondary" />
         <div
           class="text-white py-2"
           :class="[
@@ -91,6 +103,9 @@ export default {
 }
 
 .associate {
-  height: 20rem;
+  height: 8rem;
+  @media screen and (min-width: 768px) {
+    height: 20rem;
+  }
 }
 </style>
