@@ -14,6 +14,7 @@
         flex
         md:flex-col
       "
+      :class="[variant === 'partner' ? 'flex-col' : '']"
     >
       <div class="relative">
         <img
@@ -41,7 +42,10 @@
           </p>
         </div>
       </div>
-      <div class="flex-grow self-end md:self-stretch">
+      <div
+        class="flex-grow"
+        :class="[variant === 'partner' ? '' : 'self-end md:self-stretch']"
+      >
         <div
           class="py-2"
           :class="[
@@ -100,11 +104,17 @@ export default {
 <style lang="scss" scoped>
 .partner {
   height: 30rem;
+  @media screen and (min-width: 768px) {
+    height: 30rem;
+  }
 }
 
 .associate {
-  height: 8rem;
+  height: 7rem;
   @media screen and (min-width: 768px) {
+    img {
+      width: 120px;
+    }
     height: 20rem;
   }
 }
