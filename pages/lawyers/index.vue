@@ -6,7 +6,18 @@
     />
 
     <section class="container space-y-8">
-      <div id="partners" class="gap-5 grid grid-auto-flow grid-cols-3">
+      <div
+        id="partners"
+        class="
+          xl:gap-5
+          gap-10
+          grid grid-auto-flow
+          md:grid-cols-3
+          grid-cols-1
+          xl:px-0
+          px-5
+        "
+      >
         <g-lawyer
           v-for="partner in partners"
           :key="partner.slug"
@@ -23,7 +34,7 @@
           md:grid-cols-2
           sm:grid-cols-1
           xl:px-0
-          px-10
+          px-5
         "
       >
         <g-lawyer
