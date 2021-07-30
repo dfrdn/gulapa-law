@@ -33,6 +33,18 @@
             <h3 class="uppercase text-primary text-sm">{{ point.heading }}</h3>
             <p class="text-xs">{{ point.details }}</p>
           </div>
+
+          <img :src="point.icon" alt="Collaboration icon" class="block w-1/6" />
+          <div class="w-5/6 flex flex-col justify-center">
+            <h3 class="uppercase text-primary text-sm">{{ point.heading2 }}</h3>
+            <p class="text-xs">{{ point.details2 }}</p>
+          </div>
+
+          <img :src="point.icon" alt="Collaboration icon" class="block w-1/6" />
+          <div class="w-5/6 flex flex-col justify-center">
+            <h3 class="uppercase text-primary text-sm">{{ point.heading3 }}</h3>
+            <p class="text-xs">{{ point.details3 }}</p>
+          </div>
         </div>
       </div>
     </header>

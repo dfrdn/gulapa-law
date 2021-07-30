@@ -1,17 +1,25 @@
 hero:
   heading: Innovate, Achieve, and Excel with Us
-  subheading: "Gulapa Law has "
+  subheading: "Gulapa Law has extensive and significant experience in a vast variety of legal fields
+               including dispute resolution, infrastructure projects, and government contracts. "
   button: Learn More About Our Firm
   points:
     - heading: Collaboration
-      details: Lorem
+      heading2: Legal Experts
+      heading3: Awards
+      details: We work hand in hand with our clients to solve their legal needs and ease their problems
+      details2: Our lawyers are competent in identifying appropriate courses of action in legal matters
+      details3: Gulapa Law has garnered multiple awards with our work locally and internationally
       icon: /img/collaboration_icon.svg
 about:
   heading: Who We Are
   subheading: We are here to help you with your legal needs
-  description: lorem
+  description: Gulapa Law was established by Aris L. Gulapa in September 2015 after he left a Makati-based firm where 
+               he was a partner for four years. Before this, Aris was an associate in Anderson Mori & Tomotsune 
+               (Tokyo, 2008-2010); Kevin Chia Partnership (Singapore and Vietnam, 2006-2008); and SyCip Salazar 
+               Hernandez & Gatmaitan (2003-2006).
   button: Learn More
-  image: /img/who-we-are.png
+  image: /img/who-we-are.png  
   timeline:
     - year: "2015"
       event: Gulapa Law was Established
@@ -19,14 +27,24 @@ about:
       event: Boutique Law Firm of the Year
     - year: "2017"
       event: Established New York Office
+    - year: "2018"
+      event: Established San Francisco Representative Office
+    - year: "2019"
+      event: Established Cebu Office
 offices:
   heading: Our Offices
   subheading: Bringing legal services closer to you
   description: With four offices, Gulapa Law serves clients in the Philippines and
     the United States
   locations:
-    - image: https://images.mansionglobal.com/im-204467?width=1260&size=1.5005861664712778
+    - image: /img/manila.jpg
       location: Manila
+    - image: /img/ny.jpg
+      location: New York
+    - image: /img/san-francisco.jpg
+      location: San Francisco
+    - image: https://images.mansionglobal.com/im-204467?width=1260&size=1.5005861664712778
+      location: Cebu
 practices:
   practices: general-corporate
   heading: What We Do
