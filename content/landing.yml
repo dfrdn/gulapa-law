@@ -51,7 +51,8 @@ offices:
     - location: San Francisco
       image: /img/san-francisco.jpg
 practices:
-  practices: general-corporate
+  practices:
+    - general-corporate
   heading: What We Do
   subheading: Our Practice Areas
   description: Gulapa Law is dedicated to serve our clients in a wide array of
@@ -61,7 +62,9 @@ lawyers:
   subheading: Led by two of the most prominent lawyers in the country
   lawyers:
     - name: Aris L. Gulapa
-      description: Lorem
+      description: After accumulating a wealth of experience from his legal practice
+        in Manila, Vietnam, Singapore, Tokyo, and New York, Aris set up Gulapa
+        Law.
       email: aris.gulapa@gulapalaw.com
-      phone: "12321412"
+      phone: +6329602845 loc. 201
   image: /img/gulapa-and-charms.png
