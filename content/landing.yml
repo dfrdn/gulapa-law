@@ -46,6 +46,10 @@ offices:
   locations:
     - image: https://images.mansionglobal.com/im-204467?width=1260&size=1.5005861664712778
       location: Manila
+    - location: New York
+      image: /img/ny.jpg
+    - location: San Francisco
+      image: /img/san-francisco.jpg
 practices:
   practices: general-corporate
   heading: What We Do
