@@ -6,6 +6,12 @@ hero:
     - heading: Collaboration
       details: Lorem
       icon: /img/collaboration_icon.svg
+    - heading: Heading 2
+      details: Lorem
+      icon: /img/collaboration_icon.svg
+    - heading: Heading 3
+      details: Lorem
+      icon: /img/collaboration_icon.svg
 about:
   heading: Who We Are
   subheading: We are here to help you with your legal needs
