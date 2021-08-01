@@ -7,7 +7,6 @@
         bg-white
         shadow
         transform
-        shadow-xl
         px-10
         w-60
         h-60
@@ -18,19 +17,44 @@
         flex flex-col
         justify-center
         items-center
+        group
+        hover:bg-primary hover:text-left hover:items-start
       "
     >
       <div>
         <img
           :src="details.image"
-          class="w-auto object-cover block h-20 mb-10"
+          class="
+            w-auto
+            object-cover
+            block
+            h-20
+            mb-8
+            group-hover:text-left
+            group-hover:h-8
+            group-hover:filter
+            group-hover:brightness-0
+            group-hover:invert
+            group-hover:mb-2
+          "
           :alt="details.title"
         />
       </div>
-      <h2 class="text-xl text-primary text-center font-semibold">
+      <h2
+        class="
+          text-xl text-primary text-center
+          font-semibold
+          group-hover:text-left
+          group-hover:text-secondary
+          group-hover:text-base
+          group-hover:font-bold
+        "
+      >
         {{ details.title }}
       </h2>
-      <p class="hidden hover:block">{{ details.description }}</p>
+      <p class="hidden text-sm text-white group-hover:block">
+        {{ description }}
+      </p>
     </div>
   </n-link>
 </template>
@@ -41,6 +65,16 @@ export default {
     details: {
       type: Object,
       required: true,
+    },
+  },
+  computed: {
+    description() {
+      const description =
+        this.details.description.substr(
+          0,
+          this.details.description.lastIndexOf(' ', 100)
+        ) + '...'
+      return description
     },
   },
 }

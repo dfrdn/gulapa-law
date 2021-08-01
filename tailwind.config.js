@@ -11,6 +11,9 @@ module.exports = {
       sans: ['Poppins', 'ui-sans-serif', 'system-ui', 'arial'],
     },
     extend: {
+      boxShadow: {
+        DEFAULT: '3px 6px 10px rgba(0, 0, 0, 0.16)',
+      },
       container: {
         center: true,
       },
@@ -26,7 +29,16 @@ module.exports = {
   },
   variants: {
     extend: {
-      display: ['hover'],
+      display: ['hover', 'group-hover'],
+      filter: ['group-hover'],
+      height: ['group-hover'],
+      brightness: ['group-hover'],
+      invert: ['group-hover'],
+      margin: ['group-hover'],
+      textAlign: ['group-hover'],
+      fontSize: ['group-hover'],
+      justifyContent: ['hover'],
+      alignItems: ['hover'],
     },
   },
   plugins: [],
