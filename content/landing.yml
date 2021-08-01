@@ -1,21 +1,30 @@
 hero:
   heading: Innovate, Achieve, and Excel with Us
-  subheading: "Gulapa Law has "
+  subheading: Gulapa Law has extensive and significant experience in a vast
+    variety of legal fields including dispute resolution, infrastructure
+    projects, and government contracts.
   button: Learn More About Our Firm
   points:
     - heading: Collaboration
-      details: Lorem
+      details: We work hand in hand with our clients to solve their legal needs and
+        ease their problems
       icon: /img/collaboration_icon.svg
-    - heading: Heading 2
-      details: Lorem
+    - heading: LEGAL EXPERTS
+      details: Our lawyers are competent in identifying appropriate courses of action
+        in legal matters
       icon: /img/collaboration_icon.svg
-    - heading: Heading 3
-      details: Lorem
+    - heading: AWARDS
+      details: Gulapa Law has garnered multiple awards with our work locally and
+        internationally
       icon: /img/collaboration_icon.svg
 about:
   heading: Who We Are
   subheading: We are here to help you with your legal needs
-  description: lorem
+  description: Gulapa Law was established by Aris L. Gulapa in September 2015
+    after he left a Makati-based firm where he was a partner for four years.
+    Before this, Aris was an associate in Anderson Mori & Tomotsune (Tokyo,
+    2008-2010); Kevin Chia Partnership (Singapore and Vietnam, 2006-2008); and
+    SyCip Salazar Hernandez & Gatmaitan (2003-2006).
   button: Learn More
   image: /img/who-we-are.png
   timeline:
@@ -25,6 +34,10 @@ about:
       event: Boutique Law Firm of the Year
     - year: "2017"
       event: Established New York Office
+    - year: "2018"
+      event: Established San Francisco Representative Office
+    - year: "2019"
+      event: Established Cebu Office
 offices:
   heading: Our Offices
   subheading: Bringing legal services closer to you
