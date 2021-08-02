@@ -29,4 +29,15 @@ offices:
   - san-francisco
 practices:
   - general-corporate
+  - asean-trade
+  - data-privacy-act-compliance
+  - dispute-resolution
+  - doing-business-in-new-york
+  - fashion-entertainment-media-fem
+  - government-contracts
+  - human-resources-immigration
+  - infrastructure
+  - i-tech-intellectual-property
+  - innovation-competition
+  - tax
 ---
