@@ -34,7 +34,7 @@
             </div>
             <div class="flex md:flex-row flex-col">
               <div class="flex flex-col md:hidden text-xs mt-8 space-y-2">
-                <p>{{ info.email }}</p>
+                <a :href="`mailto:${info.email}`">{{ info.email }}</a>
                 <p>{{ info.mobile }}</p>
               </div>
               <div class="mt-4 md:mt-12 w-full md:w-7/12 order-2 md:order-1">
@@ -42,7 +42,7 @@
                   {{ info.description }}
                 </p>
                 <div class="hidden md:block">
-                  <p>{{ info.email }}</p>
+                  <a :href="`mailto:${info.email}`">{{ info.email }}</a>
                   <p>{{ info.mobile }}</p>
                 </div>
               </div>
@@ -94,6 +94,7 @@
             <h3 class="uppercase text-lg text-primary font-bold">
               Practice Areas
             </h3>
+
             <nuxt-link
               v-for="practice in practiceAreas"
               :key="practice.slug"
@@ -220,7 +221,7 @@ li .nuxt-link-active {
   @apply bg-secondary text-white;
 }
 
-span:last-child {
+p:last-child span {
   @apply hidden;
 }
 </style>
