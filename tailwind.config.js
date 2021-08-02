@@ -40,6 +40,7 @@ module.exports = {
       justifyContent: ['hover'],
       alignItems: ['hover'],
       backgroundColor: ['active', 'focus'],
+      pointerEvents: ['hover'],
     },
   },
   plugins: [],

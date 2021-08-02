@@ -73,20 +73,29 @@
           </p>
         </div>
       </div>
-      <div class="hidden lg:flex lg:w-4/12 lg:justify-end">
-        <div class="hidden lg:block mt-32 w-10/12 bg-white shadow sticky">
+      <div class="hidden lg:flex lg:w-4/12 lg:justify-end lg:items-start">
+        <div
+          class="
+            lg:block
+            mt-32
+            w-10/12
+            align-start
+            bg-white
+            shadow
+            sticky
+            top-32
+          "
+        >
           <ul class="divide-y divide-gray-300 rounded border">
             <li
               v-for="practiceArea in practiceAreas"
               :key="practiceArea.slug"
-              class="
-                p-4
-                text-gray-500
-                active
-                hover:bg-secondary hover:text-white
-              "
+              class="text-gray-500"
             >
-              <nuxt-link :to="`/practice-areas/${practiceArea.slug}`">
+              <nuxt-link
+                :to="`/practice-areas/${practiceArea.slug}`"
+                class="p-4 block hover:bg-secondary hover:text-white"
+              >
                 {{ practiceArea.title }}
               </nuxt-link>
             </li>
@@ -94,7 +103,6 @@
         </div>
       </div>
     </section>
-    <section class="container"></section>
   </div>
 </template>
 
@@ -128,5 +136,13 @@ h2:after {
   content: '';
   z-index: -1;
   @apply block absolute bg-primary w-screen rounded-br-md top-0 bottom-0 right-0;
+}
+
+li .nuxt-link-active {
+  @apply bg-secondary text-white;
+}
+
+section {
+  height: 3000px;
 }
 </style>
