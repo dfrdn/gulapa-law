@@ -1,7 +1,7 @@
 ---
-title: "Philippine Phosphate Fertilizer Corporation (“Philphos”) Rehabilitation "
+title: Case No. R-ORM-15-00072-SP
 date: 2021-08-02T10:58:41.025Z
-description: Case No. R-ORM-15-00072-SP
+description: "Philippine Phosphate Fertilizer Corporation (“Philphos”) Rehabilitation "
 ---
 <!--StartFragment-->
 
