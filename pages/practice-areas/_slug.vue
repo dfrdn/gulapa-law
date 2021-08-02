@@ -141,8 +141,4 @@ h2:after {
 li .nuxt-link-active {
   @apply bg-secondary text-white;
 }
-
-section {
-  height: 3000px;
-}
 </style>
