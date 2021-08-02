@@ -114,7 +114,7 @@
               Admission/s
             </h3>
             <p v-for="admission in info.admissions">
-              {{ '> ' + admission }}
+              {{ `> ${admission}` }}
             </p>
           </div>
           <div class="space-y-4">

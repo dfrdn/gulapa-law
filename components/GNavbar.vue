@@ -18,7 +18,15 @@
   >
     <div class="container px-6 py-4">
       <div class="hidden md:flex justify-around">
-        <n-link v-for="link in links" :key="link.label" :to="link.link">
+        <n-link :to="links[0].link">
+          <span v-if="!isExpanded">{{ links[0].label }}</span>
+          <span v-else><g-logo class="h-12" /></span>
+        </n-link>
+        <n-link
+          v-for="link in links.slice(1)"
+          :key="link.label"
+          :to="link.link"
+        >
           {{ link.label }}
         </n-link>
       </div>
