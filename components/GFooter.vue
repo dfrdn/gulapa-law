@@ -1,6 +1,17 @@
 <template>
   <footer class="bg-primary w-full">
-    <div class="container py-10 grid grid-cols-4 gap-3">
+    <div
+      class="
+        container
+        py-10
+        grid
+        md:grid-cols-4
+        gap-3
+        grid-cols-1
+        px-10
+        md:px-0
+      "
+    >
       <div class="flex flex-col text-white">
         <h3>Connect with Us</h3>
         <div class="space-y-2">
@@ -17,9 +28,21 @@
       </div>
     </div>
     <div class="bg-secondary text-primary py-2">
-      <div class="container flex justify-between">
-        <p>All Rights Reserved | Gulapa Law {{ new Date().getFullYear() }}</p>
-        <div class="flex space-x-2">
+      <div
+        class="
+          container
+          flex flex-col
+          md:flex-row
+          justify-between
+          items-center
+          px-10
+          md:px-0
+        "
+      >
+        <p id="copyright" class="order-1 md:order-0">
+          All Rights Reserved | Gulapa Law {{ new Date().getFullYear() }}
+        </p>
+        <div class="flex space-x-2 order-0 md:order-1">
           <a href="">fb</a>
           <a href="">tw</a>
           <a href="">ig</a>
@@ -38,6 +61,14 @@ export default Vue.extend({})
 
 <style scoped>
 h3 {
-  @apply uppercase text-secondary text-lg font-bold mb-2;
+  @apply uppercase text-secondary md:text-lg font-bold mb-2;
+}
+
+p {
+  @apply text-sm md:text-base;
+}
+
+#copyright {
+  @apply text-xs;
 }
 </style>

@@ -7,7 +7,7 @@
         bg-white
         shadow
         transform
-        px-10
+        px-5
         w-60
         h-60
         hover:scale-102
@@ -81,7 +81,10 @@ export default {
       const description =
         this.details.description.substr(
           0,
-          this.details.description.lastIndexOf(' ', 100)
+          this.details.description.lastIndexOf(
+            ' ',
+            150 - this.details.title.length * 2
+          )
         ) + '...'
       return description
     },

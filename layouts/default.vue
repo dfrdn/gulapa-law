@@ -2,7 +2,7 @@
   <div class="antialiased flex flex-col min-h-screen">
     <g-logo class="w-72" />
     <g-navbar />
-    <Nuxt class="flex-grow -mt-7" />
+    <Nuxt class="flex-grow -mt-7 mb-20" />
     <g-footer />
   </div>
 </template>
