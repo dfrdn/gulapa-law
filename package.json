@@ -13,7 +13,8 @@
   "dependencies": {
     "@nuxt/content": "^1.14.0",
     "core-js": "^3.15.2",
-    "nuxt": "^2.15.3"
+    "nuxt": "^2.15.3",
+    "vue-burger": "^1.1.0"
   },
   "devDependencies": {
     "@nuxt/types": "^2.15.3",
@@ -27,9 +28,9 @@
     "eslint-plugin-nuxt": "^2.0.0",
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-vue": "^7.7.0",
-    "sass": "^1.35.2",
-    "sass-loader": "10",
     "postcss": "^8.3.6",
-    "prettier": "^2.3.2"
+    "prettier": "^2.3.2",
+    "sass": "^1.35.2",
+    "sass-loader": "10"
   }
 }

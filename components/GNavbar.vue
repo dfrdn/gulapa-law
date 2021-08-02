@@ -1,6 +1,6 @@
 <template>
   <nav
-    :class="[isExpanded ? 'max-w-full' : 'max-w-1320 rounded-lg']"
+    :class="[isExpanded ? 'max-w-full' : 'max-w-1320 md:rounded-lg']"
     class="
       z-50
       shadow
@@ -9,17 +9,24 @@
       capitalize
       sticky
       top-0
-      mt-4
+      md:mt-4
       bg-white
       transition-all
       mx-auto
       w-full
     "
   >
-    <div class="container flex justify-around px-6 py-4">
-      <n-link v-for="link in links" :key="link.label" :to="link.link">
-        {{ link.label }}
-      </n-link>
+    <div class="container px-6 py-4">
+      <div class="hidden md:flex justify-around">
+        <n-link v-for="link in links" :key="link.label" :to="link.link">
+          {{ link.label }}
+        </n-link>
+      </div>
+      <div class="flex md:hidden">
+        <div>sandwich</div>
+        <g-logo class="mx-auto w-32" />
+        <div class="invisible">sandwich</div>
+      </div>
     </div>
   </nav>
 </template>
@@ -77,7 +84,7 @@ export default Vue.extend({
           ? window.innerWidth
           : document.documentElement.clientWidth
       this.scrollPosition = window.scrollY
-      if (this.scrollPosition >= 130) {
+      if (this.scrollPosition >= 120) {
         this.isExpanded = true
       } else {
         this.isExpanded = false

@@ -1,7 +1,7 @@
 <template>
   <div>
     <section class="container xl:mb-20 mb-10 flex flex-row">
-      <div class="w-screen lg:w-8/12">
+      <div class="w-screen lg:w-2/3">
         <div class="relative">
           <div
             class="
@@ -34,11 +34,15 @@
               </h2>
             </div>
             <div class="flex md:flex-row flex-col">
+              <div class="flex flex-col md:hidden text-xs mt-8 space-y-2">
+                <p>{{ info.email }}</p>
+                <p>{{ info.mobile }}</p>
+              </div>
               <div class="mt-4 md:mt-12 w-full md:w-7/12 order-2 md:order-1">
-                <p class="text-base mb-8">
+                <p class="mb-8">
                   {{ info.description }}
                 </p>
-                <div>
+                <div class="hidden md:block">
                   <p>{{ info.email }}</p>
                   <p>{{ info.mobile }}</p>
                 </div>
@@ -46,41 +50,41 @@
               <div
                 class="
                   w-full
-                  mt-9
+                  mt-4
                   md:w-5/12 md:-mt-9
                   flex
                   justify-center
-                  relative
                   order-1
                   md:order-2
                 "
               >
-                <img
-                  :src="info.image"
-                  :alt="info.name"
-                  class="
-                    object-cover
-                    border-2 border-secondary
-                    h-72
-                    w-72
-                    mb-2
-                    rounded-lg
-                  "
-                />
-                <div
-                  class="
-                    absolute
-                    bg-white
-                    bottom-2
-                    left-1
-                    md:left-9
-                    rounded-br-lg rounded-bl-lg
-                    md:rounded-br-none md:rounded-tr-lg
-                  "
-                >
-                  <p class="text-primary py-1 px-5 text-xs">
-                    {{ offices.join(' | ') }}
-                  </p>
+                <div class="relative">
+                  <img
+                    :src="info.image"
+                    :alt="info.name"
+                    class="
+                      object-cover
+                      border-2 border-secondary
+                      h-72
+                      w-72
+                      mb-2
+                      rounded-lg
+                    "
+                  />
+                  <div
+                    class="
+                      absolute
+                      bg-white
+                      bottom-2
+                      left-0
+                      rounded-tr-lg rounded-bl-lg
+                      md:rounded-br-none md:rounded-tr-lg
+                    "
+                  >
+                    <p class="text-primary py-1 px-5 text-xs">
+                      {{ offices.join(' | ') }}
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
