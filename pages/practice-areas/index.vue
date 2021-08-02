@@ -1,8 +1,8 @@
 <template>
   <div>
     <g-header
-      :heading="'Our Practice Areas'"
-      :description="'Gulapa Law is dedicated to serve our clients in many different practice areas. We have a wide range of lawyers in different fields to cater various legal needs.'"
+      :heading="practices.subheading"
+      :description="practices.description"
     />
     <section class="container space-y-8">
       <div
@@ -18,7 +18,7 @@
         "
       >
         <g-practice
-          v-for="practice in practices"
+          v-for="practice in practiceAreas"
           :key="practice.slug"
           :details="practice"
         />
@@ -32,11 +32,12 @@ import Vue from 'vue'
 
 export default Vue.extend({
   async asyncData({ $content }) {
-    const practices = await $content('practice-areas')
+    const practiceAreas = await $content('practice-areas')
       .only(['slug', 'image', 'title', 'description'])
       .fetch()
 
-    return { practices }
+    const { practices } = await $content('landing').fetch()
+    return { practiceAreas, practices }
   },
 })
 </script>
