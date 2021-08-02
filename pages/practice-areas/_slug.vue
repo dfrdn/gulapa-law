@@ -1,5 +1,101 @@
 <template>
-  <div>{{ info }}</div>
+  <div>
+    <section class="container xl:mb-20 mb-10 flex flex-row">
+      <div class="w-screen lg:w-8/12">
+        <div class="relative">
+          <div
+            class="
+              header
+              text-white
+              xl:px-0
+              px-10
+              xl:pt-32
+              lg:pt-24
+              md:pt-16
+              pt-12
+              pb-14
+            "
+          >
+            <div>
+              <img
+                class="
+                  w-auto
+                  object-cover
+                  inline-block
+                  h-12
+                  mb-6
+                  -ml-7
+                  mr-3
+                  filter
+                  brightness-0
+                  invert
+                "
+                :src="info.image"
+                :alt="info.title"
+              />
+              <h2
+                class="
+                  uppercase
+                  text-3xl
+                  font-semibold
+                  tracking-wide
+                  relative
+                  inline-block
+                "
+              >
+                {{ info.title }}
+              </h2>
+            </div>
+            <div class="mt-12 xl:ml-20 w-9/12">
+              <p class="xl:text-base text-lg mb-8">
+                {{ info.description }}
+              </p>
+              <h3 class="text-secondary text-lg font-bold uppercase">
+                Contact Persons
+              </h3>
+              <nuxt-link
+                v-for="contact in contacts"
+                :key="contact.slug"
+                :to="`/lawyers/${contact.slug}`"
+                class="text-white"
+              >
+                {{ contact.name }}
+              </nuxt-link>
+            </div>
+          </div>
+        </div>
+        <div class="mt-8 ml-20 space-y-3">
+          <h3 class="uppercase text-lg text-primary font-bold">
+            Notable Matters
+          </h3>
+          <p v-for="notable in info.notables" :key="notable" class="">
+            {{ '> ' + notable }}
+          </p>
+        </div>
+      </div>
+      <div class="hidden lg:flex lg:w-4/12 lg:justify-end">
+        <div class="hidden lg:block mt-32 w-10/12 bg-white shadow sticky">
+          <ul class="divide-y divide-gray-300 rounded border">
+            <li
+              v-for="practiceArea in practiceAreas"
+              :key="practiceArea.slug"
+              class="
+                p-4
+                text-gray-500
+                active
+                hover:bg-secondary hover:text-white
+              "
+            >
+              <nuxt-link :to="`/practice-areas/${practiceArea.slug}`">
+                {{ practiceArea.title }}
+              </nuxt-link>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="container"></section>
+  </div>
 </template>
 
 <script>
@@ -7,9 +103,30 @@ export default {
   async asyncData({ $content, params }) {
     const info = await $content(`practice-areas`, params.slug).fetch()
 
-    return { info }
+    const contacts = await $content('lawyers')
+      .where({
+        slug: { $in: info.contact },
+      })
+      .fetch()
+
+    const practiceAreas = await $content('practice-areas')
+      .only(['slug', 'title'])
+      .fetch()
+
+    return { info, contacts, practiceAreas }
   },
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+h2:after {
+  content: '';
+  @apply block absolute border-2 border-secondary right-0 w-screen mt-3;
+}
+
+.header::before {
+  content: '';
+  z-index: -1;
+  @apply block absolute bg-primary w-screen rounded-br-md top-0 bottom-0 right-0;
+}
+</style>

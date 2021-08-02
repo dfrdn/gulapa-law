@@ -39,6 +39,7 @@ module.exports = {
       fontSize: ['group-hover'],
       justifyContent: ['hover'],
       alignItems: ['hover'],
+      backgroundColor: ['active', 'focus'],
     },
   },
   plugins: [],
