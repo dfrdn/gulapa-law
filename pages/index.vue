@@ -22,7 +22,7 @@
       >
         {{ hero.button }}
       </button>
-      <div class="bg-white rounded container shadow">
+      <div class="bg-white rounded container shadow flex flex-row">
         <div
           v-for="point in hero.points"
           :key="point.heading"
@@ -87,7 +87,7 @@
       </div>
     </section>
     <section id="practice-areas" class="bg-primary text-white">
-      <div class="container">
+      <div class="container flex flex-row">
         <div class="w-1/3">
           <g-title
             :heading="practices.heading"
@@ -97,13 +97,34 @@
             <p>
               {{ practices.description }}
             </p>
-            <button class="bg-secondary rounded px-6 py-1 text-xs">
+            <nuxt-link
+              to="practice-areas"
+              class="bg-secondary rounded px-6 py-1 text-xs"
+            >
               See all practice areas
-            </button>
+            </nuxt-link>
           </div>
         </div>
         <div class="w-2/3">
-          {{ practices }}
+          <div
+            class="
+              xl:gap-18
+              gap-10
+              grid grid-auto-flow
+              lg:grid-cols-3
+              md:grid-cols-2
+              sm:grid-cols-1
+              xl:px-0
+              px-5
+            "
+          >
+            <g-practice
+              v-for="practice in practiceAreas"
+              :key="practice.slug"
+              :details="practice"
+              variant="homepage"
+            />
+          </div>
         </div>
       </div>
     </section>
@@ -126,9 +147,9 @@ export default Vue.extend({
       'landing'
     ).fetch()
 
-    const practiceAreas = await $content('practice-areas').fetch()
-
-    console.log(practiceAreas)
+    const practiceAreas = await $content('practice-areas')
+      .where({ slug: { $in: practices.practices } })
+      .fetch()
 
     return { hero, about, offices, practices, practiceAreas }
   },

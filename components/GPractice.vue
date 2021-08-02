@@ -18,8 +18,11 @@
         justify-center
         items-center
         group
-        hover:bg-primary hover:text-left hover:items-start
+        hover:text-left hover:items-start
       "
+      :class="[
+        variant === 'practiceArea' ? 'hover:bg-primary' : 'hover:bg-secondary',
+      ]"
     >
       <div>
         <img
@@ -44,11 +47,13 @@
         class="
           text-xl text-primary text-center
           font-semibold
-          group-hover:text-left
-          group-hover:text-secondary
-          group-hover:text-base
-          group-hover:font-bold
+          group-hover:text-left group-hover:text-base group-hover:font-bold
         "
+        :class="[
+          variant === 'practiceArea'
+            ? 'group-hover:text-secondary'
+            : 'group-hover:text-primary',
+        ]"
       >
         {{ details.title }}
       </h2>
@@ -62,6 +67,10 @@
 <script>
 export default {
   props: {
+    variant: {
+      type: String,
+      default: 'practiceArea',
+    },
     details: {
       type: Object,
       required: true,
