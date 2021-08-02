@@ -25,7 +25,6 @@
                   tracking-wide
                   relative
                   md:inline-block
-                  block
                   text-center
                   md:text-left
                 "
@@ -99,9 +98,14 @@
               v-for="practice in practiceAreas"
               :key="practice.slug"
               :to="`/practice-areas/${practice.slug}`"
-              class=""
+              class="flex items-end"
             >
-              {{ practice.title + ' |' }}
+              <img
+                :src="practice.image"
+                :alt="practice.title"
+                class="inline-block h-6 mr-2"
+              />
+              <p class="leading-none">{{ practice.title }}<span> |</span></p>
             </nuxt-link>
           </div>
           <div class="space-y-4">
@@ -201,6 +205,10 @@ h2:after {
   content: '';
   @apply block absolute border-2 border-secondary right-0 w-screen mt-3;
 }
+h2:before {
+  content: '';
+  @apply block md:hidden absolute border-2 border-secondary -bottom-4 left-0 w-screen;
+}
 
 .header::before {
   content: '';
@@ -210,5 +218,9 @@ h2:after {
 
 li .nuxt-link-active {
   @apply bg-secondary text-white;
+}
+
+span:last-child {
+  @apply hidden;
 }
 </style>
