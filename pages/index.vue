@@ -1,6 +1,6 @@
 <template>
   <div>
-    <header class="py-20 flex flex-col items-center">
+    <header class="pt-16 pb-20 flex flex-col items-center">
       <div class="flex w-full items-center">
         <hr />
         <h1 class="text-primary font-bold text-4xl text-center mx-2">

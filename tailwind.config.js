@@ -9,6 +9,14 @@ module.exports = {
     },
     fontFamily: {
       sans: ['Poppins', 'ui-sans-serif', 'system-ui', 'arial'],
+      header: [
+        'Montserrat',
+        'Lucida Sans',
+        'Lucida Sans Regular',
+        'Lucida Grande',
+        'Lucida Sans Unicode',
+        'sans-serif',
+      ],
     },
     extend: {
       boxShadow: {

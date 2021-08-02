@@ -1,6 +1,9 @@
 <template>
-  <div class="antialiased">
-    <Nuxt />
+  <div class="antialiased flex flex-col min-h-screen">
+    <g-logo class="w-72" />
+    <g-navbar />
+    <Nuxt class="flex-grow -mt-7" />
+    <g-footer />
   </div>
 </template>
 
