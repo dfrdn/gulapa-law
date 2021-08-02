@@ -1,13 +1,14 @@
 aboutHeader:
   heading: About Us
-  description: >-
-    Gulapa Law was established by Aris L. Gulapa in September 2015 after he left
-    a Makati-based firm where he was a partner for four years. Before this, Aris
-    was an associate in Anderson Mori & Tomotsune (Tokyo, ‎2008-2010); Kelvin
-    Chia Partnership (Singapore and Vietnam, ‎2006-2008); and SyCip Salazar
-    Hernandez & Gatmaitan ‎(2003-2006).
-
-
+  description: Gulapa Law was established by Aris L. Gulapa in September 2015
+    after he left a Makati-based firm where he was a partner for four years.
+    Before this, Aris was an associate in Anderson Mori & Tomotsune (Tokyo,
+    ‎2008-2010); Kelvin Chia Partnership (Singapore and Vietnam, ‎2006-2008);
+    and SyCip Salazar Hernandez & Gatmaitan ‎(2003-2006).
+about:
+  heading: Gains and Recognitions
+  description: >
+    
     In February 2017, the firm became the first Philippine-based law firm to establish an office in New York City through its affiliate, Gulapa & Baclay LLP. Earlier in 2017 as well, the firm sought to expand its capabilities, particularly by developing its litigation practice.
 
 
@@ -18,9 +19,8 @@ aboutHeader:
 
 
     Gulapa Law continues to expand globally, transcending borders and servicing more international clients, in line with its vision to continuously innovate, achieve and excel.
-about:
-  heading: Gains and Recognitions
-  description: >
+
+
     Awards and Recognition:
 
 
