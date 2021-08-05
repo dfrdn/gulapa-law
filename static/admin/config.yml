@@ -14,7 +14,17 @@ collections:
     slug: '{{title}}'
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
+      - {
+          label: 'Author',
+          name: 'author',
+          widget: 'relation',
+          collection: 'lawyers',
+          value_field: '{{name}}',
+          display_fields: ['name'],
+          search_fields: ['name'],
+        }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Image', name: 'image', widget: 'image' }
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'offices'
