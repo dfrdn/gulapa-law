@@ -1,5 +1,7 @@
 <template>
-  <div class="relative overflow-hidden bg-white shadow rounded flex card">
+  <div
+    class="relative overflow-hidden bg-white shadow-around rounded flex card"
+  >
     <div class="w-2/3 flex flex-col justify-between p-12">
       <div>
         <h2 class="text-xl font-semibold text-primary">{{ details.title }}</h2>

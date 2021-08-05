@@ -3,7 +3,7 @@
     :class="[isExpanded ? 'max-w-full' : 'max-w-1320 md:rounded-lg']"
     class="
       z-50
-      shadow
+      shadow-around
       font-header font-semibold
       text-tertiary
       capitalize
