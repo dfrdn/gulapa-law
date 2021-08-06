@@ -4,6 +4,7 @@
     <div class="container">
       <g-blog v-for="blog in blogs" :key="blog.slug" :details="blog" />
     </div>
+    {{ blogs }}
   </div>
 </template>
 

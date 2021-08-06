@@ -135,13 +135,6 @@
 import Vue from 'vue'
 
 export default Vue.extend({
-  head() {
-    return {
-      script: [
-        { src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' },
-      ],
-    }
-  },
   async asyncData({ $content }) {
     const { hero, about, offices, practices } = await $content(
       'landing'
@@ -152,6 +145,13 @@ export default Vue.extend({
       .fetch()
 
     return { hero, about, offices, practices, practiceAreas }
+  },
+  head() {
+    return {
+      script: [
+        { src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' },
+      ],
+    }
   },
 })
 </script>
