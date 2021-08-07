@@ -1,5 +1,5 @@
 <template>
-  <nuxt-link :to="`/blog/${details.slug}`">
+  <nuxt-link :to="`/blog/${details.slug}`" class="hover:scale-102">
     <div
       class="
         relative
@@ -10,6 +10,10 @@
         flex
         card
         block
+        transform
+        transition-scale
+        duration-100
+        ease-in-out
         hover:scale-102
         mb-8
       "
@@ -23,7 +27,15 @@
         </div>
         <div class="flex text-secondary space-x-8">
           <p>{{ details.author }}</p>
-          <p>{{ new Date(details.date).getDate() }}</p>
+          <p>
+            {{
+              new Date(details.date).toLocaleString('en-GB', {
+                day: 'numeric',
+                month: 'long',
+                year: 'numeric',
+              })
+            }}
+          </p>
         </div>
       </div>
       <div class="absolute right-0 top-0 bottom-0 w-1/3">
@@ -45,6 +57,7 @@ export default {
       required: true,
     },
   },
+  computed: {},
 }
 </script>
 

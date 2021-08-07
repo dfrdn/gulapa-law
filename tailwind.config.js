@@ -39,6 +39,7 @@ module.exports = {
   variants: {
     extend: {
       display: ['hover', 'group-hover'],
+      scale: ['hover', 'group-hover'],
       filter: ['group-hover'],
       height: ['group-hover'],
       brightness: ['group-hover'],
@@ -52,5 +53,5 @@ module.exports = {
       pointerEvents: ['hover'],
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/typography')],
 }
