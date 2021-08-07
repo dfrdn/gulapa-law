@@ -132,35 +132,7 @@
           </div>
         </div>
       </div>
-      <div class="hidden lg:flex lg:w-4/12 lg:justify-end lg:items-start">
-        <div
-          class="
-            lg:block
-            mt-32
-            w-10/12
-            align-start
-            bg-white
-            shadow
-            sticky
-            top-32
-          "
-        >
-          <ul class="divide-y divide-gray-300 rounded border">
-            <li
-              v-for="lawyer in lawyers"
-              :key="lawyer.slug"
-              class="text-gray-500"
-            >
-              <nuxt-link
-                :to="`/lawyers/${lawyer.slug}`"
-                class="p-4 block hover:bg-secondary hover:text-white"
-              >
-                {{ lawyer.name }}
-              </nuxt-link>
-            </li>
-          </ul>
-        </div>
-      </div>
+      <g-list :contents="lawyers" />
     </section>
   </div>
 </template>
@@ -193,7 +165,7 @@ export default {
       })
       .fetch()
 
-    const lawyers = await $content('lawyers').only(['slug', 'name']).fetch()
+    const lawyers = await $content('lawyers').only(['path', 'name']).fetch()
 
     return { info, lawyers, practiceAreas, offices }
   },
@@ -214,10 +186,6 @@ h2:before {
   content: '';
   z-index: -1;
   @apply block absolute bg-primary w-screen rounded-br-md top-0 bottom-0 right-0;
-}
-
-li .nuxt-link-active {
-  @apply bg-secondary text-white;
 }
 
 span:last-child {
