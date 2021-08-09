@@ -40,6 +40,18 @@ export default Vue.extend({
     const { practices } = await $content('landing').fetch()
     return { practiceAreas, practices }
   },
+  head() {
+    return {
+      title: `Gulapa Law | ${this.practices.heading}`,
+      meta: [
+        {
+          hid: this.practices.heading,
+          name: 'description',
+          content: this.practices.description,
+        },
+      ],
+    }
+  },
 })
 </script>
 

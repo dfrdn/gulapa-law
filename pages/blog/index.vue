@@ -16,6 +16,18 @@ export default {
 
     return { blogs }
   },
+  head() {
+    return {
+      title: `Gulapa Law | G-News`,
+      meta: [
+        {
+          hid: 'G-News',
+          name: 'description',
+          content: 'G-News',
+        },
+      ],
+    }
+  },
 }
 </script>
 

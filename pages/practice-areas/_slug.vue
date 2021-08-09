@@ -96,6 +96,18 @@ export default {
 
     return { info, contacts, practiceAreas }
   },
+  head() {
+    return {
+      title: `Gulapa Law | ${this.info.title}`,
+      meta: [
+        {
+          hid: this.info.slug,
+          name: 'description',
+          content: this.info.description,
+        },
+      ],
+    }
+  },
 }
 </script>
 

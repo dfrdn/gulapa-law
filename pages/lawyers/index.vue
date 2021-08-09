@@ -67,6 +67,18 @@ export default Vue.extend({
 
     return { associates, partners, lawyersHeader }
   },
+  head() {
+    return {
+      title: `Gulapa Law | ${this.lawyersHeader.heading}`,
+      meta: [
+        {
+          hid: this.lawyersHeader.heading,
+          name: 'description',
+          content: this.lawyersHeader.description,
+        },
+      ],
+    }
+  },
 })
 </script>
 
