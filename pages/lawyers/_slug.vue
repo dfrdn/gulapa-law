@@ -163,6 +163,7 @@ export default {
       .where({
         slug: { $in: info.practices },
       })
+      .sortBy('title')
       .fetch()
 
     const lawyers = await $content('lawyers').only(['path', 'name']).fetch()

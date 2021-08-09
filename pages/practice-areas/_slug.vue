@@ -91,6 +91,7 @@ export default {
 
     const practiceAreas = await $content('practice-areas')
       .only(['path', 'title'])
+      .sortBy('title')
       .fetch()
 
     return { info, contacts, practiceAreas }

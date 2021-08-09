@@ -34,6 +34,7 @@ export default Vue.extend({
   async asyncData({ $content }) {
     const practiceAreas = await $content('practice-areas')
       .only(['slug', 'image', 'title', 'description'])
+      .sortBy('title')
       .fetch()
 
     const { practices } = await $content('landing').fetch()
