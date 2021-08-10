@@ -17,7 +17,7 @@
             "
           >
             <div>
-              <h2
+              <h1
                 class="
                   uppercase
                   text-3xl
@@ -30,7 +30,7 @@
                 "
               >
                 {{ info.name }}
-              </h2>
+              </h1>
             </div>
             <div class="flex md:flex-row flex-col">
               <div class="flex flex-col md:hidden text-xs mt-8 space-y-2">
@@ -91,9 +91,9 @@
         </div>
         <div class="mt-8 space-y-10 md:w-9/12 w-full px-10 md:px-0">
           <div class="space-y-4">
-            <h3 class="uppercase text-lg text-primary font-bold">
+            <h2 class="uppercase text-lg text-primary font-bold">
               Practice Areas
-            </h3>
+            </h2>
             <nuxt-link
               v-for="practice in practiceAreas"
               :key="practice.slug"
@@ -109,23 +109,23 @@
             </nuxt-link>
           </div>
           <div class="space-y-4">
-            <h3 class="uppercase text-lg text-primary font-bold">
+            <h2 class="uppercase text-lg text-primary font-bold">
               Admission/s
-            </h3>
+            </h2>
             <p v-for="admission in info.admissions">
               {{ '> ' + admission }}
             </p>
           </div>
           <div class="space-y-4">
-            <h3 class="uppercase text-lg text-primary font-bold">Education</h3>
+            <h2 class="uppercase text-lg text-primary font-bold">Education</h2>
             <p v-for="educ in info.education">
               {{ '> ' + educ }}
             </p>
           </div>
           <div class="space-y-4">
-            <h3 class="uppercase text-lg text-primary font-bold">
+            <h2 class="uppercase text-lg text-primary font-bold">
               Matters Handled
-            </h3>
+            </h2>
             <p v-for="matter in info.matters">
               {{ '> ' + matter }}
             </p>
@@ -186,11 +186,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-h2:after {
+h1:after {
   content: '';
   @apply block absolute border-2 border-secondary right-0 w-screen mt-3;
 }
-h2:before {
+h1:before {
   content: '';
   @apply block md:hidden absolute border-2 border-secondary -bottom-4 left-0 w-screen;
 }

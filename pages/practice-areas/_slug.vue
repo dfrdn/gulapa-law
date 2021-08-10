@@ -33,7 +33,7 @@
                 :src="info.image"
                 :alt="info.title"
               />
-              <h2
+              <h1
                 class="
                   uppercase
                   text-3xl
@@ -44,15 +44,15 @@
                 "
               >
                 {{ info.title }}
-              </h2>
+              </h1>
             </div>
             <div class="mt-12 xl:ml-20 w-9/12">
               <p class="xl:text-base text-lg mb-8">
                 {{ info.description }}
               </p>
-              <h3 class="text-secondary text-lg font-bold uppercase">
+              <h2 class="text-secondary text-lg font-bold uppercase">
                 Contact Persons
-              </h3>
+              </h2>
               <nuxt-link
                 v-for="contact in contacts"
                 :key="contact.slug"
@@ -65,9 +65,9 @@
           </div>
         </div>
         <div class="mt-8 ml-20 space-y-3">
-          <h3 class="uppercase text-lg text-primary font-bold">
+          <h2 class="uppercase text-lg text-primary font-bold">
             Notable Matters
-          </h3>
+          </h2>
           <p v-for="notable in info.notables" :key="notable" class="">
             {{ '> ' + notable }}
           </p>
@@ -112,7 +112,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-h2:after {
+h1:after {
   content: '';
   @apply block absolute border-2 border-secondary right-0 w-screen mt-3;
 }
