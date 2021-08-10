@@ -16,16 +16,15 @@
               pb-14
             "
           >
-            <div>
+            <div class="flex flex-col space-y-4 md:space-y-0 md:block">
               <img
                 class="
                   w-auto
-                  object-cover
+                  md:object-cover
                   inline-block
                   h-12
-                  mb-6
-                  -ml-7
-                  mr-3
+                  align-self-center
+                  md:mb-6 md:-ml-7 md:mr-3
                   filter
                   brightness-0
                   invert
@@ -39,14 +38,17 @@
                   text-3xl
                   font-semibold
                   tracking-wide
-                  relative
-                  inline-block
+                  md:relative
+                  block
+                  md:inline-block
+                  text-center
+                  md:text-left
                 "
               >
                 {{ info.title }}
               </h1>
             </div>
-            <div class="mt-12 xl:ml-20 w-9/12">
+            <div class="mt-12 xl:ml-20 w-auto md:w-9/12">
               <p class="xl:text-base text-lg mb-8">
                 {{ info.description }}
               </p>
@@ -64,7 +66,7 @@
             </div>
           </div>
         </div>
-        <div class="mt-8 ml-20 space-y-3">
+        <div class="px-10 xl:px-0 mt-8 xl:ml-20 space-y-3">
           <h2 class="uppercase text-lg text-primary font-bold">
             Notable Matters
           </h2>
@@ -114,7 +116,7 @@ export default {
 <style lang="scss" scoped>
 h1:after {
   content: '';
-  @apply block absolute border-2 border-secondary right-0 w-screen mt-3;
+  @apply block absolute border-2 border-secondary left-0 md:left-auto right-0 w-screen mt-3;
 }
 
 .header::before {

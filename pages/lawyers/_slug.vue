@@ -23,7 +23,8 @@
                   text-3xl
                   font-semibold
                   tracking-wide
-                  relative
+                  md:relative
+                  block
                   md:inline-block
                   text-center
                   md:text-left
@@ -34,7 +35,7 @@
             </div>
             <div class="flex md:flex-row flex-col">
               <div class="flex flex-col md:hidden text-xs mt-8 space-y-2">
-                <p>{{ info.email }}</p>
+                <a :href="`mailto:${info.email}`">{{ info.email }}</a>
                 <p>{{ info.mobile }}</p>
               </div>
               <div class="mt-4 md:mt-12 w-full md:w-7/12 order-2 md:order-1">
@@ -42,7 +43,7 @@
                   {{ info.description }}
                 </p>
                 <div class="hidden md:block">
-                  <p>{{ info.email }}</p>
+                  <a :href="`mailto:${info.email}`">{{ info.email }}</a>
                   <p>{{ info.mobile }}</p>
                 </div>
               </div>
@@ -188,12 +189,12 @@ export default {
 <style lang="scss" scoped>
 h1:after {
   content: '';
-  @apply block absolute border-2 border-secondary right-0 w-screen mt-3;
+  @apply block absolute border-2 border-secondary left-0 md:left-auto right-0 w-screen mt-3;
 }
-h1:before {
-  content: '';
-  @apply block md:hidden absolute border-2 border-secondary -bottom-4 left-0 w-screen;
-}
+// h1:before {
+//   content: '';
+//   @apply block md:hidden absolute border-2 border-secondary -bottom-4 left-0 w-screen;
+// }
 
 .header::before {
   content: '';
