@@ -25,17 +25,27 @@
           </h2>
           <p class="mt-2">{{ details.description }}</p>
         </div>
-        <div class="flex text-secondary space-x-8">
-          <p>{{ details.author }}</p>
-          <p>
-            {{
-              new Date(details.date).toLocaleString('en-GB', {
-                day: 'numeric',
-                month: 'long',
-                year: 'numeric',
-              })
-            }}
-          </p>
+        <div class="flex text-secondary space-x-8 items-center">
+          <div class="flex">
+            <img
+              :src="details.author.image"
+              :alt="details.author.name"
+              class="h-6 w-6 rounded-full object-fill mr-2"
+            />
+            <p>{{ details.author.name }}</p>
+          </div>
+          <div class="flex">
+            <calendar-icon class="secondary mr-2" />
+            <p>
+              {{
+                new Date(details.date).toLocaleString('en-GB', {
+                  day: 'numeric',
+                  month: 'long',
+                  year: 'numeric',
+                })
+              }}
+            </p>
+          </div>
         </div>
       </div>
       <div class="absolute right-0 top-0 bottom-0 w-1/3">
@@ -57,7 +67,6 @@ export default {
       required: true,
     },
   },
-  computed: {},
 }
 </script>
 

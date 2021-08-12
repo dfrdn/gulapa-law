@@ -60,7 +60,9 @@
             variant === 'partner' ? 'text-sm pl-10 pr-5' : 'text-xs pl-5 pr-2',
           ]"
         >
-          <p>{{ details.email }}</p>
+          <p>
+            <email-icon class="white inline-block mr-2" />{{ details.email }}
+          </p>
         </div>
       </div>
     </div>

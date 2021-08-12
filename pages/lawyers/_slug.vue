@@ -34,17 +34,41 @@
               </h1>
             </div>
             <div class="flex md:flex-row flex-col">
-              <div class="flex flex-col md:hidden text-xs mt-8 space-y-2">
-                <a :href="`mailto:${info.email}`">{{ info.email }}</a>
-                <p>{{ info.mobile }}</p>
+              <div
+                class="
+                  flex flex-col
+                  items-center
+                  md:hidden
+                  text-xs
+                  mt-8
+                  space-y-2
+                "
+              >
+                <a :href="`mailto:${info.email}`"
+                  ><email-icon class="white inline-block mr-2" />{{
+                    info.email
+                  }}</a
+                >
+                <p>
+                  <phone-icon class="white inline-block mr-2" />
+                  {{ info.mobile }}
+                </p>
               </div>
               <div class="mt-4 md:mt-12 w-full md:w-7/12 order-2 md:order-1">
                 <p class="mb-8">
                   {{ info.description }}
                 </p>
                 <div class="hidden md:block">
-                  <a :href="`mailto:${info.email}`">{{ info.email }}</a>
-                  <p>{{ info.mobile }}</p>
+                  <a :href="`mailto:${info.email}`"
+                    ><email-icon class="white inline-block mr-2" />{{
+                      info.email
+                    }}</a
+                  >
+                  <p>
+                    <phone-icon class="white inline-block mr-2" />{{
+                      info.mobile
+                    }}
+                  </p>
                 </div>
               </div>
               <div

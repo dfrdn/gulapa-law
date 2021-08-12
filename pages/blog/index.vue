@@ -2,7 +2,16 @@
   <div>
     <g-header heading="G-News" description="Hear about" />
     <div class="container">
-      <g-blog v-for="blog in blogs" :key="blog.slug" :details="blog" />
+      <g-blog
+        v-for="blog in blogs"
+        :key="blog.slug"
+        :details="
+          combine(
+            blog,
+            lawyers.find((lawyer) => lawyer.name === blog.author)
+          )
+        "
+      />
     </div>
   </div>
 </template>
@@ -13,8 +22,16 @@ export default {
     // const { lawyersHeader } = await $content('lawyers-page').fetch()
 
     const blogs = await $content('blog').fetch()
+    const lawyers = await $content('lawyers')
+      .only(['slug', 'image', 'name'])
+      .fetch()
 
-    return { blogs }
+    return { blogs, lawyers }
+  },
+  methods: {
+    combine(blog, author) {
+      return { ...blog, author }
+    },
   },
   head() {
     return {
