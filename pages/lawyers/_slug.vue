@@ -34,11 +34,6 @@
               </h1>
             </div>
             <div class="flex md:flex-row flex-col">
-<<<<<<< HEAD
-              <div class="flex flex-col md:hidden text-xs mt-8 space-y-2">
-                <a :href="`mailto:${info.email}`">{{ info.email }}</a>
-                <p>{{ info.mobile }}</p>
-=======
               <div
                 class="
                   flex flex-col
@@ -58,17 +53,12 @@
                   <phone-icon class="white inline-block mr-2" />
                   {{ info.mobile }}
                 </p>
->>>>>>> 684d879e4630de457a69bede91171597a4609902
               </div>
               <div class="mt-4 md:mt-12 w-full md:w-7/12 order-2 md:order-1">
                 <p class="mb-8">
                   {{ info.description }}
                 </p>
                 <div class="hidden md:block">
-<<<<<<< HEAD
-                  <a :href="`mailto:${info.email}`">{{ info.email }}</a>
-                  <p>{{ info.mobile }}</p>
-=======
                   <a :href="`mailto:${info.email}`"
                     ><email-icon class="white inline-block mr-2" />{{
                       info.email
@@ -79,7 +69,6 @@
                       info.mobile
                     }}
                   </p>
->>>>>>> 684d879e4630de457a69bede91171597a4609902
                 </div>
               </div>
               <div
@@ -129,12 +118,7 @@
           <div class="space-y-4">
             <h2 class="uppercase text-lg text-primary font-bold">
               Practice Areas
-<<<<<<< HEAD
-            </h3>
-
-=======
             </h2>
->>>>>>> 684d879e4630de457a69bede91171597a4609902
             <nuxt-link
               v-for="practice in practiceAreas"
               :key="practice.slug"
@@ -247,7 +231,8 @@ li .nuxt-link-active {
 }
 
 p:last-child span {
-span:last-child {
-  @apply hidden;
+  span:last-child {
+    @apply hidden;
+  }
 }
 </style>
