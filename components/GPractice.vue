@@ -6,6 +6,7 @@
         overflow-hidden
         bg-white
         shadow
+        border border-gray-100
         transform
         px-5
         w-60

@@ -17,33 +17,69 @@
             "
           >
             <div>
-              <h2
+              <h1
                 class="
                   uppercase
                   text-3xl
                   font-semibold
                   tracking-wide
-                  relative
+                  md:relative
+                  block
                   md:inline-block
                   text-center
                   md:text-left
                 "
               >
                 {{ info.name }}
-              </h2>
+              </h1>
             </div>
             <div class="flex md:flex-row flex-col">
+<<<<<<< HEAD
               <div class="flex flex-col md:hidden text-xs mt-8 space-y-2">
                 <a :href="`mailto:${info.email}`">{{ info.email }}</a>
                 <p>{{ info.mobile }}</p>
+=======
+              <div
+                class="
+                  flex flex-col
+                  items-center
+                  md:hidden
+                  text-xs
+                  mt-8
+                  space-y-2
+                "
+              >
+                <a :href="`mailto:${info.email}`"
+                  ><email-icon class="white inline-block mr-2" />{{
+                    info.email
+                  }}</a
+                >
+                <p>
+                  <phone-icon class="white inline-block mr-2" />
+                  {{ info.mobile }}
+                </p>
+>>>>>>> 684d879e4630de457a69bede91171597a4609902
               </div>
               <div class="mt-4 md:mt-12 w-full md:w-7/12 order-2 md:order-1">
                 <p class="mb-8">
                   {{ info.description }}
                 </p>
                 <div class="hidden md:block">
+<<<<<<< HEAD
                   <a :href="`mailto:${info.email}`">{{ info.email }}</a>
                   <p>{{ info.mobile }}</p>
+=======
+                  <a :href="`mailto:${info.email}`"
+                    ><email-icon class="white inline-block mr-2" />{{
+                      info.email
+                    }}</a
+                  >
+                  <p>
+                    <phone-icon class="white inline-block mr-2" />{{
+                      info.mobile
+                    }}
+                  </p>
+>>>>>>> 684d879e4630de457a69bede91171597a4609902
                 </div>
               </div>
               <div
@@ -91,10 +127,14 @@
         </div>
         <div class="mt-8 space-y-10 md:w-9/12 w-full px-10 md:px-0">
           <div class="space-y-4">
-            <h3 class="uppercase text-lg text-primary font-bold">
+            <h2 class="uppercase text-lg text-primary font-bold">
               Practice Areas
+<<<<<<< HEAD
             </h3>
 
+=======
+            </h2>
+>>>>>>> 684d879e4630de457a69bede91171597a4609902
             <nuxt-link
               v-for="practice in practiceAreas"
               :key="practice.slug"
@@ -110,58 +150,30 @@
             </nuxt-link>
           </div>
           <div class="space-y-4">
-            <h3 class="uppercase text-lg text-primary font-bold">
+            <h2 class="uppercase text-lg text-primary font-bold">
               Admission/s
-            </h3>
+            </h2>
             <p v-for="admission in info.admissions">
               {{ `> ${admission}` }}
             </p>
           </div>
           <div class="space-y-4">
-            <h3 class="uppercase text-lg text-primary font-bold">Education</h3>
+            <h2 class="uppercase text-lg text-primary font-bold">Education</h2>
             <p v-for="educ in info.education">
               {{ '> ' + educ }}
             </p>
           </div>
           <div class="space-y-4">
-            <h3 class="uppercase text-lg text-primary font-bold">
+            <h2 class="uppercase text-lg text-primary font-bold">
               Matters Handled
-            </h3>
+            </h2>
             <p v-for="matter in info.matters">
               {{ '> ' + matter }}
             </p>
           </div>
         </div>
       </div>
-      <div class="hidden lg:flex lg:w-4/12 lg:justify-end lg:items-start">
-        <div
-          class="
-            lg:block
-            mt-32
-            w-10/12
-            align-start
-            bg-white
-            shadow
-            sticky
-            top-32
-          "
-        >
-          <ul class="divide-y divide-gray-300 rounded border">
-            <li
-              v-for="lawyer in lawyers"
-              :key="lawyer.slug"
-              class="text-gray-500"
-            >
-              <nuxt-link
-                :to="`/lawyers/${lawyer.slug}`"
-                class="p-4 block hover:bg-secondary hover:text-white"
-              >
-                {{ lawyer.name }}
-              </nuxt-link>
-            </li>
-          </ul>
-        </div>
-      </div>
+      <g-list :contents="lawyers" />
     </section>
   </div>
 </template>
@@ -192,24 +204,37 @@ export default {
       .where({
         slug: { $in: info.practices },
       })
+      .sortBy('title')
       .fetch()
 
-    const lawyers = await $content('lawyers').only(['slug', 'name']).fetch()
+    const lawyers = await $content('lawyers').only(['path', 'name']).fetch()
 
     return { info, lawyers, practiceAreas, offices }
+  },
+  head() {
+    return {
+      title: `Gulapa Law | ${this.info.name}`,
+      meta: [
+        {
+          hid: this.info.slug,
+          name: 'description',
+          content: this.info.description,
+        },
+      ],
+    }
   },
 }
 </script>
 
 <style lang="scss" scoped>
-h2:after {
+h1:after {
   content: '';
-  @apply block absolute border-2 border-secondary right-0 w-screen mt-3;
+  @apply block absolute border-2 border-secondary left-0 md:left-auto right-0 w-screen mt-3;
 }
-h2:before {
-  content: '';
-  @apply block md:hidden absolute border-2 border-secondary -bottom-4 left-0 w-screen;
-}
+// h1:before {
+//   content: '';
+//   @apply block md:hidden absolute border-2 border-secondary -bottom-4 left-0 w-screen;
+// }
 
 .header::before {
   content: '';
@@ -222,6 +247,7 @@ li .nuxt-link-active {
 }
 
 p:last-child span {
+span:last-child {
   @apply hidden;
 }
 </style>

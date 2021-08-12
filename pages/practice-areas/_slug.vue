@@ -16,16 +16,15 @@
               pb-14
             "
           >
-            <div>
+            <div class="flex flex-col space-y-4 md:space-y-0 md:block">
               <img
                 class="
                   w-auto
-                  object-cover
+                  md:object-cover
                   inline-block
                   h-12
-                  mb-6
-                  -ml-7
-                  mr-3
+                  align-self-center
+                  md:mb-6 md:-ml-7 md:mr-3
                   filter
                   brightness-0
                   invert
@@ -33,26 +32,29 @@
                 :src="info.image"
                 :alt="info.title"
               />
-              <h2
+              <h1
                 class="
                   uppercase
                   text-3xl
                   font-semibold
                   tracking-wide
-                  relative
-                  inline-block
+                  md:relative
+                  block
+                  md:inline-block
+                  text-center
+                  md:text-left
                 "
               >
                 {{ info.title }}
-              </h2>
+              </h1>
             </div>
-            <div class="mt-12 xl:ml-20 w-9/12">
+            <div class="mt-12 xl:ml-20 w-auto md:w-9/12">
               <p class="xl:text-base text-lg mb-8">
                 {{ info.description }}
               </p>
-              <h3 class="text-secondary text-lg font-bold uppercase">
+              <h2 class="text-secondary text-lg font-bold uppercase">
                 Contact Persons
-              </h3>
+              </h2>
               <nuxt-link
                 v-for="contact in contacts"
                 :key="contact.slug"
@@ -64,44 +66,16 @@
             </div>
           </div>
         </div>
-        <div class="mt-8 ml-20 space-y-3">
-          <h3 class="uppercase text-lg text-primary font-bold">
+        <div class="px-10 xl:px-0 mt-8 xl:ml-20 space-y-3">
+          <h2 class="uppercase text-lg text-primary font-bold">
             Notable Matters
-          </h3>
+          </h2>
           <p v-for="notable in info.notables" :key="notable" class="">
             {{ '> ' + notable }}
           </p>
         </div>
       </div>
-      <div class="hidden lg:flex lg:w-4/12 lg:justify-end lg:items-start">
-        <div
-          class="
-            lg:block
-            mt-32
-            w-10/12
-            align-start
-            bg-white
-            shadow
-            sticky
-            top-32
-          "
-        >
-          <ul class="divide-y divide-gray-300 rounded border">
-            <li
-              v-for="practiceArea in practiceAreas"
-              :key="practiceArea.slug"
-              class="text-gray-500"
-            >
-              <nuxt-link
-                :to="`/practice-areas/${practiceArea.slug}`"
-                class="p-4 block hover:bg-secondary hover:text-white"
-              >
-                {{ practiceArea.title }}
-              </nuxt-link>
-            </li>
-          </ul>
-        </div>
-      </div>
+      <g-list :contents="practiceAreas" />
     </section>
   </div>
 </template>
@@ -118,27 +92,36 @@ export default {
       .fetch()
 
     const practiceAreas = await $content('practice-areas')
-      .only(['slug', 'title'])
+      .only(['path', 'title'])
+      .sortBy('title')
       .fetch()
 
     return { info, contacts, practiceAreas }
+  },
+  head() {
+    return {
+      title: `Gulapa Law | ${this.info.title}`,
+      meta: [
+        {
+          hid: this.info.slug,
+          name: 'description',
+          content: this.info.description,
+        },
+      ],
+    }
   },
 }
 </script>
 
 <style lang="scss" scoped>
-h2:after {
+h1:after {
   content: '';
-  @apply block absolute border-2 border-secondary right-0 w-screen mt-3;
+  @apply block absolute border-2 border-secondary left-0 md:left-auto right-0 w-screen mt-3;
 }
 
 .header::before {
   content: '';
   z-index: -1;
   @apply block absolute bg-primary w-screen rounded-br-md top-0 bottom-0 right-0;
-}
-
-li .nuxt-link-active {
-  @apply bg-secondary text-white;
 }
 </style>

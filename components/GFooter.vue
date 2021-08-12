@@ -43,10 +43,18 @@
           All Rights Reserved | Gulapa Law {{ new Date().getFullYear() }}
         </p>
         <div class="flex space-x-2 order-0 md:order-1">
-          <a href="">fb</a>
-          <a href="">tw</a>
-          <a href="">ig</a>
-          <a href="">li</a>
+          <a href="https://www.facebook.com/gulapalaw/"
+            ><facebook-icon class="primary"
+          /></a>
+          <a href="https://twitter.com/gulapa_law"
+            ><twitter-icon class="primary"
+          /></a>
+          <a href="https://www.instagram.com/gulapa_law/"
+            ><instagram-icon class="primary"
+          /></a>
+          <a href="https://www.linkedin.com/company/gulapa-law-office"
+            ><linked-in-icon class="primary"
+          /></a>
         </div>
       </div>
     </div>

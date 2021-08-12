@@ -10,13 +10,25 @@
 <script>
 import Vue from 'vue'
 
-export default Vue.extend({
+export default {
   async asyncData({ $content }) {
     const { aboutHeader, about } = await $content('about').fetch()
 
     return { aboutHeader, about }
   },
-})
+  head() {
+    return {
+      title: `Gulapa Law | ${this.aboutHeader.heading}`,
+      meta: [
+        {
+          hid: this.aboutHeader.heading,
+          name: 'description',
+          content: this.aboutHeader.description,
+        },
+      ],
+    }
+  },
+}
 </script>
 
 <style scoped></style>

@@ -34,10 +34,23 @@ export default Vue.extend({
   async asyncData({ $content }) {
     const practiceAreas = await $content('practice-areas')
       .only(['slug', 'image', 'title', 'description'])
+      .sortBy('title')
       .fetch()
 
     const { practices } = await $content('landing').fetch()
     return { practiceAreas, practices }
+  },
+  head() {
+    return {
+      title: `Gulapa Law | ${this.practices.heading}`,
+      meta: [
+        {
+          hid: this.practices.heading,
+          name: 'description',
+          content: this.practices.description,
+        },
+      ],
+    }
   },
 })
 </script>

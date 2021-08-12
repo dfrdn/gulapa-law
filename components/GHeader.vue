@@ -14,7 +14,7 @@
         pb-14
       "
     >
-      <h2
+      <h1
         class="
           uppercase
           text-3xl
@@ -25,7 +25,7 @@
         "
       >
         {{ heading }}
-      </h2>
+      </h1>
       <p class="xl:ml-20 xl:text-xl text-lg xl:w-7/12">
         {{ description }}
       </p>
@@ -51,7 +51,7 @@ export default Vue.extend({
 </script>
 
 <style lang="scss" scoped>
-h2:after {
+h1:after {
   content: '';
   @apply block absolute border-2 border-secondary right-0 w-screen mt-3;
 }

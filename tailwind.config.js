@@ -21,6 +21,7 @@ module.exports = {
     extend: {
       boxShadow: {
         DEFAULT: '3px 6px 10px rgba(0, 0, 0, 0.16)',
+        around: '0px 0px 12px #00000029;',
       },
       container: {
         center: true,
@@ -38,6 +39,7 @@ module.exports = {
   variants: {
     extend: {
       display: ['hover', 'group-hover'],
+      scale: ['hover', 'group-hover'],
       filter: ['group-hover'],
       height: ['group-hover'],
       brightness: ['group-hover'],
@@ -51,5 +53,5 @@ module.exports = {
       pointerEvents: ['hover'],
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/typography')],
 }

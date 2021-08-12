@@ -1,9 +1,12 @@
 ---
-title: Case No. R-ORM-15-00072-SP
+title: "Article #3"
 author: Aris L. Gulapa
-date: 2021-08-02T10:58:41.025Z
-image: /img/awards.jpg
-description: "Philippine Phosphate Fertilizer Corporation (“Philphos”) Rehabilitation "
+date: 2021-08-05T16:49:30.026Z
+image: /img/ny.jpg
+description: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+  commodo consequat."'
 ---
 <!--StartFragment-->
 
