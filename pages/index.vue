@@ -48,11 +48,13 @@
               </button>
             </div>
           </div>
-          <div class="w-7/12">
-            <img :src="about.image" alt="" />
+          <div class="w-7/12 flex flex-col">
+            <img :src="about.image" alt="" class="self-end" />
           </div>
         </div>
-        <div><g-timeline :events="about.timeline" /></div>
+        <div class="flex justify-center pt-10 md:py-10">
+          <g-timeline :events="about.timeline" />
+        </div>
       </div>
     </section>
     <section id="offices" class="container space-y-4">
@@ -159,6 +161,10 @@ export default Vue.extend({
 <style lang="scss" scoped>
 section {
   @apply py-20;
+}
+
+#about {
+  @apply pb-5 md:pb-20;
 }
 
 header {
