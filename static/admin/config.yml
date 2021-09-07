@@ -236,6 +236,24 @@ collections:
                   name: 'description',
                   widget: 'text',
                 }
+      - name: 'awards-page'
+        label: 'Awards Page'
+        file: 'content/awards-page.yml'
+        fields:
+          - label: 'Awards Page Header'
+            name: 'awardsHeader'
+            widget: 'object'
+            fields:
+              - {
+                  label: 'Awards Page Heading',
+                  name: 'heading',
+                  widget: 'string',
+                }
+              - {
+                  label: 'Page Description',
+                  name: 'description',
+                  widget: 'text',
+                }
   - name: 'awards'
     label: 'Awards'
     folder: 'content/awards'
