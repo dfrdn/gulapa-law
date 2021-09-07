@@ -3,26 +3,13 @@
 </template>
 
 <script>
-export default {
+import Vue from 'vue'
+export default Vue.extend({
   async asyncData({ $content }) {
-    const { aboutHeader, about } = await $content('about').fetch()
-
-    return { aboutHeader, about }
+    // const { awardsHeader } = await $content('awards-page').fetch()
+    // return { awardsHeader }
   },
-  head() {
-    return {
-      title: `Gulapa Law | ${this.aboutHeader.heading}`,
-      meta: [
-        {
-          hid: this.aboutHeader.heading,
-          name: 'description',
-          content: this.aboutHeader.description,
-        },
-      ],
-    }
-  },
-}
-}
+})
 </script>
 
 <style lang="scss" scoped></style>
