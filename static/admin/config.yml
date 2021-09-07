@@ -243,9 +243,10 @@ collections:
     create: true
     slug: '{{title}}'
     fields:
+      - { label: 'Awarding Body', name: 'awardbody', widget: 'string' }
       - {
-          label: 'Awarding Body',
-          name: 'awardbody',
+          label: 'Award',
+          name: 'award',
           widget: 'list',
           field: { label: 'Award', name: 'award', widget: 'string' },
         }
