@@ -236,3 +236,16 @@ collections:
                   name: 'description',
                   widget: 'text',
                 }
+  - name: 'awards'
+    label: 'Awards'
+    folder: 'content/awards'
+    format: 'frontmatter'
+    create: true
+    slug: '{{title}}'
+    fields:
+      - {
+          label: 'Awarding Body',
+          name: 'awardbody',
+          widget: 'list',
+          field: { label: 'Award', name: 'award', widget: 'string' },
+        }
