@@ -17,7 +17,7 @@
     "
   >
     <div class="container px-6 py-4">
-      <div class="hidden md:flex justify-around">
+      <div class="hidden md:flex justify-around md:items-center">
         <n-link :to="links[0].link">
           <span v-if="!isExpanded">{{ links[0].label }}</span>
           <span v-else><g-logo class="h-12" /></span>
