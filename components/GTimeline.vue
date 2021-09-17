@@ -15,7 +15,7 @@
     "
   >
     <li
-      v-for="(event, index) in events"
+      v-for="event in events"
       :key="event.event"
       class="flex items-center md:flex-col px-3 space-x-4 md:space-x-0"
     >
