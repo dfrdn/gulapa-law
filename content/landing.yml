@@ -17,6 +17,8 @@ hero:
       details: Gulapa Law has garnered multiple awards with our work locally and
         internationally
       icon: /img/collaboration_icon.svg
+  background: /img/manila.jpg
+  image: /img/header_img.png
 about:
   heading: Who We Are
   subheading: We are here to help you with your legal needs
@@ -79,3 +81,15 @@ lawyers:
         Asian Development Bank under its Office of General Counsel Sovereign and
         Non-Sovereign Operations before she became part of Gulapa Law.
   image: /img/gulapa-and-charms.png
+awards:
+  featured:
+    - award: Rising Law Firm of the Year (Winner)
+      year: "2018"
+      body: Asialn Legal Business Philippine Law Awards
+    - award: Top 100 Lawyers in the Philippines, Aris L. Gulapa
+      year: "2021"
+      body: Asian Business Law Journal
+    - award: Real Estate & Construction (Tier 1)
+      year: "2018"
+      body: The Legal 500
+  heading: Gains and Recognitions
