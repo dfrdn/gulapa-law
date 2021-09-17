@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="text-tertiary">
     <header class="pt-16 flex flex-col items-center space-y-8">
       <div class="flex w-full items-center">
         <hr />
@@ -61,7 +61,7 @@
         <div class="flex space-x-8">
           <div class="w-5/12">
             <g-title :heading="about.heading" :subheading="about.subheading" />
-            <div class="ml-4">
+            <div class="ml-8">
               <p class="my-8">{{ about.description }}</p>
               <n-link
                 class="
@@ -90,10 +90,10 @@
         </div>
       </div>
     </section>
-    <section id="offices" class="container space-y-4">
+    <section id="offices" class="container">
       <g-title :heading="offices.heading" :subheading="offices.subheading" />
-      <p>{{ offices.description }}</p>
-      <div class="space-x-8">
+      <p class="ml-8 my-8">{{ offices.description }}</p>
+      <div class="space-x-8 flex">
         <button
           v-for="location in offices.locations"
           :key="location.location"
@@ -128,8 +128,8 @@
             :heading="practices.heading"
             :subheading="practices.subheading"
           />
-          <div class="ml-4">
-            <p class="my-8">
+          <div class="ml-8">
+            <p class="my-8 pr-8">
               {{ practices.description }}
             </p>
 
@@ -174,6 +174,68 @@
         </div>
       </div>
     </section>
+    <section id="lawyers" class="container flex">
+      <div class="w-7/12">
+        <g-title
+          :heading="lawyers.heading"
+          :subheading="lawyers.subheading"
+          class="text-primary"
+        />
+        <div class="ml-8">
+          <div class="my-8 space-y-8 max-w-lg">
+            <div
+              v-for="lawyer in lawyers.lawyers"
+              :key="lawyer.name"
+              class="space-y-2"
+            >
+              <n-link
+                to="/lawyers/aris-l-gulapa"
+                class="flex items-center text-secondary uppercase font-semibold"
+                >{{ lawyer.name }}<chevron-icon class="w-5 transform"
+              /></n-link>
+              <p class="text-sm">
+                {{ lawyer.description }}
+              </p>
+              <div class="flex justify-between text-sm">
+                <div class="flex space-x-2">
+                  <email-icon class="w-5 fill-current text-primary" />
+                  <span>
+                    {{ lawyer.email }}
+                  </span>
+                </div>
+                <div class="flex space-x-2">
+                  <phone-icon class="w-5 fill-current text-primary" />
+                  <span>
+                    {{ lawyer.phone }}
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <n-link
+            class="
+              bg-primary
+              rounded
+              px-10
+              py-3
+              text-sm
+              inline-flex
+              items-center
+              capitalize
+              text-white
+            "
+            to="/lawyers"
+          >
+            See all our lawyers
+            <chevron-icon class="w-4" />
+          </n-link>
+        </div>
+      </div>
+      <div>
+        <img :src="lawyers.image" :alt="lawyers.image" />
+      </div>
+    </section>
   </div>
 </template>
 
@@ -182,7 +244,7 @@ import Vue from 'vue'
 
 export default Vue.extend({
   async asyncData({ $content }) {
-    const { hero, about, offices, practices } = await $content(
+    const { hero, about, offices, practices, lawyers } = await $content(
       'landing'
     ).fetch()
 
@@ -190,7 +252,7 @@ export default Vue.extend({
       .where({ slug: { $in: practices.practices } })
       .fetch()
 
-    return { hero, about, offices, practices, practiceAreas }
+    return { hero, about, offices, practices, practiceAreas, lawyers }
   },
   head() {
     return {
