@@ -6,7 +6,6 @@
         overflow-hidden
         bg-white
         shadow
-        border border-gray-100
         transform
         px-5
         w-60
@@ -48,7 +47,10 @@
         class="
           text-xl text-primary text-center
           font-semibold
-          group-hover:text-left group-hover:text-base group-hover:font-bold
+          group-hover:text-left
+          group-hover:text-base
+          group-hover:font-bold
+          group-hover:mb-2
         "
         :class="[
           variant === 'practiceArea'

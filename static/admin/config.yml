@@ -125,6 +125,8 @@ collections:
               - { label: 'Heading', name: 'heading', widget: 'string' }
               - { label: 'Subheading', name: 'subheading', widget: 'string' }
               - { label: 'Button', name: 'button', widget: 'string' }
+              - { label: 'Image', name: 'image', widget: 'image' }
+              - { label: 'Background', name: 'background', widget: 'image' }
               - label: 'Hero Points'
                 name: 'points'
                 widget: 'list'

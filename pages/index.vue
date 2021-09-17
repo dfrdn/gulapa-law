@@ -1,6 +1,6 @@
 <template>
   <div>
-    <header class="pt-16 pb-20 flex flex-col items-center">
+    <header class="pt-16 flex flex-col items-center space-y-8">
       <div class="flex w-full items-center">
         <hr />
         <h1 class="text-primary font-bold text-4xl text-center mx-2">
@@ -8,7 +8,7 @@
         </h1>
         <hr />
       </div>
-      <h2 class="text-sm">{{ hero.subheading }}</h2>
+      <h2 class="text-sm max-w-2xl text-center">{{ hero.subheading }}</h2>
       <button
         class="
           rounded
@@ -22,30 +22,63 @@
       >
         {{ hero.button }}
       </button>
-      <div class="bg-white rounded container shadow flex flex-row">
+      <div
+        class="
+          bg-white
+          rounded-lg
+          container
+          shadow
+          flex flex-row
+          transform
+          translate-y-1/2
+        "
+      >
         <div
           v-for="point in hero.points"
           :key="point.heading"
-          class="flex space-x-2 py-6 px-2"
+          class="
+            flex
+            space-x-4
+            py-8
+            px-4
+            border-r
+            last:border-r-0
+            justify-center
+          "
         >
           <img :src="point.icon" alt="Collaboration icon" class="block w-1/6" />
-          <div class="w-5/6 flex flex-col justify-center">
-            <h3 class="uppercase text-primary text-sm">{{ point.heading }}</h3>
+          <div class="w-4/6 flex flex-col justify-center">
+            <h3 class="uppercase text-primary text-sm mb-2 font-semibold">
+              {{ point.heading }}
+            </h3>
             <p class="text-xs">{{ point.details }}</p>
           </div>
         </div>
       </div>
     </header>
     <section id="about" class="bg-primary text-white">
-      <div class="container">
+      <div class="container mt-20">
         <div class="flex space-x-8">
           <div class="w-5/12">
             <g-title :heading="about.heading" :subheading="about.subheading" />
             <div class="ml-4">
-              <p>{{ about.description }}</p>
-              <button class="bg-secondary rounded px-6 py-1 text-xs">
-                Learn More
-              </button>
+              <p class="my-8">{{ about.description }}</p>
+              <n-link
+                class="
+                  bg-secondary
+                  rounded
+                  px-10
+                  py-3
+                  text-sm
+                  inline-flex
+                  items-center
+                  capitalize
+                "
+                to="/about"
+              >
+                Learn more
+                <chevron-icon class="w-4" />
+              </n-link>
             </div>
           </div>
           <div class="w-7/12 flex flex-col">
@@ -96,15 +129,26 @@
             :subheading="practices.subheading"
           />
           <div class="ml-4">
-            <p>
+            <p class="my-8">
               {{ practices.description }}
             </p>
-            <nuxt-link
-              to="practice-areas"
-              class="bg-secondary rounded px-6 py-1 text-xs"
+
+            <n-link
+              class="
+                bg-secondary
+                rounded
+                px-10
+                py-3
+                text-sm
+                inline-flex
+                items-center
+                capitalize
+              "
+              to="/practice-areas"
             >
               See all practice areas
-            </nuxt-link>
+              <chevron-icon class="w-4" />
+            </n-link>
           </div>
         </div>
         <div class="w-2/3">

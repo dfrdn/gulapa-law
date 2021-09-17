@@ -51,6 +51,7 @@ module.exports = {
       alignItems: ['hover'],
       backgroundColor: ['active', 'focus'],
       pointerEvents: ['hover'],
+      borderWidth: ['responsive', 'first', 'last', 'hover', 'focus'],
     },
   },
   plugins: [require('@tailwindcss/typography')],
