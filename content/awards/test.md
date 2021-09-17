@@ -1,3 +1,0 @@
----
-awardbody: Test
----
