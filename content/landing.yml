@@ -9,14 +9,14 @@ hero:
       details: We work hand in hand with our clients to solve their legal needs and
         ease their problems
       icon: /img/collaboration_icon.svg
-    - heading: LEGAL EXPERTS
+    - heading: Legal Experts
       details: Our lawyers are competent in identifying appropriate courses of action
         in legal matters
-      icon: /img/collaboration_icon.svg
-    - heading: AWARDS
+      icon: /img/legal-experts_icon.svg
+    - heading: Awards
       details: Gulapa Law has garnered multiple awards with our work locally and
         internationally
-      icon: /img/collaboration_icon.svg
+      icon: /img/awards_icon.svg
   background: /img/manila.jpg
   image: /img/header_img.png
 about:
