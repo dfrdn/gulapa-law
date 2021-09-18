@@ -16,7 +16,7 @@
       w-full
     "
   >
-    <div class="container px-6 py-4">
+    <div class="container px-2 md:px-6 md:py-4">
       <div class="hidden md:flex justify-around md:items-center">
         <n-link :to="links[0].link">
           <span v-if="!isExpanded">{{ links[0].label }}</span>
@@ -30,10 +30,20 @@
           {{ link.label }}
         </n-link>
       </div>
-      <div class="flex md:hidden">
-        <div>sandwich</div>
-        <g-logo class="mx-auto w-32" />
-        <div class="invisible">sandwich</div>
+      <div
+        class="
+          grid grid-cols-3
+          justify-items-center
+          place-content-center place-items-center
+          md:hidden
+        "
+      >
+        <v-burger
+          type="arrow"
+          :burgerStyle="burgerStyle"
+          class="place-self-start"
+        />
+        <g-logo class="place-self-center" />
       </div>
     </div>
   </nav>
@@ -77,6 +87,12 @@ export default Vue.extend({
       ],
       isExpanded: false,
       scrollPosition: 0,
+      burgerStyle: {
+        '--padding': '10px',
+        '--layer-bg-color': 'yellow',
+        '--active-layer-bg-color': '#ABABAB',
+        '--layer-width': '10px',
+      },
     }
   },
   beforeMount() {

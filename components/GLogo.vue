@@ -3,7 +3,6 @@
     class="logo-text text-center"
     :src="require(`assets/img/${alt ? 'logo-figure' : 'logo-text'}.png`)"
     alt="logo"
-    height="76px"
   />
 </template>
 
