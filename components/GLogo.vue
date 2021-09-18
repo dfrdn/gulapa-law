@@ -23,7 +23,6 @@ export default Vue.extend({
 <style>
 .logo-text {
   animation: 1s appear;
-  margin: auto;
 }
 
 @keyframes appear {

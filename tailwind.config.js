@@ -44,7 +44,7 @@ module.exports = {
       height: ['group-hover'],
       brightness: ['group-hover'],
       invert: ['group-hover'],
-      margin: ['group-hover'],
+      margin: ['group-hover', 'first', 'last'],
       textAlign: ['group-hover'],
       fontSize: ['group-hover'],
       justifyContent: ['hover'],

@@ -1,6 +1,6 @@
 <template>
   <div class="antialiased flex flex-col min-h-screen">
-    <g-logo class="w-72 hidden md:block" />
+    <g-logo class="w-72 hidden md:block mt-4 mx-auto" />
     <g-navbar />
     <Nuxt class="flex-grow mt-0 md:-mt-7 mb-20" />
     <g-footer />

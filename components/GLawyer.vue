@@ -61,7 +61,9 @@
           ]"
         >
           <p>
-            <email-icon class="white inline-block mr-2" />{{ details.email }}
+            <email-icon class="white inline-block mr-2 h-5" />{{
+              details.email
+            }}
           </p>
         </div>
       </div>

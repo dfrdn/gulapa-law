@@ -1,9 +1,9 @@
 <template>
-  <div class="space-y-5">
+  <div class="space-y-1 md:space-y-5 text-center md:text-left">
     <h2
       class="
         uppercase
-        text-lg
+        md:text-lg
         font-semibold
         tracking-wide
         relative
@@ -12,7 +12,8 @@
     >
       {{ heading }}
     </h2>
-    <h3 class="text-4xl font-semibold">{{ subheading }}</h3>
+    <hr class="md:hidden border-secondary border-b-2 mx-10" />
+    <h3 class="text-2xl md:text-4xl font-semibold">{{ subheading }}</h3>
   </div>
 </template>
 
@@ -40,6 +41,6 @@ export default Vue.extend({
 <style lang="scss" scoped>
 h2:after {
   content: '';
-  @apply block absolute border border-secondary right-0 w-screen mt-2;
+  @apply hidden md:block absolute border border-secondary right-0 w-screen mt-2;
 }
 </style>

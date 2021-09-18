@@ -7,9 +7,11 @@
         bg-white
         shadow
         transform
-        px-5
-        w-60
-        h-60
+        px-2
+        md:px-5
+        w-40
+        h-40
+        md:w-60 md:h-60
         hover:scale-102
         transition
         duration-200
@@ -31,8 +33,9 @@
             w-auto
             object-cover
             block
-            h-20
-            mb-8
+            h-16
+            mb-2
+            md:h-20 md:mb-8
             group-hover:text-left
             group-hover:h-8
             group-hover:filter
@@ -45,7 +48,8 @@
       </div>
       <h2
         class="
-          text-xl text-primary text-center
+          md:text-xl
+          text-primary text-center
           font-semibold
           group-hover:text-left
           group-hover:text-base
