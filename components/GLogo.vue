@@ -1,11 +1,24 @@
 <template>
   <img
     class="logo-text text-center"
-    src="~assets/img/logo-text.png"
+    :src="require(`assets/img/${alt ? 'logo-figure' : 'logo-text'}.png`)"
     alt="logo"
     height="76px"
   />
 </template>
+
+<script lang="ts">
+import Vue from 'vue'
+
+export default Vue.extend({
+  props: {
+    alt: {
+      type: Boolean,
+      default: false,
+    },
+  },
+})
+</script>
 
 <style>
 .logo-text {

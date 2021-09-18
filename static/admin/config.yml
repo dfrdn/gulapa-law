@@ -196,6 +196,18 @@ collections:
                   - { label: 'Email', name: 'email', widget: 'string' }
                   - { label: 'Phone', name: 'phone', widget: 'string' }
               - { label: 'Image', name: 'image', widget: 'image' }
+          - label: 'Gains and Recognitions'
+            name: 'awards'
+            widget: 'object'
+            fields:
+              - { label: 'Heading', name: 'heading', widget: 'string' }
+              - label: 'Featured Awards (Only 3)'
+                name: 'featured'
+                widget: 'list'
+                fields:
+                  - { label: 'Award', name: 'award', widget: 'string' }
+                  - { label: 'Year', name: 'year', widget: 'string' }
+                  - { label: 'Awarding Body', name: 'body', widget: 'string' }
       - name: 'about'
         label: 'About Page'
         file: 'content/about.yml'
@@ -261,7 +273,7 @@ collections:
     folder: 'content/awards'
     format: 'frontmatter'
     create: true
-    slug: '{{title}}'
+    slug: '{{awardbody}}'
     fields:
       - { label: 'Awarding Body', name: 'awardbody', widget: 'string' }
       - {

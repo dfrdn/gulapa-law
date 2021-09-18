@@ -20,7 +20,7 @@
       <div class="hidden md:flex justify-around md:items-center">
         <n-link :to="links[0].link">
           <span v-if="!isExpanded">{{ links[0].label }}</span>
-          <span v-else><g-logo class="h-12" /></span>
+          <span v-else><g-logo class="h-12" :alt="true" /></span>
         </n-link>
         <n-link
           v-for="link in links.slice(1)"

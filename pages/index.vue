@@ -197,12 +197,12 @@
                 {{ lawyer.description }}
               </p>
               <div class="flex justify-between text-sm">
-                <div class="flex space-x-2">
+                <a :href="`mailto:${lawyer.email}`" class="flex space-x-2">
                   <email-icon class="w-5 fill-current text-primary" />
                   <span>
                     {{ lawyer.email }}
                   </span>
-                </div>
+                </a>
                 <div class="flex space-x-2">
                   <phone-icon class="w-5 fill-current text-primary" />
                   <span>
@@ -232,8 +232,61 @@
           </n-link>
         </div>
       </div>
-      <div>
+      <div class="mt-20">
         <img :src="lawyers.image" :alt="lawyers.image" />
+      </div>
+    </section>
+    <section id="awards" class="bg-primary">
+      <div class="container flex flex-col items-center space-y-8">
+        <h2 class="text-white text-2xl font-semibold">{{ awards.heading }}</h2>
+        <div class="flex justify-between space-x-16 w-full">
+          <div
+            v-for="award in awards.featured"
+            :key="award.award"
+            class="
+              text-center
+              w-1/3
+              space-y-8
+              flex flex-col
+              items-center
+              relative
+            "
+          >
+            <img
+              src="~assets/img/award-home.svg"
+              alt=""
+              class="absolute transform translate-y-3.5"
+            />
+            <div class="text-secondary font-semibold text-2xl w-64">
+              <h3 class="uppercase">
+                {{ award.award }}
+              </h3>
+              <h3>
+                {{ award.year }}
+              </h3>
+            </div>
+            <p class="text-white w-48">
+              {{ award.body }}
+            </p>
+          </div>
+        </div>
+        <n-link
+          class="
+            bg-secondary
+            rounded
+            px-10
+            py-3
+            text-sm
+            inline-flex
+            items-center
+            capitalize
+            text-white
+          "
+          to="/awards"
+        >
+          See all gains and recognitions
+          <chevron-icon class="w-4" />
+        </n-link>
       </div>
     </section>
   </div>
@@ -244,7 +297,7 @@ import Vue from 'vue'
 
 export default Vue.extend({
   async asyncData({ $content }) {
-    const { hero, about, offices, practices, lawyers } = await $content(
+    const { hero, about, offices, practices, lawyers, awards } = await $content(
       'landing'
     ).fetch()
 
@@ -252,7 +305,7 @@ export default Vue.extend({
       .where({ slug: { $in: practices.practices } })
       .fetch()
 
-    return { hero, about, offices, practices, practiceAreas, lawyers }
+    return { hero, about, offices, practices, practiceAreas, lawyers, awards }
   },
   head() {
     return {
@@ -271,6 +324,10 @@ section {
 
 #about {
   @apply pb-5 md:pb-20;
+}
+
+#lawyers {
+  @apply pb-0;
 }
 
 header {
