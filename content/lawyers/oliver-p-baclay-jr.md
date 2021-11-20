@@ -1,6 +1,6 @@
 ---
 name: Oliver P. Baclay, Jr.
-isAssociate: true
+isAssociate: false
 email: oliver.baclay@gulapalaw.com
 mobile: "#"
 description: Oliver practices intellectual property law both in New York and in
