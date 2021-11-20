@@ -1,6 +1,6 @@
 ---
 name: Charmaine Rose K. Haw-Lim
-isAssociate: true
+isAssociate: false
 email: charms.haw@gulapalaw.com
 mobile: "#"
 description: "Charms is the Managing Partner of the firm.\r
