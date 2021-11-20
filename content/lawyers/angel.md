@@ -1,6 +1,6 @@
 ---
 name: Jose Maria Angel P. Machuca
-isAssociate: true
+isAssociate: false
 email: angel.machuca@gulapalaw.com
 mobile: +phone loc. 201
 description: "Angel is a partner of the firm.\ 
