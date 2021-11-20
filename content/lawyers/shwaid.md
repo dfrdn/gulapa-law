@@ -1,18 +1,36 @@
 ---
-name: Shwaid
+name: Al-Shwaid L. Ismael
 isAssociate: true
-email: shwaid@gulapalaw.com
+email: alshwaid.ismael@gulapalaw.com
 mobile: +phone loc. 201
-description: Description
+description: "Shwaid is a partner of the firm. He is presently the Managing
+  Partner of the firm’s Cebu office, Gulapa & Ismael, and a partner of the
+  firm’s New York office, Gulapa & Baclay.  \r
+
+  \r
+
+  Shwaid is the current Dean of the University of Cebu School of Law\r\n"
 image: /img/3-shwaid.jpg
 admissions:
-  - "Admission #1"
+  - "New York Bar, 2018 "
+  - Philippine Bar, 2007 (Top 8)
 education:
-  - "Education #1"
+  - New York University School of Law, 2017 (LLM Vanderbilt Medal; University
+    Leadership Excellence Award)
+  - University of Cebu School of Law, 2006 (JD Magna Cum Laude; Class
+    Salutatorian)
 matters:
-  - "Matter #1"
+  - Cordova 20 MLD SWRO Desalination Plant
+  - National Government Administrative Center Project
+  - Port acquisition, construction, and development projects in the Philippines,
+    Poland, Nigeria, Iraq, Pakistan, India, Maldives, Congo, and Madagascar
+  - Therma South Davao Coal-Fired Power Plant
 offices:
   - manila
 practices:
   - general-corporate
+  - infrastructure
+  - government-contracts
+  - innovation-competition
+  - human-resources-immigration
 ---
