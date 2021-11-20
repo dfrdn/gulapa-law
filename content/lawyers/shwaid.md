@@ -27,6 +27,8 @@ matters:
   - Therma South Davao Coal-Fired Power Plant
 offices:
   - manila
+  - new-york
+  - cebu
 practices:
   - general-corporate
   - infrastructure
