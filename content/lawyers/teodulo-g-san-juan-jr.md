@@ -1,6 +1,6 @@
 ---
 name: Teodulo G. San Juan, Jr.
-isAssociate: true
+isAssociate: false
 email: butch.sanjuan@gulapalaw.com
 mobile: +phone loc. 201
 description: "Butch is a partner of the firm.\r
