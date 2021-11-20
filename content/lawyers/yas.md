@@ -1,6 +1,6 @@
 ---
 name: Marie Yasmin M. Sanchez
-isAssociate: true
+isAssociate: false
 email: yas@gulapalaw.com
 mobile: +phone loc. 201
 description: Description
