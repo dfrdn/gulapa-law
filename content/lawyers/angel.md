@@ -17,9 +17,10 @@ admissions:
 education:
   - Ateneo de Manila University School of Law, Juris Doctor, 2012 (Second Honors)
 matters:
-  - National Government Administrative Center Project Fort Bonifacio – Makati
-    Skytrain Project SM Prime – Pasay Reclamation Development Project North
-    South Commuter Railway Project
+  - National Government Administrative Center Project
+  - Fort Bonifacio – Makati Skytrain Project
+  - SM Prime – Pasay Reclamation Development Project
+  - North South Commuter Railway Project
 offices:
   - manila
 practices:
