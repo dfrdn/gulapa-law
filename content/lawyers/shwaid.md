@@ -1,6 +1,6 @@
 ---
 name: Al-Shwaid L. Ismael
-isAssociate: true
+isAssociate: false
 email: alshwaid.ismael@gulapalaw.com
 mobile: +phone loc. 201
 description: "Shwaid is a partner of the firm. He is presently the Managing
