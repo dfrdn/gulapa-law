@@ -1,5 +1,8 @@
 ---
-awardbody: Asia Business Law Journal
+awardbody: In-House Community Awards
 award:
-  - One of Asia’s Dealmakers of the Year (2017)
+  - Philippine Firm of the Year in Compliance & Regulatory (2021)
+  - Honorable Mention, International Arbitration (2021)
+  - Honorable Mention, Banking and Finance (2021)
+  - Honorable Mention, Competition and Corporate/M&A (2021)
 ---
