@@ -1,5 +1,5 @@
 ---
-title: Dispute Resolution
+title: Litigation & Dispute Resolution
 image: /img/dispute-resolution.svg
 description: The firm’s lawyers have extensive and significant experience in
   domestic arbitration, particularly those involving commercial and construction
