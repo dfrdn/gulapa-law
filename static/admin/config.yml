@@ -111,6 +111,14 @@ collections:
         display_fields: ['name']
         search_fields: ['name']
         multiple: true
+      - label: 'Offices'
+        name: 'offices'
+        widget: 'relation'
+        collection: offices
+        value_field: '{{slug}}'
+        display_fields: ['location']
+        search_fields: ['location']
+        multiple: true
   - name: 'pages'
     label: 'Pages'
     files:
