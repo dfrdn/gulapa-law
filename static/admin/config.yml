@@ -240,7 +240,7 @@ collections:
             widget: 'object'
             fields:
               - { label: 'Heading', name: 'heading', widget: 'string' }
-              - { label: 'Description', name: 'description', widget: 'text' }
+              - { label: 'Description', name: 'body', widget: 'markdown' }
       - name: 'lawyers-page'
         label: 'Lawyer Page'
         file: 'content/lawyers-page.yml'
