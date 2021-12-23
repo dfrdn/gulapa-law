@@ -5,4 +5,9 @@ description: The firm regularly advises various local and international PIC/PIPs
   on compliance requirements under the Data Privacy Act.
 contact:
   - aris-l-gulapa
+offices:
+  - cebu
+  - new-york
+  - manila
+  - san-francisco
 ---
