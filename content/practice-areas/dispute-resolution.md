@@ -10,4 +10,9 @@ notables:
   - Pivot-Hawks Manila, Inc.
 contact:
   - aris-l-gulapa
+offices:
+  - manila
+  - new-york
+  - san-francisco
+  - cebu
 ---
