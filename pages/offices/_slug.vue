@@ -1,87 +1,102 @@
 <template>
-  <div>
-    <section class="container xl:mb-20 mb-10 flex flex-row">
-      <div>
-        <pre>{{ office }}</pre>
-        <pre>{{ lawyers }}</pre>
-      </div>
-      <!-- <div class="w-screen lg:w-8/12">
-        <div class="relative">
-          <div
-            class="
-              header
-              text-white
-              xl:px-0
-              px-10
-              xl:pt-32
-              lg:pt-24
-              md:pt-16
-              pt-12
-              pb-14
-            "
-          >
-            <div class="flex flex-col space-y-4 md:space-y-0 md:block">
-              <img
-                class="
-                  w-auto
-                  md:object-cover
-                  inline-block
-                  h-12
-                  align-self-center
-                  md:mb-6 md:-ml-7 md:mr-3
-                  filter
-                  brightness-0
-                  invert
-                "
-                :src="info.image"
-                :alt="info.title"
-              />
-              <h1
-                class="
-                  uppercase
-                  text-3xl
-                  font-semibold
-                  tracking-wide
-                  md:relative
-                  block
-                  md:inline-block
-                  text-center
-                  md:text-left
-                "
-              >
-                {{ info.title }}
-              </h1>
-            </div>
-            <div class="mt-12 xl:ml-20 w-auto md:w-9/12">
-              <p class="xl:text-base text-lg mb-8">
-                {{ info.description }}
-              </p>
-              <h2 class="text-secondary text-lg font-bold uppercase">
-                Contact Persons
-              </h2>
-              <nuxt-link
-                v-for="contact in contacts"
-                :key="contact.slug"
-                :to="`/lawyers/${contact.slug}`"
-                class="text-white"
-              >
-                {{ contact.name }}
-              </nuxt-link>
+  <body class="mb-2">
+    <div>
+      <section id="about" class="bg-primary text-white">
+        <div class="container mt-52 md:mt-20">
+          <div class="">
+            <g-title
+              :heading="officeLocation"
+              :subheading="office.title"
+              class="md:w-5/12"
+            />
+            <div class="flex flex-col md:flex-row md:space-x-8">
+              <article class="md:w-7/12 order-2 md:order-1">
+                <div class="mx-8 md:mx-0 md:ml-8">
+                  <nuxt-content
+                    :document="office"
+                    class="prose mx-auto text-white my-8"
+                  />
+                </div>
+              </article>
+              <div class="md:w-5/12 flex flex-col md:order-2 mt-8 md:-mt-12">
+                <img :src="office.image" alt="" class="self-end" />
+              </div>
             </div>
           </div>
         </div>
-        <div class="px-10 xl:px-0 mt-8 xl:ml-20 space-y-3">
-          <h2 class="uppercase text-lg text-primary font-bold">
-            Notable Matters
-          </h2>
-          <p v-for="notable in info.notables" :key="notable" class="">
-            {{ '> ' + notable }}
-          </p>
+      </section>
+
+      <section class="container space-y-8">
+        <g-title
+          heading="Our Lawyers"
+          :subheading="lawyerTeam"
+          class="md:w-5/12"
+        />
+        <div
+          class="
+            xl:gap-4
+            gap-10
+            grid grid-auto-flow
+            lg:grid-cols-4
+            md:grid-cols-2
+            sm:grid-cols-1
+            xl:px-0
+            px-5
+          "
+        >
+          <g-lawyer
+            v-for="lawyer in lawyers"
+            :key="lawyer.slug"
+            :details="lawyer"
+            variant="associate"
+          />
         </div>
-      </div> -->
-      <!-- <g-list :contents="practiceAreas" /> -->
-    </section>
-  </div>
+      </section>
+
+      <section id="practice-areas" class="bg-primary text-white">
+        <div class="container">
+          <g-title heading="What We Do" subheading="Our Practice Areas" />
+          <div class="flex flex-col md:flex-row">
+            <div class="md:w-1/3">
+              <div class="mx-4 md:mx-0 md:ml-8 text-center md:text-left">
+                <p class="my-8 md:pr-8">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+            </div>
+            <div class="md:w-2/3">
+              <div
+                id="practices"
+                class="
+                  xl:gap-18
+                  gap-10
+                  md:grid md:grid-auto-flow
+                  flex
+                  overflow-x-auto
+                  md:overflow-visible
+                  lg:grid-cols-3
+                  md:grid-cols-2
+                  sm:grid-cols-1
+                  xl:px-0
+                  px-5
+                  md:ml-0
+                "
+              >
+                <g-practice
+                  v-for="practice in practiceAreas"
+                  :key="practice.slug"
+                  :details="practice"
+                  variant="homepage"
+                  class="first:ml-20 md:first:ml-0"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
 </template>
 
 <script>
@@ -95,9 +110,15 @@ export default {
 
     const practiceAreas = await $content('practice-areas')
       .where({ offices: { $contains: office.slug } })
+      .only(['slug', 'image', 'title', 'description'])
+      .sortBy('title')
       .fetch()
 
-    return { office, lawyers, practiceAreas }
+    const lawyerTeam = `${office.location} Legal Team`
+
+    const officeLocation = `${office.location} Office`
+
+    return { office, lawyers, practiceAreas, lawyerTeam, officeLocation }
   },
   head() {
     return {
@@ -115,6 +136,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+body {
+  margin-bottom: 0.5rem !important;
+}
+section {
+  @apply py-10 md:py-20;
+}
+
 h1:after {
   content: '';
   @apply block absolute border-2 border-secondary left-0 md:left-auto right-0 w-screen mt-3;
