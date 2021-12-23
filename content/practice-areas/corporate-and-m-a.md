@@ -4,4 +4,9 @@ image: /img/asean-trade.svg
 description: Desc
 contact:
   - aris-l-gulapa
+offices:
+  - manila
+  - cebu
+  - new-york
+  - san-francisco
 ---
