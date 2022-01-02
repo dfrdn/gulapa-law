@@ -1,8 +1,8 @@
 ---
 name: Aileen M. Sanguir
-isAssociate: true
+position: Senior Associate
 email: mail@gulapalaw.com
-mobile: "#"
+mobile: '#'
 description: Desc
 image: /img/corporate.svg
 offices:

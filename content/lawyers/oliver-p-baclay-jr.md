@@ -1,8 +1,8 @@
 ---
 name: Oliver P. Baclay, Jr.
-isAssociate: false
+position: Partner
 email: oliver.baclay@gulapalaw.com
-mobile: "#"
+mobile: '#'
 description: Oliver practices intellectual property law both in New York and in
   the Philippines, and leads the intellectual property practice of the firm.
 image: /img/corporate.svg
@@ -18,8 +18,8 @@ education:
     2016 (CIIL program)
   - Japan Patent Office, Patent Experts Course, 2012
   - World Intellectual Property Office, Advance Course on Patents, 2014
-  - "Ateneo de Manila University School of Law, Juris Doctor, 2008 (Second
-    Honors; Jessup Moot) "
+  - 'Ateneo de Manila University School of Law, Juris Doctor, 2008 (Second
+    Honors; Jessup Moot) '
   - University of the Philippines Los Baños, BS Chemistry, 2003 (Chemistry
     Olympiad National Champion)
 matters:

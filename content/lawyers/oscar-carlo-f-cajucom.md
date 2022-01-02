@@ -1,8 +1,8 @@
 ---
 name: Oscar Carlo F. Cajucom
-isAssociate: false
+position: Partner
 email: caloy.cajucom@gulapalaw.com
-mobile: "#"
+mobile: '#'
 description: Caloy is a partner of the firm and head of its litigation department.
 image: /img/corporate.svg
 admissions:

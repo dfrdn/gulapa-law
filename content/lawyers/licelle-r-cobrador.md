@@ -1,8 +1,8 @@
 ---
 name: Licelle R. Cobrador
-isAssociate: false
+position: Of Counsel
 email: licelle.cobrador@gulaplaw.com
-mobile: "#"
+mobile: '#'
 description: Desc
 image: /img/corporate.svg
 offices:

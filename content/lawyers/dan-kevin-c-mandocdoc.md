@@ -1,8 +1,8 @@
 ---
 name: Dan Kevin C. Mandocdoc
-isAssociate: true
+position: Partner
 email: dake.mandocdoc@gulapalaw.com
-mobile: "#"
+mobile: '#'
 description: Dake is a senior associate of the firm.
 image: /img/corporate.svg
 admissions:

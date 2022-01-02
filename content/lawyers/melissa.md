@@ -1,6 +1,6 @@
 ---
 name: Melissa Ester E. Chavez-Dee
-isAssociate: false
+position: Partner
 email: melissa.chavez@gulapalaw.com
 mobile: +6329602845 loc. 201
 description: Mel is a partner of the firm.

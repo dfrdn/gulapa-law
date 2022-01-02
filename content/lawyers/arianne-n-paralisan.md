@@ -1,9 +1,9 @@
 ---
 name: Arianne N. Paralisan
-isAssociate: true
+position: Junior Associate
 email: arianne.paralisan@gulapalaw.com
-mobile: "#"
-description: "Yan is a junior associate of the firm. "
+mobile: '#'
+description: 'Yan is a junior associate of the firm. '
 image: /img/corporate.svg
 admissions:
   - Philippine Bar, 2020

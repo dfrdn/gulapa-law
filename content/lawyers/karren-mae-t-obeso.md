@@ -1,8 +1,8 @@
 ---
 name: Karren Mae T. Obeso
-isAssociate: true
+position: Junior Associate
 email: karren.obeso@gulapalaw.com
-mobile: "#"
+mobile: '#'
 description: Karren is a junior associate of the firm.
 image: /img/corporate.svg
 admissions:

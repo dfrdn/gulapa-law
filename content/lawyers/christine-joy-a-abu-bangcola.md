@@ -1,8 +1,8 @@
 ---
 name: Christine Joy A. Abu-Bangcola
-isAssociate: true
+position: Junior Associate
 email: mail@gulapalaw.com
-mobile: "#"
+mobile: '#'
 description: Desc
 image: /img/corporate.svg
 offices:

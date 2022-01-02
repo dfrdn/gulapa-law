@@ -49,7 +49,27 @@ collections:
     slug: '{{name}}'
     fields:
       - { label: 'Name', name: 'name', widget: 'string' }
-      - { label: 'Is an associate', name: 'isAssociate', widget: 'boolean' }
+      - {
+          label: 'Position',
+          name: 'position',
+          widget: 'select',
+          options:
+            [
+              'Partner',
+              'Senior Associate',
+              'Of Counsel',
+              'Special Counsel',
+              'Junior Of Counsel',
+              'Junior Associate',
+              'Underbar Associate',
+            ],
+          default: 'Junior Associate',
+        }
+      - {
+          label: 'Start Date in Current Position',
+          name: 'startDate',
+          widget: 'date',
+        }
       - { label: 'Email', name: 'email', widget: 'string' }
       - { label: 'Mobile', name: 'mobile', widget: 'string' }
       - { label: 'Description', name: 'description', widget: 'markdown' }
@@ -219,7 +239,8 @@ collections:
                   - { label: 'Awarding Body', name: 'body', widget: 'string' }
       - name: 'about'
         label: 'About Page'
-        file: 'content/about.yml'
+        file: 'content/about.md'
+        format: 'frontmatter'
         fields:
           - label: 'About Page Header'
             name: 'aboutHeader'

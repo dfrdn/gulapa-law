@@ -1,8 +1,8 @@
 ---
 name: Marie Yasmin M. Sanchez
-isAssociate: false
+position: Of Counsel
 email: mail@gulapalaw.com
-mobile: "#"
+mobile: '#'
 description: Desc
 image: /img/corporate.svg
 offices:

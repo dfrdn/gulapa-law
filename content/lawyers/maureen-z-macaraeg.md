@@ -1,8 +1,8 @@
 ---
 name: Maureen Z. Macaraeg
-isAssociate: false
+position: Of Counsel
 email: mail@gulapalaw.com
-mobile: "#"
+mobile: '#'
 description: Desc
 image: /img/corporate.svg
 offices:

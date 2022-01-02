@@ -1,8 +1,8 @@
 ---
 name: Maria Isabelle J. Poblete
-isAssociate: true
+position: Junior Associate
 email: isabelle.poblete@gulapalaw.com
-mobile: "#"
+mobile: '#'
 description: Belle is a junior associate of the firm.
 image: /img/corporate.svg
 admissions:

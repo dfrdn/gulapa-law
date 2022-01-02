@@ -1,8 +1,8 @@
 ---
 name: Hazelmer S. Fernandez
-isAssociate: true
+position: Junior Associate
 email: hazelmer.fernandez@gulapalaw.com
-mobile: "#"
+mobile: '#'
 description: "Hazel is a junior associate of the firm.\r
 
 

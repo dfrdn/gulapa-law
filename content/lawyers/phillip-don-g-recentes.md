@@ -1,8 +1,8 @@
 ---
 name: Phillip Don G. Recentes
-isAssociate: true
+position: Senior Associate
 email: phil.recentes@gulapalaw.com
-mobile: "#"
+mobile: '#'
 description: Phil is a senior associate of the firm.
 image: /img/corporate.svg
 admissions:
@@ -12,7 +12,7 @@ education:
 matters:
   - Corporate Rehabilitation, Philippine Phosphate Fertilizer Corporation
   - Public Infrastructure, Clark International Airport Project
-  - "Public Infrastructure, ADB North-South Commuter Rail Project "
+  - 'Public Infrastructure, ADB North-South Commuter Rail Project '
   - Government Contracts, The New Philippine ePassport and Internal Revenue
     Stamps Integrated System (cigarettes)
 offices:

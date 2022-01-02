@@ -1,8 +1,8 @@
 ---
 name: Marcley Augustus D. Natu-el
-isAssociate: true
+position: Junior Associate
 email: marcley.natuel@gulapalaw.com
-mobile: "#"
+mobile: '#'
 description: Marcley is a junior associate of the firm.
 image: /img/corporate.svg
 admissions:
