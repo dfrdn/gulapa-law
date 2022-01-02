@@ -1,5 +1,6 @@
 <template>
   <nav
+    :class="[isExpanded ? 'max-w-full' : 'max-w-1320 md:rounded-lg']"
     class="
       z-50
       shadow-around
@@ -13,8 +14,6 @@
       transition-all
       mx-auto
       w-full
-      max-w-1320
-      md:rounded-lg
     "
   >
     <div class="container px-5 py-2 md:py-0 md:px-8 lg:px-12 xl:px-0">
@@ -198,7 +197,7 @@ export default Vue.extend({
       isOpen: false,
       links: [
         {
-          label: 'G-Law',
+          label: 'Gulapa Law',
           link: '/',
         },
         {
@@ -236,8 +235,8 @@ export default Vue.extend({
           link: '/blog',
         },
       ],
-      // isExpanded: false,
-      // scrollPosition: 0,
+      isExpanded: false,
+      scrollPosition: 0,
       // burgerStyle: {
       //   '--padding': '10px',
       //   '--layer-bg-color': 'yellow',
@@ -246,27 +245,26 @@ export default Vue.extend({
       // },
     }
   },
-  // beforeMount() {
-  //   window.addEventListener('scroll', this.handleScroll)
-  // },
-  // beforeDestroy() {
-  //   window.removeEventListener('scroll', this.handleScroll)
-  // },
-  // methods: {
-  //   handleScroll() {
-  //     const width =
-  //       window.innerWidth > 0
-  //         ? window.innerWidth
-  //         : document.documentElement.clientWidth
-  //     this.scrollPosition = window.scrollY
-  //     if (this.scrollPosition >= 120) {
-  //       this.isExpanded = true
-  //     } else {
-  //       this.isExpanded = false
-  //     }
-  //   },
-  // },
+  beforeMount() {
+    window.addEventListener('scroll', this.handleScroll)
+  },
+  beforeDestroy() {
+    window.removeEventListener('scroll', this.handleScroll)
+  },
   methods: {
+    handleScroll() {
+      const width =
+        window.innerWidth > 0
+          ? window.innerWidth
+          : document.documentElement.clientWidth
+      this.scrollPosition = window.scrollY
+      if (this.scrollPosition >= 120) {
+        this.isExpanded = true
+      } else {
+        this.isExpanded = false
+      }
+    },
+
     drawer() {
       this.isOpen = !this.isOpen
     },
