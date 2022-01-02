@@ -1,12 +1,8 @@
 <template>
   <div>
-    <g-header
-      :heading="aboutHeader.heading"
-      :description="aboutHeader.description"
-    />
+    <g-header :heading="about.heading" :description="about.description" />
     <article class="container">
-      <pre>{{ about }}</pre>
-      <nuxt-content :document="about.body" class="prose prose-xl mx-auto" />
+      <nuxt-content :document="about" class="prose prose-xl mx-auto" />
     </article>
   </div>
 </template>
@@ -16,18 +12,18 @@ import Vue from 'vue'
 
 export default {
   async asyncData({ $content }) {
-    const { aboutHeader, about } = await $content('about').fetch()
+    const about = await $content('about').fetch()
 
-    return { aboutHeader, about }
+    return { about }
   },
   head() {
     return {
-      title: `Gulapa Law | ${this.aboutHeader.heading}`,
+      title: `Gulapa Law | ${this.about.heading}`,
       meta: [
         {
-          hid: this.aboutHeader.heading,
+          hid: this.about.heading,
           name: 'description',
-          content: this.aboutHeader.description,
+          content: this.about.description,
         },
       ],
     }
