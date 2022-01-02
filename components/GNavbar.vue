@@ -22,8 +22,16 @@
           <span v-if="!isExpanded">{{ links[0].label }}</span>
           <span v-else><g-logo class="h-12" :alt="true" /></span>
         </n-link>
+        <button class="font-header font-semibold relative">
+          {{ links[1].label }}
+          <div class="absolute shadow rounded p-2 bg-white">
+            <h2 v-for="office in links[1].offices" :key="office.label">
+              {{ office.label }}
+            </h2>
+          </div>
+        </button>
         <n-link
-          v-for="link in links.slice(1)"
+          v-for="link in links.slice(2)"
           :key="link.label"
           :to="link.link"
         >
@@ -63,6 +71,16 @@ export default Vue.extend({
         {
           label: 'Our offices',
           link: '/offices',
+          offices: [
+            {
+              label: 'Manila',
+              link: '/manila',
+            },
+            {
+              label: 'New York',
+              link: '/new-york',
+            },
+          ],
         },
         {
           label: 'Who we are',
