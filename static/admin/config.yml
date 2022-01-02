@@ -242,20 +242,12 @@ collections:
         file: 'content/about.md'
         format: 'frontmatter'
         fields:
-          - label: 'About Page Header'
-            name: 'aboutHeader'
-            widget: 'object'
-            fields:
-              - {
-                  label: 'About Page Heading',
-                  name: 'heading',
-                  widget: 'string',
-                }
-              - {
-                  label: 'Page Description',
-                  name: 'description',
-                  widget: 'text',
-                }
+          - label: 'About Page Heading'
+            name: 'heading'
+            widget: 'string'
+          - label: 'About Page Description'
+            name: 'description'
+            widget: 'string'
           - label: 'About Page Body'
             name: 'body'
             widget: 'markdown'
