@@ -7,10 +7,21 @@
     "
   >
     <button
-      class="fixed lg:hidden h-10 top-20 right-0 bg-white z-50"
+      class="
+        fixed
+        lg:hidden
+        top-20
+        right-0
+        bg-white
+        rounded-tl-full rounded-bl-full
+        rotate-180
+        z-50
+      "
       @click="handleTable"
     >
-      pullout
+      <div class="rounded-full w-10 h-10 shadow-around bg-white">
+        <chevron-icon class="w-10" transform="rotate(180)" />
+      </div>
     </button>
     <div
       id="GList"
@@ -26,6 +37,8 @@
         bg-white
         shadow
         lg:sticky lg:top-32
+        transition
+        ease-in-out
       "
     >
       <ul class="divide-y divide-gray-300 rounded border">
@@ -48,12 +61,6 @@
 
 <script>
 export default {
-  props: {
-    contents: {
-      type: Array,
-      required: true,
-    },
-  },
   data() {
     return {
       isHidden: true,

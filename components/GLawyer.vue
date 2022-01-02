@@ -46,7 +46,7 @@
         <div
           class="py-2"
           :class="[
-            variant === 'partner' ? 'text-2xl pl-10 pr-5' : 'text-xl pl-5 pr-2',
+            variant === 'partner' ? 'text-xl pl-10 pr-5' : 'text-md pl-5 pr-2',
           ]"
         >
           <h3 class="text-secondary uppercase font-semibold">

@@ -57,12 +57,12 @@ export default Vue.extend({
 
     const associates = await $content('lawyers')
       .only(['slug', 'name', 'offices', 'email', 'image'])
-      .where({ isAssociate: true })
+      .where({ position: { $ne: 'Partner' } })
       .fetch()
 
     const partners = await $content('lawyers')
       .only(['slug', 'name', 'offices', 'email', 'image'])
-      .where({ isAssociate: false })
+      .where({ position: 'Partner' })
       .fetch()
 
     return { associates, partners, lawyersHeader }

@@ -9,4 +9,8 @@ notables:
   - CCL Industries
 contact:
   - aris-l-gulapa
+offices:
+  - cebu
+  - new-york
+  - san-francisco
 ---

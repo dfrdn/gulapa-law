@@ -1,5 +1,5 @@
 ---
-title: Dispute Resolution
+title: Litigation and Dispute Resolution
 image: /img/dispute-resolution.svg
 description: The firm’s lawyers have extensive and significant experience in
   domestic arbitration, particularly those involving commercial and construction
@@ -10,4 +10,9 @@ notables:
   - Pivot-Hawks Manila, Inc.
 contact:
   - aris-l-gulapa
+offices:
+  - manila
+  - new-york
+  - san-francisco
+  - cebu
 ---

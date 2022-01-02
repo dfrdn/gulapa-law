@@ -7,18 +7,30 @@
         bg-white
         shadow-around
         rounded
-        flex
         card
-        block
+        flex flex-col
         transform
         transition-scale
         duration-100
         ease-in-out
         hover:scale-102
         mb-8
+        px-5
+        md:px-0
       "
     >
-      <div class="w-2/3 flex flex-col justify-between p-12 space-y-4">
+      <div
+        class="
+          w-full
+          order-2
+          md:order-1 md:w-2/3
+          flex flex-col
+          justify-between
+          md:p-12
+          p-10
+          space-y-4
+        "
+      >
         <div>
           <h2 class="text-2xl font-semibold text-primary">
             {{ details.title }}
@@ -48,7 +60,20 @@
           </div>
         </div>
       </div>
-      <div class="absolute right-0 top-0 bottom-0 w-1/3">
+      <div
+        class="
+          w-full
+          order-1
+          md:order-2
+          md:absolute
+          md:right-0
+          md:top-0
+          md:bottom-0
+          md:w-1/3
+          md:h-auto
+          h-40
+        "
+      >
         <img
           :src="details.image"
           :alt="details.image"

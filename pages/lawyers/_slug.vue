@@ -130,7 +130,7 @@
                 :alt="practice.title"
                 class="inline-block h-6 mr-2"
               />
-              <p class="leading-none">{{ practice.title }}<span> |</span></p>
+              <p class="leading-none">{{ practice.title }}</p>
             </nuxt-link>
           </div>
           <div class="space-y-4">

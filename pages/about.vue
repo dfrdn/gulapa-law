@@ -4,6 +4,10 @@
       :heading="aboutHeader.heading"
       :description="aboutHeader.description"
     />
+    <article class="container">
+      <pre>{{ about }}</pre>
+      <nuxt-content :document="about.body" class="prose prose-xl mx-auto" />
+    </article>
   </div>
 </template>
 
