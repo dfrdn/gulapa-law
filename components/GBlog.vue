@@ -1,5 +1,5 @@
 <template>
-  <nuxt-link :to="`/blog/${details.slug}`" class="hover:scale-102">
+  <nuxt-link :to="`/blog/${details.slug}`" class="hover:scale-102 px-5">
     <div
       class="
         relative
@@ -15,7 +15,7 @@
         ease-in-out
         hover:scale-102
         mb-8
-        px-5
+        mx-5
         md:px-0
       "
     >

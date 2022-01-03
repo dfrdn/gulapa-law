@@ -38,7 +38,10 @@
     </div>
     <article class="container">
       <!-- <pre>{{ blog }}</pre> -->
-      <nuxt-content :document="blog" class="prose prose-xl mx-auto" />
+      <nuxt-content
+        :document="blog"
+        class="prose-neutral prose-lg lg:prose-xl mx-auto"
+      />
     </article>
   </section>
 </template>
@@ -78,6 +81,6 @@ export default {
 }
 
 .blogImage {
-  height: 70vh;
+  height: 30vh;
 }
 </style>
