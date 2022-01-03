@@ -246,7 +246,7 @@
         </div>
       </div>
     </section>
-    <section id="lawyers" class="container">
+    <section id="lawyers" class="container mb-20 md:mb-0">
       <g-title
         :heading="lawyers.heading"
         :subheading="lawyers.subheading"
@@ -262,7 +262,7 @@
                 class="space-y-2"
               >
                 <n-link
-                  to="/lawyers/aris-l-gulapa"
+                  :to="featuredLawyers[lawyers.lawyers.indexOf(lawyer)].path"
                   class="
                     flex
                     items-center
@@ -270,7 +270,15 @@
                     uppercase
                     font-semibold
                   "
-                  >{{ lawyer.name }}<chevron-icon class="w-5 transform"
+                >
+                  <img
+                    :src="
+                      featuredLawyers[lawyers.lawyers.indexOf(lawyer)].image
+                    "
+                    :alt="featuredLawyers[lawyers.lawyers.indexOf(lawyer)].name"
+                    class="h-8 w-8 rounded-full object-fill mr-2 md:hidden" />{{
+                    lawyer.name
+                  }}<chevron-icon class="w-5 transform"
                 /></n-link>
                 <p class="text-sm">
                   {{ lawyer.description }}
@@ -301,26 +309,28 @@
               </div>
             </div>
 
-            <n-link
-              class="
-                bg-primary
-                rounded
-                px-10
-                py-3
-                text-sm
-                inline-flex
-                items-center
-                capitalize
-                text-white
-              "
-              to="/lawyers"
-            >
-              See all our lawyers
-              <chevron-icon class="w-4" />
-            </n-link>
+            <div class="flex justify-center">
+              <n-link
+                class="
+                  bg-primary
+                  rounded
+                  px-10
+                  py-3
+                  text-sm
+                  inline-flex
+                  items-center
+                  capitalize
+                  text-white
+                "
+                to="/lawyers"
+              >
+                See all our lawyers
+                <chevron-icon class="w-4" />
+              </n-link>
+            </div>
           </div>
         </div>
-        <div>
+        <div class="md:block hidden">
           <img :src="lawyers.image" :alt="lawyers.image" />
         </div>
       </div>
@@ -396,11 +406,25 @@ export default Vue.extend({
       'landing'
     ).fetch()
 
+    const featuredLawyers = await $content('lawyers')
+      .where({ name: { $in: ['Charmaine Rose K. Haw-Lim', 'Aris L. Gulapa'] } })
+      .only(['image', 'slug', 'name', 'path'])
+      .fetch()
+
     const practiceAreas = await $content('practice-areas')
       .where({ slug: { $in: practices.practices } })
       .fetch()
 
-    return { hero, about, offices, practices, practiceAreas, lawyers, awards }
+    return {
+      hero,
+      about,
+      offices,
+      practices,
+      practiceAreas,
+      lawyers,
+      awards,
+      featuredLawyers,
+    }
   },
   head() {
     return {
