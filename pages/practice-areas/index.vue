@@ -8,13 +8,13 @@
       <div
         class="
           xl:gap-20
-          gap-10
+          gap-6
           grid grid-auto-flow
           lg:grid-cols-4
-          md:grid-cols-2
-          sm:grid-cols-1
+          grid-cols-2
           xl:px-0
-          px-5
+          px-4
+          justify-center
         "
       >
         <g-practice
