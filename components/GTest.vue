@@ -15,7 +15,7 @@
         bg-white
         rounded-tl-full rounded-bl-full
         rotate-180
-        z-50
+        z-20
       "
       @click="drawer"
     >
@@ -29,7 +29,7 @@
         transform
         top-0
         right-0
-        w-80
+        w-72
         bg-white
         fixed
         h-full
