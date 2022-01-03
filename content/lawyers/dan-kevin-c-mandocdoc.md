@@ -4,7 +4,7 @@ position: Partner
 email: dake.mandocdoc@gulapalaw.com
 mobile: '#'
 description: Dake is a senior associate of the firm.
-image: /img/female-profile.svg
+image: /img/male-profile.svg
 admissions:
   - Philippine Bar, 2014
 education:
