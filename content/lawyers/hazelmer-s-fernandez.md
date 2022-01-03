@@ -8,7 +8,7 @@ description: "Hazel is a junior associate of the firm.\r
 
 
   \r\n"
-image: /img/corporate.svg
+image: /img/female-profile.svg
 admissions:
   - Philippine Bar, 2019
 education:

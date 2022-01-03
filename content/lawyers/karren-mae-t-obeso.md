@@ -4,7 +4,7 @@ position: Junior Associate
 email: karren.obeso@gulapalaw.com
 mobile: '#'
 description: Karren is a junior associate of the firm.
-image: /img/corporate.svg
+image: /img/female-profile.svg
 admissions:
   - Philippine Bar, 2017
 education:

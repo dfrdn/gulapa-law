@@ -17,12 +17,19 @@
       :class="[variant === 'partner' ? 'flex-col' : '']"
     >
       <div class="relative">
-        <img
-          :src="details.image"
-          class="w-full object-cover block"
-          :class="[variant === 'partner' ? 'partner' : 'associate']"
-          :alt="details.name"
-        />
+        <div
+          :class="[
+            variant === 'partner' ? '' : 'w-20 h-28 md:h-auto md:w-auto',
+          ]"
+        >
+          <img
+            :src="details.image"
+            class="w-full object-cover block"
+            :class="[variant === 'partner' ? 'partner' : 'associate']"
+            :alt="details.name"
+          />
+        </div>
+
         <div
           class="absolute bg-white top-0 md:bottom-0 md:top-auto md:left-0"
           :class="[
@@ -46,7 +53,7 @@
         <div
           class="py-2"
           :class="[
-            variant === 'partner' ? 'text-xl pl-10 pr-5' : 'text-md pl-5 pr-2',
+            variant === 'partner' ? 'text-lg pl-10 pr-5' : 'text-sm pl-3 pr-2',
           ]"
         >
           <h3 class="text-secondary uppercase font-semibold">
@@ -57,11 +64,11 @@
         <div
           class="text-white py-2"
           :class="[
-            variant === 'partner' ? 'text-sm pl-10 pr-5' : 'text-xs pl-5 pr-2',
+            variant === 'partner' ? 'text-sm pl-10 pr-5' : 'text-xs pl-3 pr-2',
           ]"
         >
           <p>
-            <email-icon class="white inline-block mr-2 h-5" />{{
+            <email-icon class="white inline-block mr-1 h-2 w-2" />{{
               details.email
             }}
           </p>

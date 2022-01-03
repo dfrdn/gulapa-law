@@ -4,7 +4,7 @@ position: Junior Associate
 email: isabelle.poblete@gulapalaw.com
 mobile: '#'
 description: Belle is a junior associate of the firm.
-image: /img/corporate.svg
+image: /img/female-profile.svg
 admissions:
   - Philippine Bar, 2020
 education:

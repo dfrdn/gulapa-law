@@ -5,7 +5,7 @@ email: oliver.baclay@gulapalaw.com
 mobile: '#'
 description: Oliver practices intellectual property law both in New York and in
   the Philippines, and leads the intellectual property practice of the firm.
-image: /img/corporate.svg
+image: /img/male-profile.svg
 admissions:
   - New York Bar, 2015
   - Philippine Bar, 2009 (Top 3)

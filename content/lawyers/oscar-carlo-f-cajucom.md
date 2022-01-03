@@ -4,7 +4,7 @@ position: Partner
 email: caloy.cajucom@gulapalaw.com
 mobile: '#'
 description: Caloy is a partner of the firm and head of its litigation department.
-image: /img/corporate.svg
+image: /img/male-profile.svg
 admissions:
   - Philippine Bar, 2013
 education:

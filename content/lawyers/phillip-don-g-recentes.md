@@ -4,7 +4,7 @@ position: Senior Associate
 email: phil.recentes@gulapalaw.com
 mobile: '#'
 description: Phil is a senior associate of the firm.
-image: /img/corporate.svg
+image: /img/male-profile.svg
 admissions:
   - Philippine Bar, 2017
 education:

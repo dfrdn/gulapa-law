@@ -4,7 +4,7 @@ position: Junior Associate
 email: theodore.ballesteros@gulapalaw.com
 mobile: '#'
 description: Ted is a junior associate of the firm.
-image: /img/corporate.svg
+image: /img/male-profile.svg
 admissions:
   - Philippine Bar, 2020
 education:

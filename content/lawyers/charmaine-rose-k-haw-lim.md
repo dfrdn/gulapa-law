@@ -10,7 +10,7 @@ description: "Charms is the Managing Partner of the firm.\r
   She served as consultant to the Asian Development Bank under its Office of
   General Counsel – Sovereign and Non-sovereign Operations before she became
   part of Gulapa Law\r\n"
-image: /img/corporate.svg
+image: /img/female-profile.svg
 admissions:
   - Philippine Bar, 2011
 education:

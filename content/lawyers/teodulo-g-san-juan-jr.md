@@ -12,7 +12,7 @@ description: "Butch is a partner of the firm.\r
   he was a senior partner at Castillo Laman Tan Pantaleon & San Jose, a law firm
   located in Makati City. Butch is an instructor at the University of the
   Philippines College of Law.\r\n"
-image: /img/corporate.svg
+image: /img/male-profile.svg
 admissions:
   - Philippine Bar, 1997 (Top 7)
 education:

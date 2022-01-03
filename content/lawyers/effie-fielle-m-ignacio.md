@@ -4,7 +4,7 @@ position: Junior Associate
 email: Fielle.ignacio@gulapalaw.com
 mobile: '#'
 description: Fielle is a junior associate of the firm.
-image: /img/corporate.svg
+image: /img/female-profile.svg
 admissions:
   - Philippine Bar, 2019
 education:

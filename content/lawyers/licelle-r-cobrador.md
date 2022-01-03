@@ -4,7 +4,7 @@ position: Of Counsel
 email: licelle.cobrador@gulaplaw.com
 mobile: '#'
 description: Desc
-image: /img/corporate.svg
+image: /img/female-profile.svg
 offices:
   - manila
 practices:

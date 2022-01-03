@@ -4,7 +4,7 @@ position: Junior Associate
 email: marcley.natuel@gulapalaw.com
 mobile: '#'
 description: Marcley is a junior associate of the firm.
-image: /img/corporate.svg
+image: /img/male-profile.svg
 admissions:
   - Philippine Bar, 2019 (Top 2)
 education:

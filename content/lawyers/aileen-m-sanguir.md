@@ -4,7 +4,7 @@ position: Senior Associate
 email: mail@gulapalaw.com
 mobile: '#'
 description: Desc
-image: /img/corporate.svg
+image: /img/female-profile.svg
 offices:
   - manila
 practices:
