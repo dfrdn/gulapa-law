@@ -24,8 +24,8 @@
       </div>
     </button>
     <div
-      id="GList"
       v-if="!isHidden"
+      id="g-list"
       class="
         absolute
         right-0
@@ -39,6 +39,11 @@
         lg:sticky lg:top-32
         transition
         ease-in-out
+        lg:h-auto lg:overflow-hidden
+        h-screen
+        overflow-scroll
+        z-50
+        lg:z-auto
       "
     >
       <ul class="divide-y divide-gray-300 rounded border">
@@ -61,10 +66,35 @@
 
 <script>
 export default {
+  props: {
+    contents: {
+      type: Array,
+      required: true,
+    },
+  },
   data() {
     return {
       isHidden: true,
     }
+  },
+  watch: {
+    isHidden: {
+      immediate: true,
+      handler(isHidden) {
+        if (process.client) {
+          if (isHidden) {
+            document.body.style.position = ''
+            document.body.style.top = ''
+          } else {
+            const scrollY = window.scrollY
+
+            document.body.style.top = `-${scrollY}px`
+            // document.getElementById('GList').style.top = `-${scrollY + 62}px`
+            document.body.style.position = 'fixed'
+          }
+        }
+      },
+    },
   },
   mounted() {
     const windowWidth =
@@ -76,16 +106,6 @@ export default {
   methods: {
     handleTable() {
       this.isHidden = !this.isHidden
-      const scrollY = window.scrollY
-      if (!this.isHidden) {
-        document.body.style.top = `-${scrollY}px`
-        // document.getElementById('GList').style.top = `-${scrollY + 62}px`
-        document.body.style.position = 'fixed'
-      } else {
-        document.body.style.position = ''
-        document.body.style.top = ''
-        console.log(scrollY)
-      }
     },
   },
 }
