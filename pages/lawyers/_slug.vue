@@ -157,7 +157,7 @@
           </div>
         </div>
       </div>
-      <g-list :contents="lawyers" />
+      <g-test :contents="lawyers" header="Our Lawyers" />
     </section>
   </div>
 </template>

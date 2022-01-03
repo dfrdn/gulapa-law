@@ -75,7 +75,7 @@
           </p>
         </div>
       </div>
-      <g-test :contents="practiceAreas" />
+      <g-test :contents="practiceAreas" header="Our Practice Areas" />
     </section>
   </div>
 </template>

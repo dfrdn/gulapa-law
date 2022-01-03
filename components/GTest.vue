@@ -79,7 +79,7 @@
             bg-primary
           "
         >
-          <h2>Our Practice Areas</h2>
+          <h2>{{ header }}</h2>
         </li>
         <li
           v-for="content in contents"
@@ -127,6 +127,9 @@ export default Vue.extend({
     contents: {
       type: Array,
       required: true,
+    },
+    header: {
+      type: String,
     },
   },
   data() {
