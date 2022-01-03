@@ -82,5 +82,8 @@ export default {
 
 .blogImage {
   height: 30vh;
+  @media only screen and (min-width: 768px) {
+    height: 45vh;
+  }
 }
 </style>
