@@ -275,7 +275,7 @@
               <div
                 v-for="lawyer in lawyers.lawyers"
                 :key="lawyer.name"
-                class="space-y-2"
+                class="space-y-2 px-5 md:px-0"
               >
                 <n-link
                   :to="featuredLawyers[lawyers.lawyers.indexOf(lawyer)].path"
