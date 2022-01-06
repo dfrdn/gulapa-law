@@ -226,7 +226,7 @@ export default Vue.extend({
       link: location.path,
     }))
   },
-  fetchOnServer: false,
+
   data() {
     return {
       offices: {
