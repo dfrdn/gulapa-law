@@ -138,10 +138,19 @@
           items-center
         "
       >
-        <button
-          v-for="location in offices.locations"
+        <n-link
+          v-for="location in officeLocations"
           :key="location.location"
-          class="rounded overflow-hidden relative w-36 h-36 bg-primary"
+          class="
+            rounded
+            overflow-hidden
+            relative
+            w-36
+            h-36
+            bg-primary
+            text-center
+          "
+          :to="location.path"
         >
           <img
             :src="location.image"
@@ -162,7 +171,7 @@
           >
             {{ location.location }}
           </h3>
-        </button>
+        </n-link>
       </div>
     </section>
     <section id="practice-areas" class="bg-primary text-white">
@@ -406,6 +415,10 @@ export default Vue.extend({
       'landing'
     ).fetch()
 
+    const officeLocations = await $content('offices')
+      .only(['location', 'image'])
+      .fetch()
+
     const featuredLawyers = await $content('lawyers')
       .where({ name: { $in: ['Charmaine Rose K. Haw-Lim', 'Aris L. Gulapa'] } })
       .only(['image', 'slug', 'name', 'path'])
@@ -424,6 +437,7 @@ export default Vue.extend({
       lawyers,
       awards,
       featuredLawyers,
+      officeLocations,
     }
   },
   head() {
