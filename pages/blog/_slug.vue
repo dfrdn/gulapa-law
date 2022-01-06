@@ -5,7 +5,7 @@
       <hr class="border-2 border-secondary" />
 
       <div class="flex space-x-4">
-        <nuxt-link :to="author.path" class="">
+        <nuxt-link :to="author.path">
           <img
             :src="author.image"
             :alt="author.name"
@@ -37,7 +37,6 @@
       />
     </div>
     <article class="container">
-      <!-- <pre>{{ blog }}</pre> -->
       <nuxt-content
         :document="blog"
         class="prose-neutral prose-lg lg:prose-xl mx-auto"
@@ -52,7 +51,7 @@ export default {
     const blog = await $content('blog', params.slug).fetch()
     const [author] = await $content('lawyers')
       .where({ name: { $eq: blog.author } })
-      .only(['slug', 'image', 'name'])
+      .only(['image', 'name', 'path'])
       .fetch()
     return { blog, author }
   },
