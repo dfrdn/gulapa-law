@@ -220,12 +220,12 @@ export default Vue.extend({
     this.offices.locations = await this.$content('offices')
       .only('location')
       .fetch()
-
     this.offices.locations = this.offices.locations.map((location) => ({
       label: location.location,
       link: location.path,
     }))
   },
+  fetchOnServer: false,
   data() {
     return {
       offices: {

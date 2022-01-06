@@ -28,6 +28,7 @@ export default {
 
     return { blogs, lawyers }
   },
+  fetchOnServer: true,
   methods: {
     combine(blog, author) {
       return { ...blog, author }
