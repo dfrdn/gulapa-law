@@ -335,7 +335,7 @@
         </div>
       </div>
     </section>
-    <section id="awards" class="bg-primary">
+    <section id="awards" class="bg-primary -mb-16">
       <div class="container flex flex-col items-center space-y-8">
         <h2 class="text-white text-2xl font-semibold">{{ awards.heading }}</h2>
         <div
