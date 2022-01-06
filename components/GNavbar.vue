@@ -232,10 +232,10 @@ export default Vue.extend({
       offices: {
         label: 'Our Offices',
         locations: [
-          { label: 'Cebu', link: '/Offices/Cebu' },
-          { label: ' Manila', link: '/Offices/Manila' },
-          { label: 'San Francisco', link: '/Offices/San-Francisco' },
-          { label: 'New York', link: '/Offices/New-York' },
+          { label: 'Cebu', link: '/offices/cebu' },
+          { label: ' Manila', link: '/offices/manila' },
+          { label: 'San Francisco', link: '/offices/san-francisco' },
+          { label: 'New York', link: '/offices/new-york' },
         ],
       },
       isOpen: false,
