@@ -13,7 +13,9 @@
       {{ heading }}
     </h2>
     <hr class="md:hidden border-secondary border-b-2 mx-10" />
-    <h3 class="text-2xl md:text-4xl font-semibold">{{ subheading }}</h3>
+    <h3 class="text-2xl md:text-4xl font-semibold px-5 md:px-0">
+      {{ subheading }}
+    </h3>
   </div>
 </template>
 
