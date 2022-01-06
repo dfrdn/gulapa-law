@@ -217,10 +217,11 @@ import Vue from 'vue'
 
 export default Vue.extend({
   async fetch() {
-    this.offices.locations = await this.$content('offices')
+    const officeInfo = await this.$content('offices')
       .only('location', 'path')
       .fetch()
-    this.offices.locations = this.offices.locations.map((location) => ({
+
+    this.offices.locations = officeInfo.map((location) => ({
       label: location.location,
       link: location.path,
     }))
