@@ -416,7 +416,7 @@ export default Vue.extend({
     ).fetch()
 
     const officeLocations = await $content('offices')
-      .only(['location', 'image'])
+      .only(['location', 'image', 'path'])
       .fetch()
 
     const featuredLawyers = await $content('lawyers')
