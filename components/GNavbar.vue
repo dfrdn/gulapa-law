@@ -54,7 +54,15 @@
         <!-- Navbar -->
         <div class="hidden md:block container px-2 md:px-6 md:py-4">
           <div class="hidden md:flex justify-around md:items-center">
-            <n-link v-for="link in links" :key="link.label" :to="link.link">
+            <n-link :to="links[0].link">{{ links[0].label }}</n-link>
+            <g-dropdown :items="offices.locations">{{
+              offices.label
+            }}</g-dropdown>
+            <n-link
+              v-for="link in links.slice(2)"
+              :key="link.label"
+              :to="link.link"
+            >
               {{ link.label }}
             </n-link>
           </div>
@@ -134,8 +142,24 @@
             class="tracking-wider text-primary text-lg"
             @click="isOpen = false"
           >
+            <n-link :to="links[0].link" class="block border-t py-4">
+              {{ links[0].label }}
+            </n-link>
+            <div class="border-t py-4">
+              {{ offices.label }}
+              <div class="ml-2">
+                <n-link
+                  v-for="office in offices.locations"
+                  :key="office.label"
+                  :to="office.link"
+                  class="block"
+                >
+                  {{ office.label }}
+                </n-link>
+              </div>
+            </div>
             <n-link
-              v-for="link in links"
+              v-for="link in links.slice(2)"
               :key="link.label"
               :to="link.link"
               class="block border-t py-4"
@@ -192,8 +216,22 @@
 import Vue from 'vue'
 
 export default Vue.extend({
+  async fetch() {
+    this.offices.locations = await this.$content('offices')
+      .only('location')
+      .fetch()
+
+    this.offices.locations = this.offices.locations.map((location) => ({
+      label: location.location,
+      link: location.path,
+    }))
+  },
   data() {
     return {
+      offices: {
+        label: 'Our Offices',
+        locations: [],
+      },
       isOpen: false,
       links: [
         {
@@ -201,16 +239,16 @@ export default Vue.extend({
           link: '/',
         },
         {
-          label: 'Our offices',
+          label: 'Our Offices',
           link: '/offices',
           offices: [
             {
               label: 'Manila',
-              link: '/manila',
+              link: '/offices/manila',
             },
             {
               label: 'New York',
-              link: '/new-york',
+              link: '/offices/new-york',
             },
           ],
         },
