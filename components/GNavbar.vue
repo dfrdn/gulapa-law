@@ -169,6 +169,7 @@
           </ul>
         </aside>
       </div>
+      {{ offices }}
     </div>
 
     <!-- <div class="container px-2 md:px-6 md:py-4">
@@ -226,7 +227,7 @@ export default Vue.extend({
       link: location.path,
     }))
   },
-
+  fetchOnServer: false,
   data() {
     return {
       offices: {
