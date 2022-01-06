@@ -76,7 +76,7 @@
     </header>
     <section id="about" class="bg-primary text-white">
       <div class="container mt-52 md:mt-20">
-        <div class="">
+        <div>
           <g-title
             :heading="about.heading"
             :subheading="about.subheading"
@@ -105,7 +105,7 @@
               </div>
             </div>
             <div class="md:w-7/12 flex flex-col md:order-2 mt-8 md:-mt-12">
-              <img :src="about.image" alt="" class="self-end" />
+              <img :src="about.image" alt="about image" class="self-end" />
             </div>
           </div>
         </div>
@@ -154,7 +154,7 @@
         >
           <img
             :src="location.image"
-            alt=""
+            :alt="location.location"
             class="h-full object-cover opacity-30"
           />
           <h3
@@ -368,7 +368,7 @@
           >
             <img
               src="~assets/img/award-home.svg"
-              alt=""
+              :alt="award.award"
               class="absolute transform translate-y-3.5"
             />
             <div class="text-secondary font-semibold text-2xl w-64">
