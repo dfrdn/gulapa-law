@@ -55,7 +55,7 @@
         <div class="hidden md:block container px-2 md:px-6 md:py-4">
           <div class="hidden md:flex justify-around md:items-center">
             <n-link :to="links[0].link">{{ links[0].label }}</n-link>
-            <g-dropdown :items="offices.locations" @click="$fetch">{{
+            <g-dropdown :items="offices.locations">{{
               offices.label
             }}</g-dropdown>
             <n-link
