@@ -12,7 +12,7 @@
             class="h-12 w-12 rounded-full object-fill"
           />
         </nuxt-link>
-        <div class="">
+        <div>
           <nuxt-link :to="author.path" class="block underline">{{
             author.name
           }}</nuxt-link>
@@ -29,7 +29,7 @@
       </div>
     </div>
 
-    <div class="">
+    <div>
       <img
         :src="blog.image"
         :alt="blog.title"
