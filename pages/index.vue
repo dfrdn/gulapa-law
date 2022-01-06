@@ -131,22 +131,29 @@
       </p>
       <div
         class="
-          space-y-4
-          md:space-y-0 md:space-x-8
           flex flex-col
-          md:flex-row
+          xl:gap-18
+          gap-10
+          md:grid md:grid-auto-flow
+          lg:grid-cols-4
+          md:grid-cols-2
+          sm:grid-cols-1
+          xl:px-0
+          px-5
           items-center
+          content-around
         "
       >
         <n-link
           v-for="location in officeLocations"
           :key="location.location"
           class="
+            place-self-center
             rounded
             overflow-hidden
             relative
-            w-36
-            h-36
+            w-60
+            h-60
             bg-primary
             text-center
           "
