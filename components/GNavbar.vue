@@ -218,7 +218,7 @@ import Vue from 'vue'
 export default Vue.extend({
   async fetch() {
     this.offices.locations = await this.$content('offices')
-      .only('location')
+      .only('location', 'path')
       .fetch()
     this.offices.locations = this.offices.locations.map((location) => ({
       label: location.location,
