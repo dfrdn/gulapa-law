@@ -55,4 +55,9 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  // Generate Property for Fallback on Netlify: https://nuxtjs.org/deployments/netlify/
+  generate: {
+    fallback: true,
+  },
 }
