@@ -22,12 +22,12 @@
             variant === 'partner' ? '' : 'w-20 h-28 md:h-auto md:w-auto',
           ]"
         >
-          <!-- <img
+          <img
             :src="details.image"
             class="w-full object-cover block"
             :class="[variant === 'partner' ? 'partner' : 'associate']"
             :alt="details.name"
-          /> -->
+          />
         </div>
 
         <div
@@ -98,11 +98,10 @@ export default {
         'new-york': 'NY',
         'san-francisco': 'SF',
       }
+      const sorter = ['MNL', 'CEB', 'NY', 'SF']
       const offices = this.details.offices
-        .sort(
-          (a, b) => Object.keys(all).indexOf(a) - Object.keys(all).indexOf(b)
-        )
         .map((office) => all[office])
+        .sort((a, b) => sorter.indexOf(a) - sorter.indexOf(b))
       return offices.join(' | ')
     },
   },

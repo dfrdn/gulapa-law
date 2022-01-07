@@ -219,10 +219,16 @@ export default Vue.extend({
   async fetch() {
     const officeInfo = await this.$content('offices').fetch()
 
-    this.offices.locations = officeInfo.map((location) => ({
-      label: location.location,
-      link: location.path,
-    }))
+    this.offices.locations = officeInfo
+      .map((location) => ({
+        label: location.location,
+        link: location.path,
+      }))
+      .sort(
+        (a, b) =>
+          ['Manila', 'Cebu', 'New York', 'San Francisco'].indexOf(a.label) -
+          ['Manila', 'Cebu', 'New York', 'San Francisco'].indexOf(b.label)
+      )
   },
   data() {
     return {
