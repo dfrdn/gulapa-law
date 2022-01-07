@@ -5,7 +5,7 @@
         <div class="container md:mt-20">
           <div>
             <g-title
-              :heading="officeLocation"
+              :heading="office.location + ` Office`"
               :subheading="office.title"
               class="md:w-5/12"
             />
@@ -33,7 +33,7 @@
       <section class="container space-y-8">
         <g-title
           heading="Our Lawyers"
-          :subheading="lawyerTeam"
+          :subheading="office.location + ` Legal Team`"
           class="md:w-5/12"
         />
         <div
@@ -118,11 +118,7 @@ export default {
       .sortBy('title')
       .fetch()
 
-    const lawyerTeam = `${office.location} Legal Team`
-
-    const officeLocation = `${office.location} Office`
-
-    return { office, lawyers, practiceAreas, lawyerTeam, officeLocation }
+    return { office, lawyers, practiceAreas }
   },
   head() {
     return {
