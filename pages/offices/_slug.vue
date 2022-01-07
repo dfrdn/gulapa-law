@@ -109,11 +109,11 @@ export default {
     const office = await $content(`offices`, params.slug).fetch()
 
     const lawyers = await $content('lawyers')
-      .where({ offices: { $contains: office.slug } })
+      .where({ offices: { $contains: params.slug } })
       .fetch()
 
     const practiceAreas = await $content('practice-areas')
-      .where({ offices: { $contains: office.slug } })
+      .where({ offices: { $contains: params.slug } })
       .sortBy('title')
       .fetch()
 
