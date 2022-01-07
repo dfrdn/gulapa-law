@@ -216,26 +216,23 @@
 import Vue from 'vue'
 
 export default Vue.extend({
-  // async fetch() {
-  //   const officeInfo = await this.$content('offices')
-  //     .only('location', 'path')
-  //     .fetch()
+  async fetch() {
+    const officeInfo = await this.$content('offices').fetch()
 
-  //   this.offices.locations = officeInfo.map((location) => ({
-  //     label: location.location,
-  //     link: location.path,
-  //   }))
-  // },
-  // fetchOnServer: false,
+    this.offices.locations = officeInfo.map((location) => ({
+      label: location.location,
+      link: location.path,
+    }))
+  },
   data() {
     return {
       offices: {
         label: 'Our Offices',
         locations: [
-          { label: 'Cebu', link: '/offices/cebu' },
-          { label: ' Manila', link: '/offices/manila' },
-          { label: 'San Francisco', link: '/offices/san-francisco' },
-          { label: 'New York', link: '/offices/new-york' },
+          // { label: 'Cebu', link: '/offices/cebu' },
+          // { label: ' Manila', link: '/offices/manila' },
+          // { label: 'San Francisco', link: '/offices/san-francisco' },
+          // { label: 'New York', link: '/offices/new-york' },
         ],
       },
       isOpen: false,
