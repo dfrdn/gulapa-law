@@ -1,7 +1,7 @@
 <template>
   <div>
     <g-header :heading="about.heading" :description="about.description" />
-    <article class="container">
+    <article class="container px-5 xl:px-0">
       <nuxt-content :document="about" class="prose prose-xl mx-auto" />
     </article>
   </div>
