@@ -30,7 +30,7 @@
         </div>
       </section>
 
-      <!-- <section class="container space-y-8">
+      <section class="container space-y-8">
         <g-title
           heading="Our Lawyers"
           :subheading="office.location + ` Legal Team`"
@@ -57,7 +57,7 @@
             variant="associate"
           />
         </div>
-      </section> -->
+      </section>
 
       <section class="bg-primary text-white">
         <div class="container">
