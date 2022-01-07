@@ -121,7 +121,7 @@ export default {
 
     const officeLocation = `${office.location} Office`
 
-    return { office, lawyers, practiceAreas, lawyerTeam, officeLocation }
+    return { office, lawyerTeam, officeLocation }
   },
   head() {
     return {
