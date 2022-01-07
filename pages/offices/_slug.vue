@@ -110,7 +110,6 @@ export default {
 
     const practiceAreas = await $content('practice-areas')
       .where({ offices: { $contains: office.slug } })
-      .only(['slug', 'image', 'title', 'description'])
       .sortBy('title')
       .fetch()
 
