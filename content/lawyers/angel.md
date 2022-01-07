@@ -1,11 +1,10 @@
 ---
 name: Jose Maria Angel P. Machuca
 position: Partner
+startDate: 2019-01-01T07:40:28.767Z
 email: angel.machuca@gulapalaw.com
 mobile: +phone loc. 201
-description: "Angel is a partner of the firm.\
-
-  \r
+description: "Angel is a partner of the firm. \r
 
   \r
 
