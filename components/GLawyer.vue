@@ -22,12 +22,12 @@
             variant === 'partner' ? '' : 'w-20 h-28 md:h-auto md:w-auto',
           ]"
         >
-          <!-- <img
+          <img
             :src="details.image"
             class="w-full object-cover block"
             :class="[variant === 'partner' ? 'partner' : 'associate']"
             :alt="details.name"
-          /> -->
+          />
         </div>
 
         <div
