@@ -20,7 +20,7 @@
       <h2 class="text-xs md:text-sm max-w-xs md:max-w-2xl text-center my-8">
         {{ hero.subheading }}
       </h2>
-      <button
+      <!-- <button
         class="
           rounded
           border border-primary
@@ -32,7 +32,7 @@
         "
       >
         {{ hero.button }}
-      </button>
+      </button> -->
       <div class="-mb-56 md:-mb-24">
         <img :src="hero.image" :alt="hero.image" />
       </div>
