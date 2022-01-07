@@ -110,8 +110,6 @@ export default Vue.extend({
       .sortBy('startDate')
       .fetch()
 
-    console.log(partners)
-
     return { associates, partners, lawyersHeader }
   },
   head() {
