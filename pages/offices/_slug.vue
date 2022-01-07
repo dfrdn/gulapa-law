@@ -49,7 +49,9 @@
           "
         >
           <g-lawyer
-            v-for="lawyer in lawyers"
+            v-for="lawyer in lawyers.filter(({ offices }) =>
+              offices.includes(office.slug)
+            )"
             :key="lawyer.slug"
             :details="lawyer"
             variant="associate"
@@ -88,7 +90,9 @@
                 "
               >
                 <g-practice
-                  v-for="practice in practiceAreas"
+                  v-for="practice in practiceAreas.filter(({ offices }) =>
+                    offices.includes(office.slug)
+                  )"
                   :key="practice.slug"
                   :details="practice"
                   variant="homepage"
@@ -108,12 +112,9 @@ export default {
   async asyncData({ $content, params }) {
     const office = await $content(`offices`, params.slug).fetch()
 
-    const lawyers = await $content('lawyers')
-      .where({ offices: { $contains: params.slug } })
-      .fetch()
+    const lawyers = await $content('lawyers').fetch()
 
     const practiceAreas = await $content('practice-areas')
-      .where({ offices: { $contains: params.slug } })
       .sortBy('title')
       .fetch()
 
