@@ -23,8 +23,8 @@
       <div class="flex flex-col text-white">
         <h3>Manila Address</h3>
         <p>
-          G-Law (Gulapa Law Office) Exquadra Tower 1 Jade Drive, Ortigas Center,
-          San Antonio, Pasig, Metro Manila
+          Unit 8, 25/F Exquadra Tower, Exchange Road cor. Jade Drive, Ortigas
+          Center, 1605 Pasig City
         </p>
       </div>
     </div>
