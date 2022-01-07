@@ -19,7 +19,11 @@
                 </div>
               </article>
               <div class="md:w-5/12 flex flex-col md:order-2 mt-8 md:-mt-12">
-                <img :src="office.image" alt="" class="self-end" />
+                <img
+                  :src="office.image"
+                  :alt="office.location"
+                  class="self-end"
+                />
               </div>
             </div>
           </div>
