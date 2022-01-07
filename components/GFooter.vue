@@ -9,7 +9,8 @@
         gap-3
         grid-cols-1
         px-10
-        md:px-0
+        md:px-5
+        xl:px-0
       "
     >
       <div class="flex flex-col text-white">
