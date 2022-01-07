@@ -6,6 +6,9 @@
     />
 
     <section class="container space-y-8">
+      <h2 class="text-4xl font-medium text-primary text-center md:text-left">
+        Partners
+      </h2>
       <div
         id="partners"
         class="
@@ -24,6 +27,36 @@
           :details="partner"
         />
       </div>
+
+      <h2 class="text-4xl font-medium text-primary text-center md:text-left">
+        Of Counsels
+      </h2>
+      <div
+        id="of-counsels"
+        class="
+          xl:gap-4
+          gap-10
+          grid grid-auto-flow
+          lg:grid-cols-4
+          md:grid-cols-2
+          sm:grid-cols-1
+          xl:px-0
+          px-5
+        "
+      >
+        <g-lawyer
+          v-for="associate in associates.filter(({ position }) =>
+            position.includes('Of Counsel')
+          )"
+          :key="associate.slug"
+          :details="associate"
+          variant="associate"
+        />
+      </div>
+
+      <h2 class="text-4xl font-medium text-primary text-center md:text-left">
+        Associates
+      </h2>
       <div
         id="associates"
         class="
@@ -38,7 +71,9 @@
         "
       >
         <g-lawyer
-          v-for="associate in associates"
+          v-for="associate in associates.filter(({ position }) =>
+            position.includes('Associate')
+          )"
           :key="associate.slug"
           :details="associate"
           variant="associate"
@@ -56,14 +91,26 @@ export default Vue.extend({
     const { lawyersHeader } = await $content('lawyers-page').fetch()
 
     const associates = await $content('lawyers')
-      .only(['slug', 'name', 'offices', 'email', 'image'])
+      .only([
+        'slug',
+        'name',
+        'offices',
+        'email',
+        'image',
+        'startDate',
+        'position',
+      ])
       .where({ position: { $ne: 'Partner' } })
+      .sortBy('startDate')
       .fetch()
 
     const partners = await $content('lawyers')
-      .only(['slug', 'name', 'offices', 'email', 'image'])
+      .only(['slug', 'name', 'offices', 'email', 'image', 'startDate'])
       .where({ position: 'Partner' })
+      .sortBy('startDate')
       .fetch()
+
+    console.log(partners)
 
     return { associates, partners, lawyersHeader }
   },
