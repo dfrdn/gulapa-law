@@ -2,8 +2,8 @@
   <body class="mb-2">
     <div>
       <section id="about" class="bg-primary text-white">
-        <div class="container mt-52 md:mt-20">
-          <div class="">
+        <div class="container md:mt-20">
+          <div>
             <g-title
               :heading="officeLocation"
               :subheading="office.title"
