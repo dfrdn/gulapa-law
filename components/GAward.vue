@@ -8,7 +8,7 @@
     <div class="space-y-2">
       <p
         v-for="award in details.award"
-        :key="details.slug"
+        :key="award"
         :details="award"
         class="ml-4 xl:ml-20 xl:text-xl text-md"
       >
