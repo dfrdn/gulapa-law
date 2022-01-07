@@ -29,19 +29,8 @@
           </div>
         </div>
       </section>
-      <p>Unfiltered Lawyers</p>
-      {{ lawyers }}
 
-      <p>Unfiltered Practice Areas</p>
-      {{ practiceAreas }}
-
-      <p>Filtered Lawyers</p>
-      {{ lawyers.filter(({ offices }) => offices.includes(office.slug)) }}
-
-      <p>Filtered Practice Areas</p>
-      {{ practiceAreas.filter(({ offices }) => offices.includes(office.slug)) }}
-      <!-- 
-      <section class="container space-y-8">
+      <!-- <section class="container space-y-8">
         <g-title
           heading="Our Lawyers"
           :subheading="office.location + ` Legal Team`"
@@ -68,9 +57,9 @@
             variant="associate"
           />
         </div>
-      </section>
+      </section> -->
 
-      <section id="practice-areas" class="bg-primary text-white">
+      <section class="bg-primary text-white">
         <div class="container">
           <g-title heading="What We Do" subheading="Our Practice Areas" />
           <div class="flex flex-col md:flex-row">
@@ -113,7 +102,7 @@
             </div>
           </div>
         </div>
-      </section> -->
+      </section>
     </div>
   </body>
 </template>
