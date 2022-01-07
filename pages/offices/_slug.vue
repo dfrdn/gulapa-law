@@ -48,7 +48,14 @@
             px-5
           "
         >
-          <g-lawyer :details="lawyers[0]" variant="associate" />
+          <!-- <g-lawyer
+            v-for="lawyer in lawyers.filter(({ offices }) =>
+              offices.includes(office.slug)
+            )"
+            :key="lawyer.slug"
+            :details="lawyer"
+            variant="associate"
+          /> -->
         </div>
       </section>
 
