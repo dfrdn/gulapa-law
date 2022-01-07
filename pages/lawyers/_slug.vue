@@ -20,7 +20,7 @@
               <h1
                 class="
                   uppercase
-                  text-3xl
+                  text-2xl
                   font-semibold
                   tracking-wide
                   md:relative
