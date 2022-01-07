@@ -34,8 +34,8 @@
           class="absolute bg-white top-0 md:bottom-0 md:top-auto md:left-0"
           :class="[
             variant === 'partner'
-              ? 'bottom-0 top-auto left-0 rounded-tr-lg'
-              : 'left-full rounded-br-lg md:rounded-br-none md:rounded-tr-lg ',
+              ? 'bottom-0 top-auto left-0 rounded-tr-lg whitespace-nowrap'
+              : 'left-full rounded-br-lg md:rounded-br-none md:rounded-tr-lg whitespace-nowrap',
           ]"
         >
           <p
