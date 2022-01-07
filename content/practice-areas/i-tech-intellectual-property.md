@@ -8,8 +8,10 @@ description: The firm’s active involvement in one of the biggest government
   mostly in the software industry, who constantly seek legal advice on IP
   protection and licensing in the Philippines and in foreign jurisdiction.
 notables:
-  - " The new Philippine ePassport Project"
-  - " Research and Technology Laboratories, Inc."
+  - ' The new Philippine ePassport Project'
+  - ' Research and Technology Laboratories, Inc.'
 contact:
   - aris-l-gulapa
+offices:
+  - manila
 ---

@@ -16,4 +16,6 @@ notables:
   - Francorp Philippines
 contact:
   - aris-l-gulapa
+offices:
+  - manila
 ---

@@ -9,4 +9,6 @@ notables:
   - One of the pioneering television networks
 contact:
   - aris-l-gulapa
+offices:
+  - manila
 ---

@@ -12,4 +12,6 @@ notables:
   - Tamugan River Bulk Water Treatment
 contact:
   - aris-l-gulapa
+offices:
+  - manila
 ---

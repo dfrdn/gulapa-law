@@ -10,4 +10,6 @@ notables:
   - Research and Technology Laboratories, Inc.
 contact:
   - aris-l-gulapa
+offices:
+  - manila
 ---

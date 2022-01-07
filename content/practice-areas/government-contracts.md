@@ -8,9 +8,11 @@ description: We regularly advise private entities and government agencies on
   of Budget and Management, Government Procurement Policy Board and other
   regulatory bodies.
 notables:
-  - "The new Philippine ePassport Project "
+  - 'The new Philippine ePassport Project '
   - Internal Revenue Stamps Integrated System
   - Disposal of seized jewelry collections
 contact:
   - aris-l-gulapa
+offices:
+  - manila
 ---

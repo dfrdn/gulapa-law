@@ -15,4 +15,6 @@ description: >-
   Gulapa Law Office hopes that Gulapa & Baclay LLP would serve as a platform to promote the Philippines as an investment hub and also a gateway to the ASEAN economic region.
 contact:
   - aris-l-gulapa
+offices:
+  - manila
 ---

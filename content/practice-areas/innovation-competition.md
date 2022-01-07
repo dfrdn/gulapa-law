@@ -9,8 +9,10 @@ description: >
   have learned in advanced competition law jurisdictions such as the US, Japan,
   Singapore, and the EU.
 notables:
-  - " Review of various existing joint ventures in the real estate sector"
+  - ' Review of various existing joint ventures in the real estate sector'
   - Review of existing agreements of an entertainment industry group
 contact:
   - aris-l-gulapa
+offices:
+  - manila
 ---
