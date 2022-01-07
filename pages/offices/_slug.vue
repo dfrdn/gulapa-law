@@ -29,7 +29,7 @@
           </div>
         </div>
       </section>
-      <!-- 
+
       <section class="container space-y-8">
         <g-title
           heading="Our Lawyers"
@@ -98,7 +98,7 @@
             </div>
           </div>
         </div>
-      </section> -->
+      </section>
     </div>
   </body>
 </template>
@@ -108,20 +108,20 @@ export default {
   async asyncData({ $content, params }) {
     const office = await $content(`offices`, params.slug).fetch()
 
-    // const lawyers = await $content('lawyers')
-    //   .where({ offices: { $contains: office.slug } })
-    //   .fetch()
+    const lawyers = await $content('lawyers')
+      .where({ offices: { $contains: params.slug } })
+      .fetch()
 
-    // const practiceAreas = await $content('practice-areas')
-    //   .where({ offices: { $contains: office.slug } })
-    //   .sortBy('title')
-    //   .fetch()
+    const practiceAreas = await $content('practice-areas')
+      .where({ offices: { $contains: params.slug } })
+      .sortBy('title')
+      .fetch()
 
     const lawyerTeam = `${office.location} Legal Team`
 
     const officeLocation = `${office.location} Office`
 
-    return { office, lawyerTeam, officeLocation }
+    return { office, lawyers, practiceAreas, lawyerTeam, officeLocation }
   },
   head() {
     return {
