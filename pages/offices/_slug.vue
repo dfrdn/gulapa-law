@@ -1,110 +1,108 @@
 <template>
-  <body class="mb-2">
-    <div>
-      <section id="about" class="bg-primary text-white">
-        <div class="container md:mt-20">
-          <div>
-            <g-title
-              :heading="office.location + ` Office`"
-              :subheading="office.title"
-              class="md:w-5/12"
-            />
-            <div class="flex flex-col md:flex-row md:space-x-8">
-              <article class="md:w-7/12 order-2 md:order-1">
-                <div class="mx-8 md:mx-0 md:ml-8">
-                  <nuxt-content
-                    :document="office"
-                    class="prose mx-auto text-white my-8"
-                  />
-                </div>
-              </article>
-              <div class="md:w-5/12 flex flex-col md:order-2 mt-8 md:-mt-12">
-                <img
-                  :src="office.image"
-                  :alt="office.location"
-                  class="self-end"
+  <div class="mb-2">
+    <section class="bg-primary text-white">
+      <div class="container md:mt-20">
+        <div>
+          <g-title
+            :heading="office.location + ` Office`"
+            :subheading="office.title"
+            class="md:w-5/12"
+          />
+          <div class="flex flex-col md:flex-row md:space-x-8">
+            <article class="md:w-7/12 order-2 md:order-1">
+              <div class="mx-8 md:mx-0 md:ml-8">
+                <nuxt-content
+                  :document="office"
+                  class="prose mx-auto text-white my-8"
                 />
               </div>
+            </article>
+            <div class="md:w-5/12 flex flex-col md:order-2 mt-8 md:-mt-12">
+              <img
+                :src="office.image"
+                :alt="office.location"
+                class="self-end"
+              />
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="container space-y-8">
-        <g-title
-          heading="Our Lawyers"
-          :subheading="office.location + ` Legal Team`"
-          class="md:w-5/12"
+    <section class="container space-y-8">
+      <g-title
+        heading="Our Lawyers"
+        :subheading="office.location + ` Legal Team`"
+        class="md:w-5/12"
+      />
+      <div
+        class="
+          xl:gap-4
+          gap-10
+          grid grid-auto-flow
+          lg:grid-cols-4
+          md:grid-cols-2
+          sm:grid-cols-1
+          xl:px-0
+          px-5
+        "
+      >
+        <g-lawyer
+          v-for="lawyer in lawyers.filter(({ offices }) =>
+            offices.includes(office.slug)
+          )"
+          :key="lawyer.slug"
+          :details="lawyer"
+          variant="associate"
         />
-        <div
-          class="
-            xl:gap-4
-            gap-10
-            grid grid-auto-flow
-            lg:grid-cols-4
-            md:grid-cols-2
-            sm:grid-cols-1
-            xl:px-0
-            px-5
-          "
-        >
-          <!-- <g-lawyer
-            v-for="lawyer in lawyers.filter(({ offices }) =>
-              offices.includes(office.slug)
-            )"
-            :key="lawyer.slug"
-            :details="lawyer"
-            variant="associate"
-          /> -->
-        </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="bg-primary text-white">
-        <div class="container">
-          <g-title heading="What We Do" subheading="Our Practice Areas" />
-          <div class="flex flex-col md:flex-row">
-            <div class="md:w-1/3">
-              <div class="mx-4 md:mx-0 md:ml-8 text-center md:text-left">
-                <p class="my-8 md:pr-8">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-              </div>
+    <section class="bg-primary text-white">
+      <div class="container">
+        <g-title heading="What We Do" subheading="Our Practice Areas" />
+        <div class="flex flex-col md:flex-row">
+          <div class="md:w-1/3">
+            <div class="mx-4 md:mx-0 md:ml-8 text-center md:text-left">
+              <p class="my-8 md:pr-8">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
             </div>
-            <div class="md:w-2/3">
-              <div
-                id="practices"
-                class="
-                  xl:gap-18
-                  gap-10
-                  md:grid md:grid-auto-flow
-                  flex
-                  overflow-x-auto
-                  md:overflow-visible
-                  lg:grid-cols-3
-                  md:grid-cols-2
-                  sm:grid-cols-1
-                  xl:px-0
-                  px-5
-                  md:ml-0
-                "
-              >
-                <g-practice
-                  v-for="practice in practiceAreas.filter(({ offices }) =>
-                    offices.includes(office.slug)
-                  )"
-                  :key="practice.slug"
-                  :details="practice"
-                  variant="homepage"
-                  class="first:ml-20 md:first:ml-0"
-                />
-              </div>
+          </div>
+          <div class="md:w-2/3">
+            <div
+              id="practices"
+              class="
+                xl:gap-18
+                gap-10
+                md:grid md:grid-auto-flow
+                flex
+                overflow-x-auto
+                md:overflow-visible
+                lg:grid-cols-3
+                md:grid-cols-2
+                sm:grid-cols-1
+                xl:px-0
+                px-5
+                md:ml-0
+              "
+            >
+              <g-practice
+                v-for="practice in practiceAreas.filter(({ offices }) =>
+                  offices.includes(office.slug)
+                )"
+                :key="practice.slug"
+                :details="practice"
+                variant="homepage"
+                class="first:ml-20 md:first:ml-0"
+              />
             </div>
           </div>
         </div>
-      </section>
-    </div>
-  </body>
+      </div>
+    </section>
+  </div>
 </template>
 
 <script>
