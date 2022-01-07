@@ -29,7 +29,18 @@
           </div>
         </div>
       </section>
+      <p>Unfiltered Lawyers</p>
+      {{ lawyers }}
 
+      <p>Unfiltered Practice Areas</p>
+      {{ practiceAreas }}
+
+      <p>Filtered Lawyers</p>
+      {{ lawyers.filter(({ offices }) => offices.includes(office.slug)) }}
+
+      <p>Filtered Practice Areas</p>
+      {{ practiceAreas.filter(({ offices }) => offices.includes(office.slug)) }}
+      <!-- 
       <section class="container space-y-8">
         <g-title
           heading="Our Lawyers"
@@ -102,7 +113,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
     </div>
   </body>
 </template>
