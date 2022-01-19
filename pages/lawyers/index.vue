@@ -11,15 +11,7 @@
       </h2>
       <div
         id="partners"
-        class="
-          xl:gap-5
-          gap-10
-          grid grid-auto-flow
-          md:grid-cols-3
-          grid-cols-1
-          xl:px-0
-          px-5
-        "
+        class="xl:gap-5 gap-10 grid grid-auto-flow md:grid-cols-3 grid-cols-1 xl:px-0 px-5"
       >
         <g-lawyer
           v-for="partner in partners"
@@ -33,16 +25,7 @@
       </h2>
       <div
         id="of-counsels"
-        class="
-          xl:gap-4
-          gap-10
-          grid grid-auto-flow
-          lg:grid-cols-4
-          md:grid-cols-2
-          sm:grid-cols-1
-          xl:px-0
-          px-5
-        "
+        class="xl:gap-4 gap-10 grid grid-auto-flow lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 xl:px-0 px-5"
       >
         <g-lawyer
           v-for="associate in associates.filter(({ position }) =>
@@ -59,16 +42,7 @@
       </h2>
       <div
         id="associates"
-        class="
-          xl:gap-4
-          gap-10
-          grid grid-auto-flow
-          lg:grid-cols-4
-          md:grid-cols-2
-          sm:grid-cols-1
-          xl:px-0
-          px-5
-        "
+        class="xl:gap-4 gap-10 grid grid-auto-flow lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 xl:px-0 px-5"
       >
         <g-lawyer
           v-for="associate in associates.filter(({ position }) =>

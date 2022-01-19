@@ -1,22 +1,9 @@
 <template>
   <div
-    class="
-      overflow-y-auto
-      bg-white
-      lg:h-auto lg:flex lg:w-4/12 lg:justify-end lg:items-start
-    "
+    class="overflow-y-auto bg-white lg:h-auto lg:flex lg:w-4/12 lg:justify-end lg:items-start"
   >
     <button
-      class="
-        fixed
-        lg:hidden
-        top-20
-        right-0
-        bg-white
-        rounded-tl-full rounded-bl-full
-        rotate-180
-        z-50
-      "
+      class="fixed lg:hidden top-20 right-0 bg-white rounded-tl-full rounded-bl-full rotate-180 z-50"
       @click="handleTable"
     >
       <div class="rounded-full w-10 h-10 shadow-around bg-white">
@@ -26,25 +13,7 @@
     <div
       v-if="!isHidden"
       id="g-list"
-      class="
-        absolute
-        right-0
-        left-10
-        top-0
-        bottom-0
-        lg:block lg:mt-32 lg:w-10/12
-        align-start
-        bg-white
-        shadow
-        lg:sticky lg:top-32
-        transition
-        ease-in-out
-        lg:h-auto lg:overflow-hidden
-        h-screen
-        overflow-scroll
-        z-50
-        lg:z-auto
-      "
+      class="absolute right-0 left-10 top-0 bottom-0 lg:block lg:mt-32 lg:w-10/12 align-start bg-white shadow lg:sticky lg:top-32 transition ease-in-out lg:h-auto lg:overflow-hidden h-screen overflow-scroll z-50 lg:z-auto"
     >
       <ul class="divide-y divide-gray-300 rounded border">
         <li
@@ -55,6 +24,7 @@
           <nuxt-link
             :to="`${content.path}`"
             class="p-4 block hover:bg-secondary hover:text-white"
+            @click.native="isHidden = true"
           >
             {{ content[Object.keys(content)[0]] }}
           </nuxt-link>
