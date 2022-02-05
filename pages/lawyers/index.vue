@@ -81,7 +81,7 @@ export default Vue.extend({
     const partners = await $content('lawyers')
       .only(['slug', 'name', 'offices', 'email', 'image', 'startDate'])
       .where({ position: 'Partner' })
-      .sortBy('startDate')
+      .sortBy('startDate', 'asc')
       .fetch()
 
     return { associates, partners, lawyersHeader }
