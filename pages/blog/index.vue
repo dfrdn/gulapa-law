@@ -15,12 +15,22 @@
         />
       </div>
       <div class="md:w-1/5 sticky pt-4 px-5 md:pl-5 md:order-2 order-1">
-        <a
-          class="twitter-timeline border-secondary"
-          data-height="500"
-          data-chrome="noscrollbar"
-          href="https://twitter.com/gulapa_law?ref_src=twsrc%5Etfw"
-        ></a>
+        <div class="hidden md:block">
+          <a
+            class="twitter-timeline"
+            data-height="500"
+            data-chrome="noscrollbar"
+            href="https://twitter.com/gulapa_law?ref_src=twsrc%5Etfw"
+          ></a>
+        </div>
+        <div class="md:hidden">
+          <a
+            class="twitter-timeline"
+            data-height="300"
+            data-chrome="noscrollbar"
+            href="https://twitter.com/gulapa_law?ref_src=twsrc%5Etfw"
+          ></a>
+        </div>
       </div>
     </div>
   </div>
