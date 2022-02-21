@@ -9,7 +9,7 @@ description: >-
   Vietnam, Singapore, Tokyo and New York, Aris set up Gulapa Law.
 
 
-  **Awards:**
+  Awards:
 
 
   Outstanding Practitioner in the Philippines Award, Asialaw Regional Awards (2019)
