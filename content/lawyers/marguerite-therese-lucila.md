@@ -1,8 +1,9 @@
 ---
 name: Marguerite Therese Lucila
 position: Of Counsel
+startDate: 2022-02-21T18:25:07.395Z
 email: Therese.Lucila@gulapalaw.com
-mobile: '#'
+mobile: "#"
 description: Therese has a general law practice and is based in the firm’s New York office.
 image: /img/female-profile.svg
 admissions:
