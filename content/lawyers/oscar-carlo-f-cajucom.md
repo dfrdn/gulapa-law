@@ -1,9 +1,12 @@
 ---
 name: Oscar Carlo F. Cajucom
 position: Partner
+startDate: 2022-02-21T17:14:42.935Z
 email: caloy.cajucom@gulapalaw.com
-mobile: '#'
-description: Caloy is a partner of the firm and head of its litigation department.
+mobile: "#"
+description: Caloy is a partner of the firm and head of its litigation
+  department. He was awarded the  Recommended Lawyer in Dispute Resolution by
+  the Legal 500 in 2022.
 image: /img/male-profile.svg
 admissions:
   - Philippine Bar, 2013
