@@ -12,7 +12,7 @@ description: >-
 
 
   She was awarded the Next Generation Partner in Projects and Energy by the Legal 500 in 2020, 2021, and 2022, and the Recommended Lawyer in Corporate/M&A by the Legal 500 in 2019.
-image: /img/female-profile.svg
+image: /img/charms_hgp2721-copy.jpg
 admissions:
   - Philippine Bar, 2011
 education:
