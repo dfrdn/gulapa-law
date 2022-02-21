@@ -10,7 +10,7 @@ description: >-
 
 
   Oliver was awarded the Recommended Lawyer in Intellectual Property by the Legal 500 in 2022, and the Leading individual in Intellectual Property (Band 4) by the Chambers & Partners Asia Pacific also in the same year, 2022.
-image: /img/male-profile.svg
+image: /img/oliver_hgp3003.jpg
 admissions:
   - New York Bar, 2015
   - Philippine Bar, 2009 (Top 3)
