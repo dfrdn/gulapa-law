@@ -6,7 +6,7 @@ email: isabelle.poblete@gulapalaw.com
 mobile: "#"
 description: Belle is a junior associate of the firm. She was awarded the
   Recommended Lawyer in Intellectual Property by the Legal 500 in 2022.
-image: /img/female-profile.svg
+image: /img/belle-qcp02380_e1.jpg
 admissions:
   - Philippine Bar, 2020
 education:
