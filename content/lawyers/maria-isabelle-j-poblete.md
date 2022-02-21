@@ -4,7 +4,8 @@ position: Junior Associate
 startDate: 2022-02-21T17:14:20.142Z
 email: isabelle.poblete@gulapalaw.com
 mobile: "#"
-description: Belle is a junior associate of the firm.
+description: Belle is a junior associate of the firm. She was awarded the
+  Recommended Lawyer in Intellectual Property by the Legal 500 in 2022.
 image: /img/female-profile.svg
 admissions:
   - Philippine Bar, 2020
