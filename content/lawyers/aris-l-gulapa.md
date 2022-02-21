@@ -6,7 +6,7 @@ email: aris.gulapa@gulapalaw.com
 mobile: +6329602845 loc. 201
 description: >-
   After accumulating a wealth of experience from his legal practice in Manila,
-  Vietnam, Singapore, TokyoDi and New York, Aris set up Gulapa Law. His awards
+  Vietnam, Singapore, Tokyo and New York, Aris set up Gulapa Law. His awards
   include 
 
 
