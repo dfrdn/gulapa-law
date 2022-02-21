@@ -11,7 +11,7 @@ description: >-
   She served as consultant to the Asian Development Bank under its Office of General Counsel – Sovereign and Non-sovereign Operations before she became part of Gulapa Law.
 
 
-  Her awards include Next Generation Partner in Projects and Energy, The Legal 500 (2022, 2021, 2020), and Recommended Lawyer in Corporate/M&A, The Legal 500 (2019).
+  She was awarded the Next Generation Partner in Projects and Energy by the Legal 500 in 2020, 2021, and 2022, and the Recommended Lawyer in Corporate/M&A by the Legal 500 in 2019.
 image: /img/female-profile.svg
 admissions:
   - Philippine Bar, 2011
