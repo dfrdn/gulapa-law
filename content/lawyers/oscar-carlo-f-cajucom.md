@@ -7,7 +7,7 @@ mobile: "#"
 description: Caloy is a partner of the firm and head of its litigation
   department. He was awarded the  Recommended Lawyer in Dispute Resolution by
   the Legal 500 in 2022.
-image: /img/male-profile.svg
+image: /img/caloy-3_hgp7278-copy.jpg
 admissions:
   - Philippine Bar, 2013
 education:
