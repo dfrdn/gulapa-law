@@ -1,9 +1,11 @@
 ---
 name: Christine Joy A. Abu-Bangcola
 position: Junior Associate
+startDate: 2022-02-21T17:13:11.523Z
 email: mail@gulapalaw.com
-mobile: '#'
-description: Desc
+mobile: "#"
+description: Christine was awarded the Recommended Lawyer in Dispute Resolution
+  by the Legal 500 in 2022.
 image: /img/female-profile.svg
 offices:
   - manila
