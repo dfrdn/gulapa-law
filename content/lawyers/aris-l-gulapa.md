@@ -9,13 +9,16 @@ description: >-
   Vietnam, Singapore, Tokyo and New York, Aris set up Gulapa Law.
 
 
+  <br/><br/>
+
   Awards:
 
+  <br/><br/>
 
-  Outstanding Practitioner in the Philippines Award, Asialaw Regional Awards (2019)
+  - Outstanding Practitioner in the Philippines Award, Asialaw Regional Awards (2019)
 
 
-  Dealmaker of the Year, Asia Business Law Journal (2017)
+  - Dealmaker of the Year, Asia Business Law Journal (2017)
 image: /img/aris-560x460.jpg
 admissions:
   - New York Bar, 2014
