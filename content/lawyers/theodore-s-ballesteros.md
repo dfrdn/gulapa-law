@@ -5,7 +5,7 @@ startDate: 2022-02-21T17:15:49.392Z
 email: theodore.ballesteros@gulapalaw.com
 mobile: "#"
 description: Ted is a junior associate of the firm. He was awarded the
-  Recommended Lawyer in Competiton by the Legal 500 in 2022.
+  Recommended Lawyer in Competiton by The Legal 500 in 2022.
 image: /img/ted-qcp02317-final-.jpg
 admissions:
   - Philippine Bar, 2020
