@@ -1,10 +1,11 @@
 ---
 name: Marcley Augustus D. Natu-el
 position: Junior Associate
+startDate: 2022-02-22T07:32:29.769Z
 email: marcley.natuel@gulapalaw.com
-mobile: '#'
+mobile: "#"
 description: Marcley is a junior associate of the firm.
-image: /img/male-profile.svg
+image: /img/marcley_dsc_4791-2-1-.png
 admissions:
   - Philippine Bar, 2019 (Top 2)
 education:
