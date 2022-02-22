@@ -6,7 +6,7 @@ email: mail@gulapalaw.com
 mobile: "#"
 description: Christine was awarded the Recommended Lawyer in Dispute Resolution
   by the Legal 500 in 2022.
-image: /img/female-profile.svg
+image: /img/tin_hgp2993-copy.jpg
 offices:
   - manila
 practices:
