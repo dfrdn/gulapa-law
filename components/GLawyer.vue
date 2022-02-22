@@ -1,19 +1,7 @@
 <template>
   <n-link :to="`/lawyers/${details.slug}`">
     <div
-      class="
-        rounded-lg
-        overflow-hidden
-        bg-primary
-        shadow
-        transform
-        hover:shadow-lg hover:scale-102
-        transition
-        duration-200
-        ease-in-out
-        flex
-        md:flex-col
-      "
+      class="rounded-lg overflow-hidden bg-primary shadow transform hover:shadow-lg hover:scale-102 transition duration-200 ease-in-out flex md:flex-col"
       :class="[variant === 'partner' ? 'flex-col' : '']"
     >
       <div class="relative">
@@ -24,7 +12,7 @@
         >
           <img
             :src="details.image"
-            class="w-full object-cover block"
+            class="w-full object-cover object-top block"
             :class="[variant === 'partner' ? 'partner' : 'associate']"
             :alt="details.name"
           />
