@@ -11,7 +11,7 @@ description: "Shwaid is a partner of the firm. He is presently the Managing
   \r
 
   Shwaid is the current Dean of the University of Cebu School of Law\r\n"
-image: /img/3-shwaid.jpg
+image: /img/shwaid_dsc_4217-1-1-1-1-1-1-1-.png
 admissions:
   - "New York Bar, 2018 "
   - Philippine Bar, 2007 (Top 8)
