@@ -1,10 +1,11 @@
 ---
 name: Karren Mae T. Obeso
 position: Junior Associate
+startDate: 2022-02-22T07:32:51.552Z
 email: karren.obeso@gulapalaw.com
-mobile: '#'
+mobile: "#"
 description: Karren is a junior associate of the firm.
-image: /img/female-profile.svg
+image: /img/karren_dsc_4859-1-1-.png
 admissions:
   - Philippine Bar, 2017
 education:
