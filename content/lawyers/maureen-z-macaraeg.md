@@ -1,12 +1,27 @@
 ---
-name: Maureen Z. Macaraeg
+name: Maureen Z. Macaraeg-Dayrit
 position: Of Counsel
-email: mail@gulapalaw.com
-mobile: '#'
-description: Desc
+startDate: 2022-01-01T15:20:44.987Z
+email: mau.macaraeg@gulapalaw.com
+mobile: "#"
+description: Mau is an Of Counsel of the firm.
 image: /img/female-profile.svg
+admissions:
+  - Qualified in the Philippines
+  - New York Bar (admission in process)
+  - Certified Financial Crimes Specialist
+education:
+  - Ateneo de Manila University School of Law, Second Honors
+  - University of the Philippines Baguio, magna cum laude
+matters:
+  - Philphos Financial rehabilitation
+  - Magnolia Bakery
+  - MFT Group
 offices:
   - manila
+  - new-york
 practices:
-  - general-corporate
+  - dispute-resolution
+  - i-tech-intellectual-property
+  - banking-and-finance
 ---
