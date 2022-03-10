@@ -1,7 +1,7 @@
 ---
 name: Charmaine Rose K. Haw-Lim
 position: Partner
-startDate: 2022-02-21T17:02:56.637Z
+startDate: 2015-12-31T17:02:56.637Z
 email: charms.haw@gulapalaw.com
 mobile: "#"
 description: >-
