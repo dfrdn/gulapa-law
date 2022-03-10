@@ -1,7 +1,7 @@
 ---
 name: Marcley Augustus D. Natu-el
 position: Junior Associate
-startDate: 2022-02-22T07:32:29.769Z
+startDate: 2021-06-01T07:32:29.769Z
 email: marcley.natuel@gulapalaw.com
 mobile: "#"
 description: Marcley is a junior associate of the firm.
@@ -16,8 +16,9 @@ matters:
   - Various commercial contracts and agreements
   - Infrastructure projects
 offices:
-  - manila
+  - cebu
 practices:
   - general-corporate
   - infrastructure
+  - dispute-resolution
 ---
