@@ -3,7 +3,7 @@ name: Hazelmer S. Fernandez
 position: Junior Associate
 startDate: 2020-09-30T17:41:48.639Z
 email: hazelmer.fernandez@gulapalaw.com
-mobile: "#"
+mobile: n/a
 description: "Hazel is a junior associate of the firm.\r
 
 
