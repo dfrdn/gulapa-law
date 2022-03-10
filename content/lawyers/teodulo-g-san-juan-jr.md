@@ -1,7 +1,7 @@
 ---
 name: Teodulo G. San Juan, Jr.
 position: Partner
-startDate: 2022-02-21T17:14:00.470Z
+startDate: 2020-05-31T17:14:00.470Z
 email: butch.sanjuan@gulapalaw.com
 mobile: +phone loc. 201
 description: "Butch is a partner of the firm.\r
