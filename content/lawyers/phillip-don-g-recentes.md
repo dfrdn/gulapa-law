@@ -1,7 +1,7 @@
 ---
 name: Phillip Don G. Recentes
 position: Senior Associate
-startDate: 2022-02-21T18:23:24.574Z
+startDate: 2020-10-15T18:23:24.574Z
 email: phil.recentes@gulapalaw.com
 mobile: "#"
 description: Phil is a senior associate of the firm.
@@ -18,6 +18,10 @@ matters:
     Stamps Integrated System (cigarettes)
 offices:
   - manila
+  - new-york
 practices:
   - general-corporate
+  - dispute-resolution
+  - technology-media-and-telecommunications
+  - data-privacy-act-compliance
 ---
