@@ -3,7 +3,7 @@ name: Maria Isabelle J. Poblete
 position: Junior Associate
 startDate: 2020-02-29T17:14:20.142Z
 email: isabelle.poblete@gulapalaw.com
-mobile: "#"
+mobile: n/a
 description: Belle is a junior associate of the firm. She was awarded the
   Recommended Lawyer in Intellectual Property by The Legal 500 in 2022.
 image: /img/belle-qcp02380_e1.jpg
