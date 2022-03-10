@@ -1,9 +1,9 @@
 ---
 name: Charmaine Rose K. Haw-Lim
 position: Partner
-startDate: 2015-12-31T17:02:56.637Z
+startDate: 2017-12-31T17:02:56.637Z
 email: charms.haw@gulapalaw.com
-mobile: "#"
+mobile: +6329602845 loc. 201
 description: >-
   Charms is the Managing Partner of the firm.
 
@@ -20,10 +20,13 @@ education:
 matters:
   - National Government Administrative Center Project Acquisition by Densan of a
     minority stake in CBCI
+  - Bundled Regional Airports Project
+  - Various franchising agreements for Francorp Philippines
 offices:
   - manila
 practices:
   - general-corporate
   - i-tech-intellectual-property
   - infrastructure
+  - dispute-resolution
 ---
