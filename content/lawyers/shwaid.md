@@ -1,7 +1,7 @@
 ---
 name: Al-Shwaid L. Ismael
 position: Partner
-startDate: 2022-02-21T17:17:41.437Z
+startDate: 2020-10-18T17:17:41.437Z
 email: alshwaid.ismael@gulapalaw.com
 mobile: +phone loc. 201
 description: "Shwaid is a partner of the firm. He is presently the Managing
