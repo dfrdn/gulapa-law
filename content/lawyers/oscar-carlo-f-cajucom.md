@@ -4,9 +4,10 @@ position: Partner
 startDate: 2021-04-30T17:14:42.935Z
 email: caloy.cajucom@gulapalaw.com
 mobile: +6329602845 loc. 201
-description: Caloy is a partner of the firm and head of its litigation
-  department. He was awarded the  Recommended Lawyer in Dispute Resolution by
-  The Legal 500 in 2022.
+description: Caloy is a partner of the firm and head of its litigation and
+  dispute resolution department. He is a part-time lecturer at the Ateneo de
+  Manila University School of Law, the University of Makati, and the Far Eastern
+  University Institute of Law.
 image: /img/caloy-3_hgp7278-copy.jpg
 admissions:
   - Philippine Bar, 2013
