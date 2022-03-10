@@ -3,7 +3,7 @@ name: Theodore S. Ballesteros
 position: Junior Associate
 startDate: 2020-02-29T17:15:49.392Z
 email: theodore.ballesteros@gulapalaw.com
-mobile: "#"
+mobile: n/a
 description: Ted is a junior associate of the firm. He was awarded the
   Recommended Lawyer in Competiton by The Legal 500 in 2022.
 image: /img/ted-qcp02317-final-.jpg
