@@ -3,7 +3,7 @@ name: Ann Danzel P. Albaña
 position: Junior Associate
 startDate: 2019-10-01T15:49:51.741Z
 email: ada.albana@gulapalaw.com
-mobile: "#"
+mobile: n/a
 description: Ada is a junior associate of the firm.
 image: /img/female-profile.svg
 admissions:
