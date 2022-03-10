@@ -21,8 +21,8 @@ admissions:
 education:
   - New York University School of Law, Masters of Law in Intellectual Property
     2016 (CIIL program)
-  - Japan Patent Office, Patent Experts Course, 2012
   - World Intellectual Property Office, Advance Course on Patents, 2014
+  - Japan Patent Office, Patent Experts Course, 2012
   - "Ateneo de Manila University School of Law, Juris Doctor, 2008 (Second
     Honors; Jessup Moot) "
   - University of the Philippines Los Baños, BS Chemistry, 2003 (Chemistry
@@ -33,6 +33,7 @@ matters:
   - Research and Technology Laboratories, Inc. (Intellectual Property aspect)
   - The new Philippine ePassport (Intellectual Property aspect)
 offices:
+  - manila
   - new-york
 practices:
   - i-tech-intellectual-property
