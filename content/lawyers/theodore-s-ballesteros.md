@@ -1,7 +1,7 @@
 ---
 name: Theodore S. Ballesteros
 position: Junior Associate
-startDate: 2022-02-21T17:15:49.392Z
+startDate: 2020-02-29T17:15:49.392Z
 email: theodore.ballesteros@gulapalaw.com
 mobile: "#"
 description: Ted is a junior associate of the firm. He was awarded the
@@ -21,4 +21,5 @@ practices:
   - general-corporate
   - infrastructure
   - innovation-competition
+  - i-tech-intellectual-property
 ---
