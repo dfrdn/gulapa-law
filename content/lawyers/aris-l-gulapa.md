@@ -30,6 +30,32 @@ matters:
   - Makati Skytrain Project Tamugan Bulk Water
   - Treatment Facility Project South Integrated
   - Transport System The new Philippine ePassport
+recognitions:
+  - Outstanding Practitioner in the Philippines Award, Asialaw Regional Awards
+    (2019)
+  - Dealmaker of the Year, Asia Business Law Journal (2017)
+  - Ranked in Projects, Infrastructure, and Energy (Band 2), Chambers & Partners
+    Asia Pacific and Chambers & Partners Global (2022, 2021, 2020); (Band 3),
+    Chambers & Partners Asia Pacific and Chambers & Partners Global (2019, 2018,
+    and 2017); Up and coming, Chambers & Partners Asia Pacific & Chambers &
+    Partners Global (2016)
+  - Ranked in Corporate/M&A (Band 3), Chambers & Partners Asia Pacific &
+    Chambers & Partners Global (2022, 2021, 2020, 2019, 2018, 2017 and 2016)
+  - Top 100 Lawyers in the Philippines, Asia Business Law Journal (2020, 2019
+    and 2018)
+  - Leading individual in Real Estate and Construction, The Legal500 (2020,
+    2019, 2018, 2017 and 2016)
+  - Recommended Lawyer in Technology, Media and Telecoms, The Legal500 (2022,
+    2020)
+  - Recommended Lawyer in Corporate/M&A, The Legal 500 (2022, 2021, 2020, 2019,
+    2018, 2017 and 2016)
+  - Recommended Lawyer in Projects & Energy, The Legal 500 (2022, 2021, 2020,
+    2019, 2018, 2017 and 2016)
+  - Recommended Lawyer in Competition, The Legal500 (2022)
+  - Highly regarded lawyer in Project Development and M&A, IFLR1000 (2021,
+    2020); Notable lawyer, IFLR1000 (2019 and 2018)
+  - Distinguished Practitioner Commended in Infrastructure and Energy, Asialaw
+    Profiles (2022, 2021, 2020)
 offices:
   - cebu
   - manila
