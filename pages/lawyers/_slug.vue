@@ -122,7 +122,7 @@
           </div>
           <div class="space-y-4">
             <h2
-              v-if="info.matters"
+              v-if="info.recognitions"
               class="uppercase text-lg text-primary font-bold"
             >
               Gains and Recognitions
