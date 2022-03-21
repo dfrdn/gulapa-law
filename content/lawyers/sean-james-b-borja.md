@@ -5,7 +5,7 @@ startDate: 2019-03-01T15:45:25.280Z
 email: sean.borja@gulapalaw.com
 mobile: n/a
 description: Sean is a junior associate of the firm.
-image: /img/male-profile.svg
+image: /img/sean-2_hgp7302-copy.jpg
 admissions:
   - Philippine Bar, 2019 (Top 1)
 education:
