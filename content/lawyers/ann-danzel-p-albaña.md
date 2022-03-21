@@ -5,7 +5,7 @@ startDate: 2019-10-01T15:49:51.741Z
 email: ada.albana@gulapalaw.com
 mobile: n/a
 description: Ada is a junior associate of the firm.
-image: /img/female-profile.svg
+image: /img/ada-qcp02600.jpeg
 admissions:
   - Philippine Bar, 2019
 education:
