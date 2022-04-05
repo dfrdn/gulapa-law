@@ -4,14 +4,12 @@ position: Partner
 startDate: 2019-01-01T07:40:28.767Z
 email: angel.machuca@gulapalaw.com
 mobile: +6329602845 loc. 201
-description: >-
-  Angel is a partner of the firm. 
+description: "Angel is a partner of the firm. \r
 
+  \r
 
-  He joined the firm in 2015 as an associate soon after its establishment and was promoted to partner in January 2019.
-
-
-  Angel won the Rising Star in Project Development from the International Financial Law Review in 2019 and 2021. He also won the Next Generation Partner in Real Estate and Construction by The Legal 500 in 2020, 2021, and 2022, the Next Generation Lawyer in Real Estate and Construction by The Legal 500 in 2019, and the Recommended Lawyer in Projects & Energy by The Legal 500 in 2022.
+  He joined the firm in 2015 as an associate soon after its establishment and
+  was promoted to partner in January 2019.\r\n"
 image: /img/2-angel.jpg
 admissions:
   - Philippine Bar, 2013 (Top 5)
