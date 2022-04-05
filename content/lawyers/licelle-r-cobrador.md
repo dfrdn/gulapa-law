@@ -17,7 +17,6 @@ education:
 offices:
   - new-york
 practices:
-  - general-corporate
   - doing-business-in-new-york
-  - human-resources-immigration
+  - immigration
 ---
