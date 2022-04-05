@@ -16,6 +16,9 @@ matters:
   - Capital restructuring of CCL Philippines
   - Restructuring of investments of a sovereign government in Asia
   - APO-UGEC Joint Venture
+recognitions:
+  - Next Generation Partner in Corporate and M&A, The Legal 500 (2022, 2021,
+    2020)
 offices:
   - manila
 practices:
