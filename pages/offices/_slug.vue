@@ -36,16 +36,7 @@
         class="md:w-5/12"
       />
       <div
-        class="
-          xl:gap-4
-          gap-10
-          grid grid-auto-flow
-          lg:grid-cols-4
-          md:grid-cols-2
-          sm:grid-cols-1
-          xl:px-0
-          px-5
-        "
+        class="xl:gap-4 gap-10 grid grid-auto-flow lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 xl:px-0 px-5"
       >
         <g-lawyer
           v-for="lawyer in lawyers.filter(({ offices }) =>
@@ -60,33 +51,23 @@
 
     <section class="bg-primary text-white">
       <div class="container">
-        <g-title heading="What We Do" subheading="Our Practice Areas" />
+        <g-title
+          heading="What We Do"
+          :subheading="`${office.location} Practice Areas`"
+        />
         <div class="flex flex-col md:flex-row">
           <div class="md:w-1/3">
             <div class="mx-4 md:mx-0 md:ml-8 text-center md:text-left">
-              <p class="my-8 md:pr-8">
+              <!-- <p class="my-8 md:pr-8">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
+              </p> -->
             </div>
           </div>
           <div class="md:w-2/3">
             <div
               id="practices"
-              class="
-                xl:gap-18
-                gap-10
-                md:grid md:grid-auto-flow
-                flex
-                overflow-x-auto
-                md:overflow-visible
-                lg:grid-cols-3
-                md:grid-cols-2
-                sm:grid-cols-1
-                xl:px-0
-                px-5
-                md:ml-0
-              "
+              class="xl:gap-18 gap-10 md:grid md:grid-auto-flow flex overflow-x-auto md:overflow-visible lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 xl:px-0 px-5 md:ml-0"
             >
               <g-practice
                 v-for="practice in practiceAreas.filter(({ offices }) =>
