@@ -4,15 +4,12 @@ position: Partner
 startDate: 2015-09-01T07:18:35.654Z
 email: aris.gulapa@gulapalaw.com
 mobile: +6329602845 loc. 201
-description: >-
+description: "Aris is the founding partner of the firm.\r
+
+  \r
+
   After accumulating a wealth of experience from his legal practice in Manila,
-  Vietnam, Singapore, Tokyo and New York, Aris set up Gulapa Law. 
-
-
-  He won many awards including the Outstanding Practitioner in the Philippines Award by Asialaw Regional Awards in 2019, the Dealmaker of the Year award by Asia Business Law Journal in 2017, the Ranked in Projects, Infrastructure, and Energy (Band2) by the Chambers & Partners Asia Pacific and Chambers & Partners Global in 2020, 2021, and 2022. (Band 3) by the Chambers & Partners Asia Pacific and Chambers & Partners Global in 2017 and 2019, the Up and coming by the Chambers & Partners Asia Pacific and Chambers & Partners Global in 2016, the Ranked in Corporate/M&A (Band 3) award by the Chambers & Partners Asia Pacific & Chambers & Partners Global from 2016 to 2022. 
-
-
-  He was also awarded the Top 100 Lawyers in the Philippines by Asia Business Law Journal in 2018, 2019, and 2020, the Leading individual in Real Estate and Construction by The Legal 500 in 2016, 2017, 2018, 2019, and 2020, the Recommended Lawyer in Technology, Media and Telecoms by The Legal 500 in 2020 and 2022, the Recommended Lawyer in Corporate/M&A by The Legal 500 in 2016, 2017, 2018, 2019, 2020, 2021, and 2022, the Recommended Lawyer in Projects  & Energy by The Legal 500 in 2016, 2017, 2018, 2019, 2020, 2021, and 2022, the Recommended Lawyer in Competiton by The Legal 500 in 2022, the Highly regarded lawyer in Project Development and M&A by IFLR1000 in 2020 and 2021, the Notable lawyer by IFLR1000 in 2018 and 2019, and the Distinguished Practitioner Commended in Infrastucture and Energy by Asialaw Profiles in 2020, 2021, and 2022.
+  Vietnam, Singapore, Tokyo and New York, Aris set up Gulapa Law.\r\n"
 image: /img/aris-560x460.jpg
 admissions:
   - New York Bar, 2014
