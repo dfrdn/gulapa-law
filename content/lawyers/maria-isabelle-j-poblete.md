@@ -22,7 +22,7 @@ recognitions:
 offices:
   - manila
 practices:
-  - general-corporate
   - government-contracts
-  - infrastructure
+  - corporate-and-m-a
+  - i-tech-intellectual-property
 ---
