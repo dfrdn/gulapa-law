@@ -67,7 +67,7 @@
           <div class="md:w-2/3">
             <div
               id="practices"
-              class="xl:gap-18 gap-10 md:grid md:grid-auto-flow flex overflow-x-auto md:overflow-visible lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 xl:px-0 px-5 md:ml-0"
+              class="xl:gap-18 gap-10 md:grid md:grid-auto-flow flex overflow-x-auto md:overflow-visible lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 xl:px-0 px-5 md:ml-0 mt-5"
             >
               <g-practice
                 v-for="practice in practiceAreas.filter(({ offices }) =>
