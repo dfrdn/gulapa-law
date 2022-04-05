@@ -25,6 +25,6 @@ matters:
 offices:
   - manila
 practices:
-  - general-corporate
-  - infrastructure
+  - corporate-and-m-a
+  - real-estate-and-construction
 ---
