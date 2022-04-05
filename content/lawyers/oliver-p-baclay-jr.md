@@ -28,6 +28,10 @@ matters:
   - Solutionize, Inc. (Intellectual Property aspect)
   - Research and Technology Laboratories, Inc. (Intellectual Property aspect)
   - The new Philippine ePassport (Intellectual Property aspect)
+recognitions:
+  - Recommended Lawyer in Intellectual Property, The Legal500 (2022)
+  - Leading Individual in Intellectual Property (Band 4), Chambers & Partners
+    Asia Pacific (2022)
 offices:
   - manila
   - new-york

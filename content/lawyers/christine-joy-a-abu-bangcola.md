@@ -19,6 +19,8 @@ matters:
   - "Estafa, Falsification, Cyberlibel Trademark, Infringement, and Petition for
     Cancellation of Trademark and Industrial Design  "
   - Investigation pending before the Philippine Competition Commission
+recognitions:
+  - Recommended Lawyer in Dispute Resolution, The Legal500 (2022)
 offices:
   - manila
 practices:

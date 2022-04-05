@@ -25,6 +25,8 @@ matters:
   - General Corporate and Finance, Altus Capital Corporation
   - "Government Contracts, Manila Water: Offtake Agreement for the Calawis-Wawa
     Project"
+recognitions:
+  - Recommended Lawyer in Projects & Energy, The Legal500 (2022)
 offices:
   - manila
 practices:
