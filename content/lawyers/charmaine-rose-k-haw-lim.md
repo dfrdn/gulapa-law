@@ -21,6 +21,9 @@ matters:
   - Various franchising agreements for Francorp Philippines
 offices:
   - manila
+  - cebu
+  - new-york
+  - san-francisco
 practices:
   - general-corporate
   - i-tech-intellectual-property
