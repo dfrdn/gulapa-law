@@ -17,6 +17,8 @@ matters:
   - Public Infrastructure, Metro Manila Subway Project
   - Public Infrastructure, Metropolitan Waterworks and Sewerage System and
     Manila Water Inc. Concession Agreement
+recognitions:
+  - Recommended Lawyer in Intellectual Property, The Legal500 (2022)
 offices:
   - manila
 practices:
