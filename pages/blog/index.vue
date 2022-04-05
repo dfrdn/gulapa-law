@@ -4,7 +4,7 @@
     <div class="container flex md:flex-row flex-col">
       <div class="md:w-4/5 md:order-1 order-2">
         <g-blog
-          v-for="blog in blogs"
+          v-for="blog in [...blogs].sort(a, (b) => b.date - a.date)"
           :key="blog.slug"
           :details="
             combine(
