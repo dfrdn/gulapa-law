@@ -26,6 +26,9 @@ recognitions:
     2020) "
 offices:
   - manila
+  - cebu
+  - san-francisco
+  - new-york
 practices:
   - i-tech-intellectual-property
   - dispute-resolution
