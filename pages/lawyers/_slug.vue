@@ -114,7 +114,7 @@
               v-if="info.matters"
               class="uppercase text-lg text-primary font-bold"
             >
-              Matters Handled
+              Notable Matters Handled
             </h2>
             <p v-for="matter in info.matters">
               {{ '> ' + matter }}
