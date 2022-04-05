@@ -13,4 +13,5 @@ offices:
   - cebu
   - new-york
   - san-francisco
+  - manila
 ---
