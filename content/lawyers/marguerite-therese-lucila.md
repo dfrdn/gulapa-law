@@ -14,6 +14,6 @@ education:
 offices:
   - new-york
 practices:
-  - general-corporate
   - dispute-resolution
+  - corporate-and-m-a
 ---
