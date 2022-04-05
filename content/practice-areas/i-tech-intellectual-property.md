@@ -11,7 +11,7 @@ notables:
   - " The new Philippine ePassport Project"
   - " Research and Technology Laboratories, Inc."
 contact:
-  - aris-l-gulapa
+  - oliver-p-baclay-jr
 offices:
   - manila
   - san-francisco
