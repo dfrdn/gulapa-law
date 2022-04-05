@@ -16,8 +16,8 @@ matters: []
 offices:
   - cebu
 practices:
-  - general-corporate
   - banking-and-finance
   - tax
   - dispute-resolution
+  - corporate-and-m-a
 ---
