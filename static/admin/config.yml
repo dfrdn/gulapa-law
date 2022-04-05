@@ -306,6 +306,7 @@ collections:
     slug: '{{awardbody}}'
     fields:
       - { label: 'Awarding Body', name: 'awardbody', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'string' }
       - {
           label: 'Award',
           name: 'award',

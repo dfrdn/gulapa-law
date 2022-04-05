@@ -5,7 +5,12 @@
         {{ details.awardbody }}
       </h2>
     </div>
-    <div class="space-y-2">
+    <div>
+      <p class="px-6 xl:text-xl text-md">
+        {{ details.description }}
+      </p>
+    </div>
+    <div class="-mt-2 space-y-2">
       <p
         v-for="award in details.award"
         :key="award"
