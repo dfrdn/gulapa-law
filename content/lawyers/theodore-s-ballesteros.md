@@ -20,8 +20,8 @@ recognitions:
 offices:
   - manila
 practices:
-  - general-corporate
-  - infrastructure
-  - innovation-competition
   - i-tech-intellectual-property
+  - dispute-resolution
+  - corporate-and-m-a
+  - competition-and-anti-trust
 ---
