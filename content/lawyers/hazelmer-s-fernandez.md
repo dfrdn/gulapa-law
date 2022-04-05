@@ -18,7 +18,7 @@ matters: []
 offices:
   - manila
 practices:
-  - general-corporate
   - tax
   - dispute-resolution
+  - corporate-and-m-a
 ---
