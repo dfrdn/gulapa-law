@@ -6,13 +6,15 @@ email: butch.sanjuan@gulapalaw.com
 mobile: +6329602845 loc. 201
 description: "Butch is a partner of the firm.\r
 
-  \ \r
+  \r
 
   Prior to joining the firm, Butch was President of Prime Asset Ventures,
   Inc., the infrastructure arm of a major Philippine conglomerate. Before that
   he was a senior partner at Castillo Laman Tan Pantaleon & San Jose, a law firm
   located in Makati City. Butch is an instructor at the University of the
-  Philippines College of Law.\r\n"
+  Philippines College of Law.\r
+
+  \r\n"
 image: /img/butch-qcp02263.jpg
 admissions:
   - Philippine Bar, 1997 (Top 7)
