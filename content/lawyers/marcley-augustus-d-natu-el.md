@@ -18,7 +18,6 @@ matters:
 offices:
   - cebu
 practices:
-  - general-corporate
-  - infrastructure
   - dispute-resolution
+  - corporate-and-m-a
 ---
