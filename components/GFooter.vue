@@ -1,17 +1,7 @@
 <template>
   <footer class="bg-primary w-full">
     <div
-      class="
-        container
-        py-10
-        grid
-        md:grid-cols-4
-        gap-3
-        grid-cols-1
-        px-10
-        md:px-5
-        xl:px-0
-      "
+      class="container py-10 grid md:grid-cols-5 gap-3 grid-cols-1 px-10 md:px-5 xl:px-0"
     >
       <div class="flex flex-col text-white">
         <h3>Connect with Us</h3>
@@ -21,24 +11,33 @@
         </div>
       </div>
       <div class="flex flex-col text-white">
-        <h3>Manila Address</h3>
+        <nuxt-link to="/offices/manila"><h3>Manila</h3></nuxt-link>
         <p>
           Unit 8, 25/F Exquadra Tower, Exchange Road cor. Jade Drive, Ortigas
-          Center, 1605 Pasig City
+          Center, 1605 Pasig City, PH
         </p>
+      </div>
+      <div class="flex flex-col text-white">
+        <nuxt-link to="/offices/cebu"><h3>Cebu</h3></nuxt-link>
+        <p>
+          Unit 1511, 15th Floor, BPI Corporate Center, Archbishop Reyes Avenue,
+          Cebu City, PH 6000
+        </p>
+      </div>
+      <div class="flex flex-col text-white">
+        <nuxt-link to="/offices/new-york"><h3>New York</h3></nuxt-link>
+        <p>1115 Broadway (25th and Broadway) near Madison Square Park, USA</p>
+      </div>
+      <div class="flex flex-col text-white">
+        <nuxt-link to="/offices/san-francisco"
+          ><h3>San Francisco</h3></nuxt-link
+        >
+        <p>2/F 95 3rd and Mission Sts. San Francisco, CA 94103 USA</p>
       </div>
     </div>
     <div class="bg-secondary text-primary py-2">
       <div
-        class="
-          container
-          flex flex-col
-          md:flex-row
-          justify-between
-          items-center
-          px-10
-          md:px-0
-        "
+        class="container flex flex-col md:flex-row justify-between items-center px-10 md:px-0"
       >
         <p id="copyright" class="order-1 md:order-0">
           All Rights Reserved | Gulapa Law {{ new Date().getFullYear() }}
