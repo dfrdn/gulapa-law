@@ -30,8 +30,8 @@ recognitions:
 offices:
   - manila
 practices:
-  - general-corporate
   - government-contracts
   - dispute-resolution
-  - infrastructure
+  - corporate-and-m-a
+  - energy
 ---
