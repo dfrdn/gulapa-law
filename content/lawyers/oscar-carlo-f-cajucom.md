@@ -17,6 +17,8 @@ education:
   - Ateneo de Manila University School of Law, Juris Doctor, 2012 (Second
     Honors; Ateneo Law Journal (2009-2012)
 matters: []
+recognitions:
+  - Recommended Lawyer in Dispute Resolution, The Legal500 (2022)
 offices:
   - manila
 practices:
