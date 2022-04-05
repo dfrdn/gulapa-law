@@ -15,6 +15,8 @@ education:
 matters:
   - "Public Infrastructure, ADB North-South Commuter Rail Project  "
   - Infrastructure, SM-Pasay Reclamation Project
+recognitions:
+  - Recommended Lawyer in Competition, The Legal500 (2022)
 offices:
   - manila
 practices:
