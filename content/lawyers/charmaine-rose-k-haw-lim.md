@@ -26,9 +26,6 @@ recognitions:
     2020) "
 offices:
   - manila
-  - cebu
-  - new-york
-  - san-francisco
 practices:
   - general-corporate
   - i-tech-intellectual-property
