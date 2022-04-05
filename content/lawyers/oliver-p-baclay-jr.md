@@ -4,12 +4,8 @@ position: Partner
 startDate: 2017-01-31T17:10:51.137Z
 email: oliver.baclay@gulapalaw.com
 mobile: +6329602845 loc. 201
-description: >-
-  Oliver practices intellectual property law both in New York and in the
-  Philippines, and leads the intellectual property practice of the firm.
-
-
-  Oliver was awarded the Recommended Lawyer in Intellectual Property by The Legal 500 in 2022, and the Leading individual in Intellectual Property (Band 4) by the Chambers & Partners Asia Pacific also in the same year, 2022.
+description: Oliver practices intellectual property law both in New York and in
+  the Philippines, and leads the intellectual property practice of the firm.
 image: /img/oliver_hgp3003.jpg
 admissions:
   - New York Bar, 2015
