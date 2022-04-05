@@ -31,9 +31,9 @@ offices:
   - new-york
   - cebu
 practices:
-  - general-corporate
-  - infrastructure
+  - corporate-and-m-a
+  - competition-and-anti-trust
+  - immigration
   - government-contracts
-  - innovation-competition
-  - human-resources-immigration
+  - real-estate-and-construction
 ---
