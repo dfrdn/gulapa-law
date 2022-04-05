@@ -31,7 +31,7 @@ export default {
   async asyncData({ $content }) {
     // const { lawyersHeader } = await $content('lawyers-page').fetch()
 
-    const blogs = await $content('blog').fetch()
+    const blogs = await $content('blog').sortBy('date', 'desc').fetch()
     const lawyers = await $content('lawyers')
       .only(['slug', 'image', 'name'])
       .fetch()
