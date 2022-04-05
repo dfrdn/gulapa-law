@@ -4,46 +4,16 @@
       <div class="w-screen lg:w-8/12">
         <div class="relative">
           <div
-            class="
-              header
-              text-white
-              xl:px-0
-              px-10
-              xl:pt-32
-              lg:pt-24
-              md:pt-16
-              pt-12
-              pb-14
-            "
+            class="header text-white xl:px-0 px-10 xl:pt-32 lg:pt-24 md:pt-16 pt-12 pb-14"
           >
             <div class="flex flex-col space-y-4 md:space-y-0 md:block">
               <img
-                class="
-                  w-auto
-                  md:object-cover
-                  inline-block
-                  h-12
-                  align-self-center
-                  md:mb-6 md:-ml-7 md:mr-3
-                  filter
-                  brightness-0
-                  invert
-                "
+                class="w-auto md:object-cover inline-block h-12 align-self-center md:mb-6 md:-ml-7 md:mr-3 filter brightness-0 invert"
                 :src="info.image"
                 :alt="info.title"
               />
               <h1
-                class="
-                  uppercase
-                  text-3xl
-                  font-semibold
-                  tracking-wide
-                  md:relative
-                  block
-                  md:inline-block
-                  text-center
-                  md:text-left
-                "
+                class="uppercase text-3xl font-semibold tracking-wide md:relative block md:inline-block text-center md:text-left"
               >
                 {{ info.title }}
               </h1>
@@ -67,9 +37,13 @@
           </div>
         </div>
         <div class="px-10 xl:px-0 mt-8 xl:ml-20 space-y-3">
-          <h2 class="uppercase text-lg text-primary font-bold">
+          <h2
+            v-if="info.notables"
+            class="uppercase text-lg text-primary font-bold"
+          >
             Notable Matters
           </h2>
+
           <p v-for="notable in info.notables" :key="notable" class="">
             {{ '> ' + notable }}
           </p>
