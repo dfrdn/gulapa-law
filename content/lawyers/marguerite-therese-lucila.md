@@ -13,6 +13,7 @@ education:
   - Ateneo de Manila University School of Law, 2009 (Second Honors)
 offices:
   - new-york
+  - manila
 practices:
   - dispute-resolution
   - corporate-and-m-a
