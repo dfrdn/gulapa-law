@@ -19,6 +19,11 @@ matters:
     minority stake in CBCI
   - Bundled Regional Airports Project
   - Various franchising agreements for Francorp Philippines
+recognitions:
+  - "Next Generation Partner in Projects and Energy, The Legal 500 (2022, 2021,
+    2020) "
+  - "Next Generation Partner in Projects and Energy, The Legal 500 (2022, 2021,
+    2020) "
 offices:
   - manila
   - cebu
