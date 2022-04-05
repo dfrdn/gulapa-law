@@ -15,8 +15,7 @@ matters:
 offices:
   - manila
 practices:
-  - general-corporate
-  - infrastructure
   - i-tech-intellectual-property
-  - technology-media-and-telecommunications
+  - real-estate-and-construction
+  - corporate-and-m-a
 ---
