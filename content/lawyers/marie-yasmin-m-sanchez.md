@@ -4,7 +4,7 @@ position: Of Counsel
 startDate: 2019-03-05T18:23:51.160Z
 email: yassanchez@gulapalaw.com
 mobile: "#"
-description: Yas is an Of Counsel for Gulapa Law. She is currently based in New
+description: Yas is an Of counsel for Gulapa Law. She is currently based in New
   York, with a focus on contracts and technology transactions.
 image: /img/yas_hgp0956.jpg
 admissions:
