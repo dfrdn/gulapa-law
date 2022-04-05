@@ -20,8 +20,8 @@ offices:
   - manila
   - new-york
 practices:
-  - general-corporate
   - dispute-resolution
-  - technology-media-and-telecommunications
   - data-privacy-act-compliance
+  - labour-and-employment
+  - immigration
 ---
