@@ -92,6 +92,17 @@ collections:
           widget: 'list',
           field: { label: 'Notable Matter', name: 'notable', widget: 'string' },
         }
+      - {
+          label: 'Gains and Recognitions',
+          name: 'recognitions',
+          widget: 'list',
+          field:
+            {
+              label: 'Gains and Recognitions',
+              name: 'recognition',
+              widget: 'string',
+            },
+        }
       - label: 'Offices'
         name: 'offices'
         widget: 'relation'

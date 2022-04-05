@@ -1,5 +1,5 @@
 <template>
-  <div class="mb-2">
+  <div class="mb-4">
     <section class="bg-primary text-white">
       <div class="container md:mt-20">
         <div>

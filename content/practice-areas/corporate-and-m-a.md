@@ -1,7 +1,10 @@
 ---
 title: Corporate and M&A
-image: /img/asean-trade.svg
-description: Desc
+image: /img/corporate.svg
+description: ---
+notables:
+  - Review of various existing joint ventures in the real estate sector
+  - Review of existing agreements of an entertainment industry group
 contact:
   - aris-l-gulapa
 offices:

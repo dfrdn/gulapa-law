@@ -1,8 +1,9 @@
 ---
 name: Al-Shwaid L. Ismael
 position: Partner
+startDate: 2020-10-18T17:17:41.437Z
 email: alshwaid.ismael@gulapalaw.com
-mobile: +phone loc. 201
+mobile: +6329602845 loc. 201
 description: "Shwaid is a partner of the firm. He is presently the Managing
   Partner of the firm’s Cebu office, Gulapa & Ismael, and a partner of the
   firm’s New York office, Gulapa & Baclay.  \r
@@ -10,9 +11,9 @@ description: "Shwaid is a partner of the firm. He is presently the Managing
   \r
 
   Shwaid is the current Dean of the University of Cebu School of Law\r\n"
-image: /img/3-shwaid.jpg
+image: /img/shwaid_dsc_4217-1-1-1-1-1-1-1-.png
 admissions:
-  - 'New York Bar, 2018 '
+  - "New York Bar, 2018 "
   - Philippine Bar, 2007 (Top 8)
 education:
   - New York University School of Law, 2017 (LLM Vanderbilt Medal; University

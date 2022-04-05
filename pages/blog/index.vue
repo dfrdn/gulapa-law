@@ -1,8 +1,8 @@
 <template>
   <div>
     <g-header heading="G-News" description="Hear about" />
-    <div class="container flex">
-      <div class="w-2/3">
+    <div class="container flex md:flex-row flex-col">
+      <div class="md:w-4/5 md:order-1 order-2">
         <g-blog
           v-for="blog in blogs"
           :key="blog.slug"
@@ -14,13 +14,23 @@
           "
         />
       </div>
-      <div class="w-1/3 sticky top-10">
-        <a
-          class="twitter-timeline"
-          data-height="800"
-          href="https://twitter.com/gulapa_law?ref_src=twsrc%5Etfw"
-          >Tweets by gulapa_law</a
-        >
+      <div class="md:w-1/5 sticky pt-4 px-5 md:pl-5 md:order-2 order-1">
+        <div class="hidden md:block">
+          <a
+            class="twitter-timeline"
+            data-height="500"
+            data-chrome="noscrollbar"
+            href="https://twitter.com/gulapa_law?ref_src=twsrc%5Etfw"
+          ></a>
+        </div>
+        <div class="md:hidden">
+          <a
+            class="twitter-timeline"
+            data-height="300"
+            data-chrome="noscrollbar"
+            href="https://twitter.com/gulapa_law?ref_src=twsrc%5Etfw"
+          ></a>
+        </div>
       </div>
     </div>
   </div>
@@ -69,4 +79,14 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss">
+/* Hide scrollbar for Chrome, Safari and Opera */
+.timeline-Viewport :-webkit-scrollbar {
+  display: none;
+}
+
+.timeline-Viewport {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+</style>

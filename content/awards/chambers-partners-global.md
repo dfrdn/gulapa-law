@@ -1,5 +1,5 @@
 ---
 awardbody: Chambers & Partners (Global)
 award:
-  - Chambers & Partners (Global)
+  - Projects, Infrastructure & Energy, Band 3 (2022)
 ---

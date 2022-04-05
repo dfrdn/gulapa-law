@@ -4,45 +4,18 @@
       <div class="w-screen lg:w-2/3">
         <div class="relative">
           <div
-            class="
-              header
-              text-white
-              xl:px-0
-              px-10
-              xl:pt-32
-              lg:pt-24
-              md:pt-16
-              pt-12
-              pb-4
-            "
+            class="header text-white xl:px-0 px-10 xl:pt-32 lg:pt-24 md:pt-16 pt-12 pb-4"
           >
             <div>
               <h1
-                class="
-                  uppercase
-                  text-2xl
-                  font-semibold
-                  tracking-wide
-                  md:relative
-                  block
-                  md:inline-block
-                  text-center
-                  md:text-left
-                "
+                class="uppercase text-2xl font-semibold tracking-wide md:relative block md:inline-block text-center md:text-left"
               >
                 {{ info.name }}
               </h1>
             </div>
             <div class="flex md:flex-row flex-col">
               <div
-                class="
-                  flex flex-col
-                  items-center
-                  md:hidden
-                  text-xs
-                  mt-8
-                  space-y-2
-                "
+                class="flex flex-col items-center md:hidden text-xs mt-8 space-y-2"
               >
                 <a :href="`mailto:${info.email}`"
                   ><email-icon class="white inline-block mr-2" />{{
@@ -72,38 +45,16 @@
                 </div>
               </div>
               <div
-                class="
-                  w-full
-                  mt-4
-                  md:w-5/12 md:-mt-9
-                  flex
-                  justify-center
-                  order-1
-                  md:order-2
-                "
+                class="w-full mt-4 md:w-5/12 md:-mt-9 flex justify-center order-1 md:order-2 items-start"
               >
                 <div class="relative">
                   <img
                     :src="info.image"
                     :alt="info.name"
-                    class="
-                      object-cover
-                      border-2 border-secondary
-                      h-72
-                      w-72
-                      mb-2
-                      rounded-lg
-                    "
+                    class="object-cover border-2 border-secondary h-72 w-72 mb-2 rounded-lg"
                   />
                   <div
-                    class="
-                      absolute
-                      bg-white
-                      bottom-2
-                      left-0
-                      rounded-tr-lg rounded-bl-lg
-                      md:rounded-br-none md:rounded-tr-lg
-                    "
+                    class="absolute bg-white bottom-2 left-0 rounded-tr-lg rounded-bl-lg md:rounded-br-none md:rounded-tr-lg"
                   >
                     <p class="text-primary py-1 px-5 text-xs">
                       {{ offices.join(' | ') }}
@@ -116,7 +67,10 @@
         </div>
         <div class="mt-8 space-y-10 md:w-9/12 w-full px-10 md:px-0">
           <div class="space-y-4">
-            <h2 class="uppercase text-lg text-primary font-bold">
+            <h2
+              v-if="practiceAreas"
+              class="uppercase text-lg text-primary font-bold"
+            >
               Practice Areas
             </h2>
             <nuxt-link
@@ -134,7 +88,10 @@
             </nuxt-link>
           </div>
           <div class="space-y-4">
-            <h2 class="uppercase text-lg text-primary font-bold">
+            <h2
+              v-if="info.admissions"
+              class="uppercase text-lg text-primary font-bold"
+            >
               Admission/s
             </h2>
             <p v-for="admission in info.admissions">
@@ -142,17 +99,36 @@
             </p>
           </div>
           <div class="space-y-4">
-            <h2 class="uppercase text-lg text-primary font-bold">Education</h2>
+            <h2
+              v-if="info.education"
+              class="uppercase text-lg text-primary font-bold"
+            >
+              Education
+            </h2>
             <p v-for="educ in info.education">
               {{ '> ' + educ }}
             </p>
           </div>
           <div class="space-y-4">
-            <h2 class="uppercase text-lg text-primary font-bold">
+            <h2
+              v-if="info.matters"
+              class="uppercase text-lg text-primary font-bold"
+            >
               Matters Handled
             </h2>
             <p v-for="matter in info.matters">
               {{ '> ' + matter }}
+            </p>
+          </div>
+          <div class="space-y-4">
+            <h2
+              v-if="info.recognitions"
+              class="uppercase text-lg text-primary font-bold"
+            >
+              Gains and Recognitions
+            </h2>
+            <p v-for="recognition in info.recognitions">
+              {{ '> ' + recognition }}
             </p>
           </div>
         </div>
