@@ -42,7 +42,8 @@ matters:
 offices:
   - manila
 practices:
-  - general-corporate
-  - infrastructure
   - government-contracts
+  - energy
+  - banking-and-finance
+  - corporate-and-m-a
 ---
