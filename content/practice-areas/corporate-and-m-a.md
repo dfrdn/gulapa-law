@@ -1,6 +1,6 @@
 ---
 title: Corporate and M&A
-image: /img/asean-trade.svg
+image: /img/corporate.svg
 description: Competition law is an area that has not been tested before
   Philippine courts and is not traditionally taught in Philippine law schools.
   Due to our competition lawyers’ training abroad, our understanding of this
