@@ -25,28 +25,16 @@ hero:
 about:
   heading: Who We Are
   subheading: We are here to help you with your legal needs
-  description: >
-    The Firm was established by Aris L. Gulapa in September 2015. Since then,
-    the Firm has admitted seven (7) partners, namely, Charmaine Rose K. Haw-Lim,
+  description: >-
+    The Firm was established by Aris L. Gulapa in September 2015.  Since then,
+    the Firm has admitted eight (8) partners, namely, Charmaine Rose K. Haw-Lim,
     Melissa Ester E. Chavez-Dee, Jose Maria Angel P. Machuca, Teodulo Antonio G.
-    San Juan, Jr., Al-Shwaid L. Ismael, Oscar Carlo F. Cajucom, and Dan Kevin C.
-    Mandocdoc. From a complement of six (6) lawyers in 2015, the Firm now has
-    twenty-six (26) lawyers.
-
-
+    San Juan, Jr., Oliver P. Baclay, Al-Shwaid L. Ismael, Oscar Carlo F.
+    Cajucom, and Dan Kevin C. Mandocdoc.  From a complement of six (6) lawyers
+    in 2015, the Firm now has thirty-five (35) legal professionals including
+    seven (7) underbar associates.
+     
     The Firm is now officially known as “Gulapa & Lim (Gulapa Law)”.
-
-
-    In 2017, the Firm became the first Philippine-based law firm to set up a presence in New York City through its affiliate, Gulapa & Baclay LLP.
-
-
-    In 2018, the Firm also became the first Philippine-based law firm to register a representative office in San Francisco.
-
-
-    In January 2020, the Firm opened an office in Cebu City through its affiliate, Gulapa & Ismael, and commenced assisting clients in Cebu City and neighboring cities within Cebu Province. Al-Shwaid L. Ismael is our resident partner in Cebu.
-
-
-    The Firm’s practice areas include general corporate, mergers and acquisitions, government contracts and infrastructure (including Public-Private Partnership projects), project development and finance, real estate and construction, technology, media and telecommunications, antitrust and competition, intellectual property, and dispute resolution.
   button: Learn More
   image: /img/who-we-are.png
   timeline:
@@ -74,12 +62,12 @@ offices:
       image: /img/san-francisco.jpg
 practices:
   practices:
-    - general-corporate
-    - government-contracts
-    - dispute-resolution
-    - infrastructure
-    - asean-trade
-    - data-privacy-act-compliance
+    - banking-and-finance
+    - competition-and-anti-trust
+    - corporate-and-m-a
+    - real-estate-and-construction
+    - energy
+    - fashion-entertainment-media-fem
   heading: What We Do
   subheading: Our Practice Areas
   description: Gulapa Law is dedicated to serve our clients in a wide array of
@@ -106,7 +94,7 @@ awards:
     - award: Projects, Infrastructure & Energy, Band 3
       year: "2022"
       body: Chambers & Partners (Asia Pacific)
-    - award: Competition/Antitrust (Recommended Law Firm) (2022)
+    - award: Competition (Recommended Law Firm)
       year: "2022"
       body: Asialaw Profiles
     - award: Projects & Infrastructure Firm of the Year
