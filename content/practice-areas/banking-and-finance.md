@@ -1,6 +1,6 @@
 ---
 title: Banking and Finance
-image: /img/asean-trade.svg
+image: /img/bank.svg
 description: "The firm provides assistance and advice on various banking and
   financing matters which include proper implementation of multi-jurisdictional
   comprehensive corporate and debt restructuring deals, assignment and drafting
