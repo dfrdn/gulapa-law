@@ -1,6 +1,6 @@
 ---
 title: Aviation
-image: /img/asean-trade.svg
+image: /img/aviation.svg
 description: The firm has been advising technical advisors of the government on
   legally structuring EPC and operations and management contracts for major
   international and regional airports. On the other hand, the firm has also
