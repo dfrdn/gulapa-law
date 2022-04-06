@@ -13,4 +13,4 @@ Among these are political motivations. “The president of the Philippines has m
 
 “Consequently, the lack of competition affects the quality of services provided to the public at large and stunts innovation because these oligopolies are not motivated to provide better quality services,” he notes.
 
-For an overview of the legal developments in this area, see Ms. Beattie’s article ***Philippines Aims to Ease FDI Rules with New Bill*** published by Asia Legal Business.
+For an overview of the legal developments in this area, see Ms. Beattie’s article ***[Philippines Aims to Ease FDI Rules with New Bill](https://www.legalbusinessonline.com/features/phillipines-aims-ease-fdi-rules-new-bill)*** published by Asia Legal Business.
