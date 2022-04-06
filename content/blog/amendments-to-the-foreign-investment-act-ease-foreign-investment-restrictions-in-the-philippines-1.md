@@ -42,4 +42,4 @@ That said, the amended FIA remains not applicable to specific investment areas g
 
 Since the Philippines has ever since ranked high in terms of restrictiveness of its foreign investment regime, the above amendments to the FIA are seen by economic experts as welcome developments in liberalizing the country’s foreign investment policies to expand the country’s livelihood opportunities and to enhance the economic value of Filipino products. 
 
-Click ***here*** to read the full text of R.A. 11647.
+Click ***[here](https://www.officialgazette.gov.ph/downloads/2022/03mar/20220302-RA-11647-RRD.pdf)*** to read the full text of R.A. 11647.
