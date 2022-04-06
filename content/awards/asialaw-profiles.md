@@ -1,5 +1,8 @@
 ---
 awardbody: Asialaw Profiles
+description: Asialaw publishes awards shortlists and winners recognising the
+  best firms in Asia, and highlights the best firms and lawyers delivering
+  client service excellence in the region.
 award:
   - "Competition/Antitrust (Recommended Law Firm) (2022) "
   - "Construction (Recommended Law Firm) (2022) "
