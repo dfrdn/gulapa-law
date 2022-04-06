@@ -76,7 +76,7 @@ export default {
 //   @apply absolute block left-0  w-screen border-2 border-secondary;
 // }
 .title {
-  max-width: 65ch;
+  max-width: 80ch;
 }
 
 .blogImage {
