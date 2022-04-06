@@ -1,6 +1,6 @@
 ---
 title: Competition and Anti-trust
-image: /img/asean-trade.svg
+image: /img/antitrust.svg
 description: The firm is advising clients on the compliance of their
   arrangements with the Philippine Competition Act and the timing of the future
   notification of the consortium to the Philippine Competition Commission. The
