@@ -1,6 +1,6 @@
 ---
 title: Energy
-image: /img/asean-trade.svg
+image: /img/energy.svg
 description: The firm has been advising clients in structuring investments in
   and contracts for engineering, procurement, and construction as well as
   operations and management of energy generation projects. In particular, the
