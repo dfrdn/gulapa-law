@@ -1,6 +1,9 @@
 <template>
   <div>
-    <g-header heading="G-News" description="Hear about" />
+    <g-header
+      heading="G-News"
+      description="Here are some of the latest and significant updates, analysis, and insights in legal developments affecting the firm’s practice areas."
+    />
     <div class="container flex md:flex-row flex-col">
       <div class="md:w-4/5 md:order-1 order-2">
         <g-blog
