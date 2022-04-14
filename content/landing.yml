@@ -1,58 +1,56 @@
 hero:
   heading: Innovate, Achieve and Excel
-  subheading: Gulapa Law has extensive and significant experience in a vast
-    variety of legal fields including general corporate, mergers and
-    acquisitions, government contracts and infrastructure (including
-    Public-Private Partnership projects), project development and finance, real
-    estate and construction, technology, media and telecommunications, antitrust
-    and competition, intellectual property, and dispute resolution
+  subheading: Gulapa Law has extensive and significant experience in various legal
+    fields including general corporate, mergers and acquisitions, government
+    contracts and infrastructure (including Public-Private Partnership
+    projects), project development and finance, real estate and construction,
+    technology, media and telecommunications, antitrust and competition,
+    intellectual property, and dispute resolution.
   button: Learn More About Our Firm
   points:
     - heading: Collaboration
       details: We work hand in hand with our clients to solve their legal needs and
-        ease their problems
+        ease their problems.
       icon: /img/collaboration_icon.svg
     - heading: Legal Experts
       details: Our lawyers are competent in identifying appropriate courses of action
-        in legal matters
+        in legal matters.
       icon: /img/legal-experts_icon.svg
     - heading: Awards
       details: Gulapa Law has garnered multiple awards with our work locally and
-        internationally
+        internationally.
       icon: /img/awards_icon.svg
   background: /img/manila.jpg
   image: /img/header_img.png
 about:
   heading: Who We Are
   subheading: We are here to help you with your legal needs
-  description: >-
-    The Firm was established by Aris L. Gulapa in September 2015.  Since then,
-    the Firm has admitted eight (8) partners, namely, Charmaine Rose K. Haw-Lim,
-    Melissa Ester E. Chavez-Dee, Jose Maria Angel P. Machuca, Teodulo Antonio G.
-    San Juan, Jr., Oliver P. Baclay, Al-Shwaid L. Ismael, Oscar Carlo F.
-    Cajucom, and Dan Kevin C. Mandocdoc.  From a complement of six (6) lawyers
+  description: The Firm was established by Aris L. Gulapa in September 2015. Since
+    then, the Firm has admitted eight (8) partners, namely, Charmaine Rose K.
+    Haw-Lim, Melissa Ester E. Chavez-Dee, Jose Maria Angel P. Machuca, Teodulo
+    Antonio G. San Juan, Jr., Oliver P. Baclay, Al-Shwaid L. Ismael, Oscar Carlo
+    F. Cajucom, and Dan Kevin C. Mandocdoc. From a complement of six (6) lawyers
     in 2015, the Firm now has thirty-five (35) legal professionals including
-    seven (7) underbar associates.
-     
-    The Firm is now officially known as “Gulapa & Lim (Gulapa Law)”.
+    eight (8) underbar associates. The Firm is now officially known as “Gulapa &
+    Lim” or “Gulapa Law”.
   button: Learn More
   image: /img/who-we-are.png
   timeline:
     - year: "2015"
       event: Gulapa Law was Established
-    - year: "2016"
-      event: Boutique Law Firm of the Year
     - year: "2017"
       event: Established New York Office
     - year: "2018"
       event: Established San Francisco Representative Office
     - year: "2020"
       event: Established Cebu Office
+    - year: "2022"
+      event: Established Vietnam Office
 offices:
   heading: Our Offices
   subheading: Bringing legal services closer to you
   description: With four offices, Gulapa Law serves clients in the Philippines and
-    the United States
+    the United States.
   locations:
     - image: https://images.mansionglobal.com/im-204467?width=1260&size=1.5005861664712778
       location: Manila
@@ -62,32 +60,34 @@ offices:
       image: /img/san-francisco.jpg
 practices:
   practices:
+    - government-contracts
     - banking-and-finance
-    - competition-and-anti-trust
-    - corporate-and-m-a
     - real-estate-and-construction
-    - energy
     - fashion-entertainment-media-fem
+    - competition-and-anti-trust
+    - dispute-resolution
   heading: What We Do
   subheading: Our Practice Areas
   description: Gulapa Law is dedicated to serve our clients in a wide array of
     practice areas.
 lawyers:
   heading: Our Lawyers
-  subheading: Led by two of the most prominent lawyers in the country
+  subheading: Get to know our lawyers
   lawyers:
     - name: Aris L. Gulapa
-      description: After accumulating a wealth of experience from his legal practice
-        in Manila, Vietnam, Singapore, Tokyo, and New York, Aris set up Gulapa
-        Law.
+      description: >
+        Aris is the founding partner of Gulapa Law which he established after
+        accumulating a wealth of experience from his legal practice in Manila,
+        Vietnam, Singapore, Tokyo, and New York.
       email: aris.gulapa@gulapalaw.com
-      phone: +6329602845 loc. 201
+      phone: " "
     - name: Charmaine Rose K. Haw-Lim
       email: charms.haw@gulapalaw.com
-      phone: +6329602845 loc. 208
-      description: Charms is a partner at the firm. She served as a consultant at the
-        Asian Development Bank under its Office of General Counsel Sovereign and
-        Non-Sovereign Operations before she became part of Gulapa Law.
+      phone: " "
+      description: Charms is the managing partner of Gulapa Law. She also served as a
+        consultant at the Asian Development Bank under its Office of General
+        Counsel Sovereign and Non-Sovereign Operations before she became part of
+        Gulapa Law.
   image: /img/gulapa-and-charms.png
 awards:
   featured:
