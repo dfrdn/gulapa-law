@@ -179,7 +179,7 @@
                       featuredLawyers[lawyers.lawyers.indexOf(lawyer)].image
                     "
                     :alt="featuredLawyers[lawyers.lawyers.indexOf(lawyer)].name"
-                    class="h-8 w-8 rounded-full object-fill mr-2" />{{
+                    class="h-8 w-8 rounded-full object-contain mr-2" />{{
                     lawyer.name
                   }}<chevron-icon class="w-5 transform"
                 /></n-link>
@@ -205,7 +205,7 @@
               </div>
             </div>
 
-            <div class="flex justify-center">
+            <div class="flex">
               <n-link
                 class="bg-primary rounded px-10 py-3 text-sm inline-flex items-center capitalize text-white"
                 to="/lawyers"
@@ -221,7 +221,7 @@
         </div> -->
       </div>
     </section>
-    <section id="awards" class="bg-primary -mb-16">
+    <section id="awards" class="bg-primary">
       <div class="container flex flex-col items-center space-y-8">
         <h2 class="text-white text-2xl font-semibold">{{ awards.heading }}</h2>
         <div
