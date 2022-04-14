@@ -7,7 +7,7 @@
         <h3>Connect with Us</h3>
         <div class="space-y-2">
           <p>glaw@gulapalaw.com</p>
-          <p>+63 2960 2845 to 47</p>
+          <p>+632 8658 7865 to 47</p>
         </div>
       </div>
       <div class="flex flex-col text-white">
