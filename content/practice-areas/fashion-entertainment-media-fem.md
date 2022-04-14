@@ -1,5 +1,5 @@
 ---
-title: Fashion, Technology, Media, and Telecommunications
+title: Technology, Media, and Telecommunications
 image: /img/fashion-entertainment-media-fem-.svg
 description: This is an emerging practice area in New York and Tokyo, which is
   gradually penetrating Manila — and the firm was there at its inception. The

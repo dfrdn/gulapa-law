@@ -1,6 +1,6 @@
 ---
+title: Gulapa & Lim
 location: Manila
-title: Gulapa Law
 address: G-Law (Gulapa Law Office) Unit 12-A, 12th Floor, Marco Polo Ortigas
   Manila Sapphire Road, Ortigas Center 1605 Pasig City
 image: /img/manila.jpg
