@@ -318,3 +318,20 @@ collections:
           widget: 'list',
           field: { label: 'Award', name: 'award', widget: 'string' },
         }
+  - name: 'lawyer-rank'
+    label: 'Lawyer Ranking'
+    folder: 'content/lawyerRank'
+    format: 'frontmatter'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - {
+          label: 'Lawyer Rank',
+          name: 'lawyer-rank',
+          widget: 'relation',
+          collection: 'lawyers',
+          value_field: '{{name}}',
+          display_fields: ['name'],
+          search_fields: ['name'],
+          multiple: true,
+        }
