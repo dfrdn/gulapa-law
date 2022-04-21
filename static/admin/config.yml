@@ -285,6 +285,16 @@ collections:
                   name: 'description',
                   widget: 'text',
                 }
+          - {
+              label: 'Lawyers Rank',
+              name: 'lawyers-rank',
+              widget: 'relation',
+              collection: 'lawyers',
+              value_field: '{{name}}',
+              display_fields: ['name'],
+              search_fields: ['name'],
+              multiple: true,
+            }
       - name: 'awards-page'
         label: 'Awards Page'
         file: 'content/awards-page.yml'
@@ -317,21 +327,4 @@ collections:
           name: 'award',
           widget: 'list',
           field: { label: 'Award', name: 'award', widget: 'string' },
-        }
-  - name: 'lawyer-rank'
-    label: 'Lawyer Ranking'
-    folder: 'content/lawyerRank'
-    format: 'frontmatter'
-    create: true
-    slug: '{{slug}}'
-    fields:
-      - {
-          label: 'Lawyer Rank',
-          name: 'lawyer-rank',
-          widget: 'relation',
-          collection: 'lawyers',
-          value_field: '{{name}}',
-          display_fields: ['name'],
-          search_fields: ['name'],
-          multiple: true,
         }
