@@ -10,7 +10,7 @@ description: "Aris is the founding partner of the firm.\r
 
   After accumulating a wealth of experience from his legal practice in Manila,
   Vietnam, Singapore, Tokyo and New York, Aris set up Gulapa Law.\r\n"
-image: /img/aris-560x460.jpg
+image: /img/aris_hgp2568-copy.jpg
 admissions:
   - New York Bar, 2014
   - Vietnam, Foreign Practitioner’s License, 2006-2011
