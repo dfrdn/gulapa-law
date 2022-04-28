@@ -6,7 +6,7 @@ email: yassanchez@gulapalaw.com
 mobile: "#"
 description: Yas is an Of counsel for Gulapa Law. She is currently based in New
   York, with a focus on contracts and technology transactions.
-image: /img/yas_hgp0956.jpg
+image: /img/yas_0931.jpg
 admissions:
   - New York Bar (2019)
   - Philippine Bar (2013)
