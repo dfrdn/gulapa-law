@@ -5,7 +5,7 @@ startDate: 2022-01-01T15:20:44.987Z
 email: mau.macaraeg@gulapalaw.com
 mobile: n/a
 description: Mau is an Of Counsel of the firm.
-image: /img/female-profile.svg
+image: /img/mau_hgp4207-copy.jpg
 admissions:
   - Qualified in the Philippines
   - New York Bar (admission in process)
