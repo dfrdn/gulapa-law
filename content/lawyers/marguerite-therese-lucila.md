@@ -5,7 +5,7 @@ startDate: 2021-02-02T18:25:07.395Z
 email: Therese.Lucila@gulapalaw.com
 mobile: n/a
 description: Therese has a general law practice and is based in the firm’s New York office.
-image: /img/female-profile.svg
+image: /img/therese-img_0936.jpg
 admissions:
   - New York, 2012
   - Philippines, 2010
