@@ -1,5 +1,5 @@
 ---
-name: Jose Maria Angel P. Machuca
+name: Angel P. Machuca
 position: Partner
 startDate: 2019-01-01T07:40:28.767Z
 email: angel.machuca@gulapalaw.com
@@ -12,7 +12,7 @@ description: "Angel is a partner of the firm. \r
   was promoted to partner in January 2019.\r\n"
 image: /img/2-angel.jpg
 admissions:
-  - Philippine Bar, 2013 (Top 5)
+  - Philippine Bar, 2013 (Garnered the 5th highest grade amongst bar examinees)
 education:
   - Ateneo de Manila University School of Law, Juris Doctor, 2012 (Second Honors)
 matters:
