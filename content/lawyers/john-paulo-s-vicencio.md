@@ -3,7 +3,7 @@ name: John Paulo S. Vicencio
 position: Underbar Associate
 startDate: 2022-04-20T18:08:25.382Z
 email: jp.vicencio@gulapalaw.com
-mobile: n/a
+mobile: N/A
 description: "JP is an underbar associate of the firm. "
 image: /img/male-profile.svg
 admissions:
