@@ -62,7 +62,9 @@ import Vue from 'vue'
 
 export default Vue.extend({
   async asyncData({ $content }) {
-    const { lawyersHeader } = await $content('lawyers-page').fetch()
+    const { lawyersHeader, lawyersRank } = await $content(
+      'lawyers-page'
+    ).fetch()
 
     const associates = await $content('lawyers')
       .only([
@@ -78,11 +80,19 @@ export default Vue.extend({
       .sortBy('startDate')
       .fetch()
 
+    associates.sort(
+      (a, b) => lawyersRank.indexOf(a.name) - lawyersRank.indexOf(b.name)
+    )
+
     const partners = await $content('lawyers')
       .only(['slug', 'name', 'offices', 'email', 'image', 'startDate'])
       .where({ position: 'Partner' })
       .sortBy('startDate', 'asc')
       .fetch()
+
+    partners.sort(
+      (a, b) => lawyersRank.indexOf(a.name) - lawyersRank.indexOf(b.name)
+    )
 
     return { associates, partners, lawyersHeader }
   },

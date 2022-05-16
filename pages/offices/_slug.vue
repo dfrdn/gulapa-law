@@ -104,9 +104,13 @@
 <script>
 export default {
   async asyncData({ $content, params }) {
+    const { lawyersRank } = await $content('lawyers-page').fetch()
     const office = await $content(`offices`, params.slug).fetch()
 
     const lawyers = await $content('lawyers').fetch()
+    lawyers.sort(
+      (a, b) => lawyersRank.indexOf(a.name) - lawyersRank.indexOf(b.name)
+    )
 
     const practiceAreas = await $content('practice-areas')
       .sortBy('title')
