@@ -16,7 +16,25 @@ education:
     (2012, Chicago, IL))
   - Ateneo de Manila University School of Law, Juris Doctor, 2012 (Second
     Honors; Ateneo Law Journal (2009-2012)
-matters: []
+matters:
+  - Represented the Philippine SEA Games Organizational Committee, Inc. in
+    successfully repelling an injunction sought to enjoin the bidding, award,
+    execution, and implementation of the information systems used for the 2019
+    Southeast Asian Games.
+  - Obtained an interim measure of protection in aid of arbitration and a
+    favorable arbitral award in the amount of more than PhP 800 Million for a
+    contractor and against the government involving a nationwide infrastructure
+    project.
+  - Obtained an arbitral award in favor of a shipowner against the shipbuilder
+    involving the construction of a Ro-Ro vessel worth almost PhP 150 Million.
+  - Representing the rehabilitation receiver of a distressed corporation against
+    insurers in an arbitration involving a multi-Billion peso insurance claim
+    for damage and loss to property caused by a major typhoon.
+  - Secured an acquittal for an entertainment writer in a libel suit filed by a
+    world champion and renowned celebrity boxer.
+  - Secured an acquittal for an aircraft mechanic in a falsification case
+    involving the test flight report for a helicopter that fatally crashed while
+    transporting a high government official in 2012.
 recognitions:
   - Recommended Lawyer in Dispute Resolution, The Legal500 (2022)
 offices:
