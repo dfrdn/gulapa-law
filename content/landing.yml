@@ -8,17 +8,17 @@ hero:
     intellectual property, and dispute resolution.
   button: Learn More About Our Firm
   points:
-    - heading: Collaboration
-      details: We work hand in hand with our clients to solve their legal needs and
-        ease their problems.
+    - heading: "INNOVATE  "
+      details: We take advantage of legal developments to provide out of the box
+        solutions using technological tools for cost-efficient legal services.
       icon: /img/collaboration_icon.svg
-    - heading: Legal Experts
-      details: Our lawyers are competent in identifying appropriate courses of action
-        in legal matters.
+    - heading: "ACHIEVE  "
+      details: We work with our clients to achieve their commercial goals within what
+        is not legally prohibited.
       icon: /img/legal-experts_icon.svg
-    - heading: Awards
-      details: Gulapa Law has garnered multiple awards with our work locally and
-        internationally.
+    - heading: "EXCEL  "
+      details: We handle any matter, including those that others would consider
+        ordinary, extraordinarily well.
       icon: /img/awards_icon.svg
   background: /img/manila.jpg
   image: /img/header_img.png
