@@ -3,7 +3,7 @@ name: Marguerite Therese Lucila
 position: Of Counsel
 startDate: 2021-02-02T18:25:07.395Z
 email: Therese.Lucila@gulapalaw.com
-mobile: n/a
+mobile: N/A
 description: Therese has a general law practice and is based in the firm’s New York office.
 image: /img/therese-img_0936.jpg
 admissions:
@@ -12,8 +12,8 @@ admissions:
 education:
   - Ateneo de Manila University School of Law, 2009 (Second Honors)
 offices:
-  - new-york
   - manila
+  - new-york
 practices:
   - dispute-resolution
   - corporate-and-m-a
