@@ -3,7 +3,7 @@ name: Al-Shwaid L. Ismael
 position: Partner
 startDate: 2020-10-18T17:17:41.437Z
 email: alshwaid.ismael@gulapalaw.com
-mobile: +6329602845 loc. 201
+mobile: N/A
 description: "Shwaid is a partner of the firm. He is presently the Managing
   Partner of the firm’s Cebu office, Gulapa & Ismael, and a partner of the
   firm’s New York office, Gulapa & Baclay.  \r
@@ -28,8 +28,8 @@ matters:
   - Therma South Davao Coal-Fired Power Plant
 offices:
   - manila
-  - new-york
   - cebu
+  - new-york
 practices:
   - corporate-and-m-a
   - competition-and-anti-trust
