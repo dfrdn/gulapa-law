@@ -3,7 +3,7 @@ name: Catherine Joy T. Lim
 position: Underbar Associate
 startDate: 2022-04-22T16:09:41.381Z
 email: catherine.lim@gulapalaw.com
-mobile: n/a
+mobile: N/A
 description: "Catherine is an underbar associate of the firm. "
 image: /img/profile.svg
 admissions:
