@@ -3,7 +3,7 @@ name: Oscar Carlo F. Cajucom
 position: Partner
 startDate: 2021-04-30T17:14:42.935Z
 email: caloy.cajucom@gulapalaw.com
-mobile: +6329602845 loc. 201
+mobile: N/A
 description: >-
   Caloy is a partner of the firm and head of its litigation and dispute
   resolution department. He is a part-time lecturer at the Ateneo de Manila
@@ -41,6 +41,8 @@ matters:
     transporting a high government official in 2012.
 recognitions:
   - Recommended Lawyer in Dispute Resolution, The Legal500 (2022)
+  - Finalist, Dispute Resolution Lawyer of the Year, Philippine Law Awards 2020
+    (Asian Legal Business)
 offices:
   - manila
 practices:
