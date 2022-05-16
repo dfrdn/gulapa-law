@@ -3,7 +3,7 @@ name: Arianne N. Paralisan
 position: Junior Associate
 startDate: 2021-06-21T13:12:28.353Z
 email: arianne.paralisan@gulapalaw.com
-mobile: n/a
+mobile: N/A
 description: "Yan is a junior associate of the firm. "
 image: /img/yan_dsc_4187.png
 admissions:
