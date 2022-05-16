@@ -3,7 +3,7 @@ name: Effie Fielle M. Ignacio
 position: Junior Associate
 startDate: 2021-03-14T17:27:48.306Z
 email: Fielle.ignacio@gulapalaw.com
-mobile: n/a
+mobile: N/A
 description: Fielle is a junior associate of the firm.
 image: /img/fielle_hgp2795-copy.jpg
 admissions:
