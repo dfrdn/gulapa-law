@@ -5,9 +5,9 @@ startDate: 2017-12-31T17:02:56.637Z
 email: charms.haw@gulapalaw.com
 mobile: N/A
 description: >+
-  Charms is the Managing Partner of the firm.
-
-  She served as consultant to the Asian Development Bank under its Office of General Counsel – Sovereign and Non-sovereign Operations before she became part of Gulapa Law.
+  Charms is the managing partner of Gulapa Law. She served as a consultant at
+  the Asian Development Bank under its Office of General Counsel (Sovereign and
+  Non-Sovereign Operations) before she joined Gulapa Law.
 
 image: /img/charms_hgp2721-copy.jpg
 admissions:
