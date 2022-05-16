@@ -4,12 +4,17 @@ position: Partner
 startDate: 2019-01-01T07:40:28.767Z
 email: angel.machuca@gulapalaw.com
 mobile: N/A
-description: "Angel is a partner of the firm. \r
+description: "Angel is a partner of the firm.
+
 
   \r
 
-  He joined the firm in 2015 as an associate soon after its establishment and
-  was promoted to partner in January 2019.\r\n"
+  \r
+
+  Angel joined the firm in 2015 soon after its establishment. He was promoted
+  to partner in January 2019. International publications have recognized Angel
+  as a Next Generation Partner for Real Estate and Construction and have also
+  been named him as Recommended Lawyer for Projects & Energy."
 image: /img/2-angel.jpg
 admissions:
   - Philippine Bar, 2013 (Garnered the 5th highest grade amongst bar examinees)
