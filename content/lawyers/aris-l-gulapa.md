@@ -3,7 +3,7 @@ name: Aris L. Gulapa
 position: Partner
 startDate: 2015-09-01T07:18:35.654Z
 email: aris.gulapa@gulapalaw.com
-mobile: +6329602845 loc. 201
+mobile: N/A
 description: "Aris is the founding partner of the firm.\r
 
   \r
