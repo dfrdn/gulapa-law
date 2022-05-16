@@ -22,8 +22,17 @@
               <p class="xl:text-base text-lg mb-8">
                 {{ info.description }}
               </p>
-              <h2 class="text-secondary text-lg font-bold uppercase">
+              <h2
+                v-if="contacts.length > 1"
+                class="text-secondary text-lg font-bold uppercase"
+              >
                 Contact Persons
+              </h2>
+              <h2
+                v-if="(contacts.length = 1)"
+                class="text-secondary text-lg font-bold uppercase"
+              >
+                Contact Person
               </h2>
               <nuxt-link
                 v-for="contact in contacts"
