@@ -3,7 +3,7 @@ name: Maisie Karissa M. Zabala
 position: Underbar Associate
 startDate: 2022-04-22T16:11:06.634Z
 email: maisie.zabala@gulapalaw.com
-mobile: n/a
+mobile: N/A
 description: "Maisie is an underbar associate of the firm. "
 image: /img/profile.svg
 admissions:
