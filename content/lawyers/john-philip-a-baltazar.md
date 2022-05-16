@@ -13,5 +13,5 @@ education:
 offices:
   - manila
 practices:
-  - general-corporate
+  - corporate-and-m-a
 ---
