@@ -51,7 +51,7 @@
                   <img
                     :src="info.image"
                     :alt="info.name"
-                    class="object-cover object-top border-2 border-secondary h-72 w-72 mb-2 rounded-lg"
+                    class="object-cover border-2 border-secondary h-72 w-72 mb-2 rounded-lg"
                   />
                   <div
                     class="absolute bg-white bottom-2 left-0 rounded-tr-lg rounded-bl-lg md:rounded-br-none md:rounded-tr-lg"
