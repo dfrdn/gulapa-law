@@ -3,7 +3,7 @@ name: Charmaine Rose K. Haw-Lim
 position: Partner
 startDate: 2017-12-31T17:02:56.637Z
 email: charms.haw@gulapalaw.com
-mobile: +6329602845 loc. 201
+mobile: N/A
 description: >+
   Charms is the Managing Partner of the firm.
 
@@ -28,7 +28,6 @@ offices:
   - manila
   - cebu
   - san-francisco
-  - new-york
 practices:
   - i-tech-intellectual-property
   - dispute-resolution
