@@ -3,7 +3,7 @@ name: Marie Yasmin M. Sanchez
 position: Of Counsel
 startDate: 2019-03-05T18:23:51.160Z
 email: yassanchez@gulapalaw.com
-mobile: "#"
+mobile: N/A
 description: Yas is an Of counsel for Gulapa Law. She is currently based in New
   York, with a focus on contracts and technology transactions.
 image: /img/yas_0931.jpg
