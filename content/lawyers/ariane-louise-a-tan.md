@@ -3,7 +3,7 @@ name: Ariane Louise A. Tan
 position: Junior Associate
 startDate: 2021-01-10T17:30:17.673Z
 email: ariane.tan@gulapalaw.com
-mobile: " "
+mobile: " N/A"
 description: Ariane is a junior associate of the firm.
 image: /img/ariane_dsc_4838_pp.png
 admissions:
