@@ -4,12 +4,9 @@ position: Partner
 startDate: 2015-09-01T07:18:35.654Z
 email: aris.gulapa@gulapalaw.com
 mobile: N/A
-description: "Aris is the founding partner of the firm.\r
-
-  \r
-
-  After accumulating a wealth of experience from his legal practice in Manila,
-  Vietnam, Singapore, Tokyo and New York, Aris set up Gulapa Law.\r\n"
+description: Aris is the founding partner of Gulapa Law. He established the firm
+  after accumulating a wealth of experience from his legal practice in Manila,
+  Vietnam, Singapore, Tokyo, and New York.
 image: /img/aris_hgp2568-copy.jpg
 admissions:
   - New York Bar, 2014
