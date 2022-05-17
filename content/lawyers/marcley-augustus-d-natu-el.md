@@ -16,6 +16,7 @@ matters:
   - Various commercial contracts and agreements
   - Infrastructure projects
 offices:
+  - manila
   - cebu
 practices:
   - dispute-resolution
