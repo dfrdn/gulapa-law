@@ -24,6 +24,7 @@ matters:
   - Various investments and matters relating to the health sector
 offices:
   - manila
+  - cebu
 practices:
   - corporate-and-m-a
   - real-estate-and-construction
