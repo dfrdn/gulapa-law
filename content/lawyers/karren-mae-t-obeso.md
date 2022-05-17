@@ -14,6 +14,7 @@ education:
     Laude)
 matters: []
 offices:
+  - manila
   - cebu
 practices:
   - banking-and-finance
