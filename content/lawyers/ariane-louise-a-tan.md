@@ -12,6 +12,7 @@ education:
   - Ateneo de Manila University - School of Law, Juris Doctor, 2018 (Second
     Honors)
 offices:
+  - manila
   - cebu
 practices:
   - corporate-and-m-a
