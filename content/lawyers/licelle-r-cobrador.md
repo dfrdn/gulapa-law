@@ -2,7 +2,7 @@
 name: Licelle R. Cobrador
 position: Of Counsel
 startDate: 2017-01-31T17:26:00.196Z
-email: licelle.cobrador@gulaplaw.com
+email: licelle.cobrador@gulapalaw.com
 mobile: N/A
 description: Licelle is an Of Counsel of the of the New York office.
 image: /img/licelle_hgp4286-copy.jpg
