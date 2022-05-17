@@ -12,6 +12,7 @@ education:
   - University of Cebu School of Law, Juris Doctor,  2021 (Valedictorian)
 offices:
   - manila
+  - cebu
 practices:
   - corporate-and-m-a
   - dispute-resolution
