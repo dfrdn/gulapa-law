@@ -20,6 +20,7 @@ matters:
 offices:
   - manila
   - new-york
+  - san-francisco
 practices:
   - dispute-resolution
   - i-tech-intellectual-property
