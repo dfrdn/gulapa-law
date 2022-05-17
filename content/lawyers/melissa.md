@@ -21,6 +21,7 @@ recognitions:
     2020)
 offices:
   - manila
+  - cebu
 practices:
   - general-corporate
   - infrastructure
