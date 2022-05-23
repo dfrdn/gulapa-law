@@ -1,6 +1,6 @@
 ---
 title: Projects and Infrastructure
-image: /img/infrastracture.svg
+image: /img/infrastracture-2.svg
 description: This is the firm’s main specialization. Although recently
   established, we are already actively representing both private bidders and the
   Philippine Republic in almost every major flagship infrastructure project —
