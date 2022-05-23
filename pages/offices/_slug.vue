@@ -39,24 +39,9 @@
         class="xl:gap-4 gap-10 grid grid-auto-flow lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 xl:px-0 px-5"
       >
         <g-lawyer
-          v-for="lawyer in lawyers
-            .filter(({ offices }) => offices.includes(office.slug))
-            .sort(
-              (a, b) =>
-                [
-                  'Partner',
-                  'Of Counsel',
-                  'Senior Associate',
-                  'Junior Associate',
-                ].indexOf(a.position) -
-                [
-                  'Partner',
-                  'Of Counsel',
-                  'Senior Associate',
-                  'Junior Associate',
-                ].indexOf(b.position)
-            )
-            .sort((a, b) => b.startDate - a.startDate)"
+          v-for="lawyer in lawyers.filter(({ offices }) =>
+            offices.includes(office.slug)
+          )"
           :key="lawyer.slug"
           :details="lawyer"
           variant="associate"
@@ -108,6 +93,8 @@ export default {
     const office = await $content(`offices`, params.slug).fetch()
 
     const lawyers = await $content('lawyers').fetch()
+    lawyers.filter(({ offices }) => offices.includes(office.slug))
+
     lawyers.sort(
       (a, b) => lawyersRank.indexOf(a.name) - lawyersRank.indexOf(b.name)
     )
