@@ -7,22 +7,23 @@
         <h3>Connect with Us</h3>
         <div class="space-y-2">
           <p>glaw@gulapalaw.com</p>
-          <p>+632 8658 7865 to 47</p>
+          <p>(+63)286587835 to 36</p>
         </div>
       </div>
       <div class="flex flex-col text-white">
         <nuxt-link to="/offices/manila"><h3>Manila</h3></nuxt-link>
         <p>
-          Unit 8, 25/F Exquadra Tower, Exchange Road cor. Jade Drive, Ortigas
-          Center, 1605 Pasig City, PH
+          Unit 8, 25/F, Exquadra Tower, Exchange Road cor. Jade Drive, Ortigas
+          Center, Pasig City, 1605 Metro Manila PH
         </p>
       </div>
       <div class="flex flex-col text-white">
         <nuxt-link to="/offices/cebu"><h3>Cebu</h3></nuxt-link>
         <p>
-          Unit 1511, 15th Floor, BPI Corporate Center, Archbishop Reyes Avenue,
-          Cebu City, PH 6000
+          Unit 1511, 15/F, BPI Corporate Center, Archbishop Reyes Avenue, Cebu
+          City, 6000 Cebu PH
         </p>
+        <p>(+63)32 2387254</p>
       </div>
       <div class="flex flex-col text-white">
         <nuxt-link to="/offices/new-york"><h3>New York</h3></nuxt-link>
