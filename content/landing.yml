@@ -57,12 +57,12 @@ offices:
       image: /img/san-francisco.jpg
 practices:
   practices:
-    - government-contracts
-    - banking-and-finance
-    - real-estate-and-construction
-    - fashion-entertainment-media-fem
+    - corporate-and-m-a
     - competition-and-anti-trust
     - dispute-resolution
+    - fashion-entertainment-media-fem
+    - government-contracts
+    - real-estate-and-construction
   heading: What We Do
   subheading: Our Practice Areas
   description: Gulapa Law is dedicated to serve our clients in a wide array of
@@ -72,18 +72,17 @@ lawyers:
   subheading: Get to know our lawyers
   lawyers:
     - name: Aris L. Gulapa
-      description: >
-        Aris is the founding partner of Gulapa Law which he established after
-        accumulating a wealth of experience from his legal practice in Manila,
-        Vietnam, Singapore, Tokyo, and New York.
+      description: Aris is the founding partner of Gulapa Law. He established the firm
+        after accumulating a wealth of experience from his legal practice in
+        Manila, Vietnam, Singapore, Tokyo, and New York.
       email: aris.gulapa@gulapalaw.com
       phone: " "
     - name: Charmaine Rose K. Haw-Lim
       email: charms.haw@gulapalaw.com
       phone: " "
-      description: Charms is the managing partner of Gulapa Law. She also served as a
+      description: Charms is the managing partner of Gulapa Law. She served as a
         consultant at the Asian Development Bank under its Office of General
-        Counsel Sovereign and Non-Sovereign Operations before she became part of
+        Counsel (Sovereign and Non-Sovereign Operations) before she joined
         Gulapa Law.
   image: /img/gulapa-and-charms.png
 awards:
