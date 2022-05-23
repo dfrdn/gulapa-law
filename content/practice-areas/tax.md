@@ -10,6 +10,7 @@ notables:
   - Duke Software Development Center Restructuring
 contact:
   - aris-l-gulapa
+  - shwaid
 offices:
   - manila
   - san-francisco
