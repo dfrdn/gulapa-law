@@ -14,6 +14,10 @@ offices:
   - manila
   - cebu
 practices:
+  - asean-trade
+  - competition-and-anti-trust
   - corporate-and-m-a
+  - data-privacy-act-compliance
+  - real-estate-and-construction
   - dispute-resolution
 ---
