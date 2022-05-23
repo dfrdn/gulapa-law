@@ -36,6 +36,9 @@ recognitions:
 offices:
   - manila
 practices:
+  - banking-and-finance
   - corporate-and-m-a
   - real-estate-and-construction
+  - projects-and-infrastructure
+  - fashion-entertainment-media-fem
 ---

@@ -1,11 +1,12 @@
 ---
 title: Competition and Anti-trust
 image: /img/antitrust.svg
-description: The firm is advising clients on the compliance of their
-  arrangements with the Philippine Competition Act and the timing of the future
-  notification of the consortium to the Philippine Competition Commission. The
-  firm also advises on the applicability to PPP projects of the merger
-  notification regime under the Philippine Competition Act.
+description: The firm advises clients on compliance of arrangements with the
+  Philippine Competition Act and the applicability of the law in projects and
+  transactions. Due to our competition lawyers’ training abroad, our
+  understanding of this area of law goes beyond the text of the Philippine
+  Competition Act as the team applies what it has learned in advanced
+  competition law jurisdictions such as the US, Japan, Singapore, and the EU.
 notables:
   - Asian Development Bank
   - Consortium of Aboitiz InfraCapital, Inc., AC Infrastructure Holdings
@@ -15,6 +16,8 @@ notables:
   - Bases Conversion Development Administration
 contact:
   - aris-l-gulapa
+  - melissa
+  - teodulo-g-san-juan-jr
 offices:
   - new-york
   - cebu

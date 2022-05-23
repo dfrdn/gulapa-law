@@ -23,9 +23,9 @@ offices:
   - manila
   - cebu
 practices:
-  - general-corporate
-  - infrastructure
+  - competition-and-anti-trust
+  - corporate-and-m-a
   - government-contracts
-  - innovation-competition
-  - human-resources-immigration
+  - projects-and-infrastructure
+  - fashion-entertainment-media-fem
 ---

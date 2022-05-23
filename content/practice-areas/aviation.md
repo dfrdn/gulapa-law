@@ -12,6 +12,9 @@ notables:
   - Ninoy Aquino International Airport
 contact:
   - aris-l-gulapa
+  - charmaine-rose-k-haw-lim
+  - angel
+  - dan-kevin-c-mandocdoc
 offices:
   - manila
   - san-francisco

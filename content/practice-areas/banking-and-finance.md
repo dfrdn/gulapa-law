@@ -9,6 +9,8 @@ notables:
   - "Altus Group of Companies "
 contact:
   - aris-l-gulapa
+  - angel
+  - teodulo-g-san-juan-jr
 offices:
   - manila
   - san-francisco
