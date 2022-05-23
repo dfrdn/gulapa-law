@@ -1,16 +1,9 @@
 ---
 title: Real Estate and Construction
 image: /img/infrastracture.svg
-description: >-
-  The firm has been providing legal advice on both private and government side
-  real estate and construction projects. In particular, the firm has been
-  advising and assisting private clients on the preparation of their solicited
-  or unsolicited proposal for government PPP projects. On the other hand, the
-  firm has assisting transaction advisors of implementing or procuring agencies
-  in their procurement of infrastructure projects.
-
-
-  The firm has been assisting its clients in the preparation of the contract forms using the FIDIC contract template.
+description: "The firm has been providing legal advice on both real estate and
+  construction projects.  We assist clients in the preparation of the contract
+  forms using the FIDIC contract template. "
 notables:
   - Consortium of Aboitiz InfraCapital, Inc., AC Infrastructure Holdings
     Corporation, Alliance Global Group, Inc., Asia's Emerging Dragon
@@ -27,6 +20,7 @@ notables:
     Coordinating Council)  "
 contact:
   - aris-l-gulapa
+  - angel
 offices:
   - manila
   - san-francisco
