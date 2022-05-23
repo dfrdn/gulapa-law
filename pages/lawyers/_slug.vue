@@ -37,11 +37,11 @@
                       info.email
                     }}</a
                   >
-                  <p>
+                  <!-- <p>
                     <phone-icon class="white inline-block mr-2" />{{
                       info.mobile
                     }}
-                  </p>
+                  </p> -->
                 </div>
               </div>
               <div
@@ -51,7 +51,7 @@
                   <img
                     :src="info.image"
                     :alt="info.name"
-                    class="object-cover border-2 border-secondary h-72 w-72 mb-2 rounded-lg"
+                    class="object-cover object-top border-2 border-secondary h-72 w-72 mb-2 rounded-lg"
                   />
                   <div
                     class="absolute bg-white bottom-2 left-0 rounded-tr-lg rounded-bl-lg md:rounded-br-none md:rounded-tr-lg"
@@ -109,7 +109,7 @@
               {{ '> ' + educ }}
             </p>
           </div>
-          <div class="space-y-4">
+          <!-- <div class="space-y-4">
             <h2
               v-if="info.matters"
               class="uppercase text-lg text-primary font-bold"
@@ -119,7 +119,7 @@
             <p v-for="matter in info.matters">
               {{ '> ' + matter }}
             </p>
-          </div>
+          </div> -->
           <div class="space-y-4">
             <h2
               v-if="info.recognitions"
