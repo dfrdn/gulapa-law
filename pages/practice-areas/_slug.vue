@@ -45,7 +45,7 @@
             </div>
           </div>
         </div>
-        <div class="px-10 xl:px-0 mt-8 xl:ml-20 space-y-3">
+        <!-- <div class="px-10 xl:px-0 mt-8 xl:ml-20 space-y-3">
           <h2
             v-if="info.notables"
             class="uppercase text-lg text-primary font-bold"
@@ -56,7 +56,7 @@
           <p v-for="notable in info.notables" :key="notable" class="">
             {{ '> ' + notable }}
           </p>
-        </div>
+        </div> -->
       </div>
       <g-test :contents="practiceAreas" header="Our Practice Areas" />
     </section>
