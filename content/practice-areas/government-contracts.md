@@ -1,5 +1,5 @@
 ---
-title: Government Contracts
+title: Government Procurement Disputes
 image: /img/government-contracts.svg
 description: We regularly advise private entities and government agencies on
   procurement, disposal of assets, lease, and other government dealings. We
