@@ -30,4 +30,5 @@ contact:
 offices:
   - manila
   - san-francisco
+  - cebu
 ---
