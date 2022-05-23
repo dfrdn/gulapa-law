@@ -14,6 +14,8 @@ notables:
   - Data privacy training of a major tollways company
 contact:
   - aris-l-gulapa
+  - shwaid
+  - dan-kevin-c-mandocdoc
 offices:
   - cebu
   - new-york
