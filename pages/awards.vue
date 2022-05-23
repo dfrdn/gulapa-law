@@ -1,9 +1,6 @@
 <template>
   <div>
-    <g-header
-      :heading="awardsHeader.heading"
-      :description="awardsHeader.description"
-    />
+    <g-header :heading="awardsHeader.heading" description="" />
     <div class="container space-y-20 xl:px-0 px-5">
       <g-award
         v-for="award in awards"
