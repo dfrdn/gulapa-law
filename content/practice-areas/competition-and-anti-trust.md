@@ -16,6 +16,8 @@ notables:
   - Bases Conversion Development Administration
 contact:
   - aris-l-gulapa
+  - melissa
+  - teodulo-g-san-juan-jr
 offices:
   - new-york
   - cebu
