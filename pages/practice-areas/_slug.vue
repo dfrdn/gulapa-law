@@ -13,12 +13,12 @@
                 :alt="info.title"
               />
               <h1
-                class="uppercase text-3xl font-semibold tracking-wide md:relative block md:inline-block text-center md:text-left"
+                class="uppercase text-2xl font-semibold tracking-wide md:relative block md:inline-block text-center md:text-left"
               >
                 {{ info.title }}
               </h1>
             </div>
-            <div class="mt-12 xl:ml-20 w-auto md:w-9/12">
+            <div class="mt-10 xl:ml-20 w-auto md:w-9/12">
               <p class="xl:text-base text-lg mb-8">
                 {{ info.description }}
               </p>
