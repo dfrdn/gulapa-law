@@ -29,7 +29,7 @@
                 Contact Persons
               </h2>
               <h2
-                v-if="(contacts.length = 1)"
+                v-if="contacts.length == 1"
                 class="text-secondary text-lg font-bold uppercase"
               >
                 Contact Person
@@ -38,7 +38,7 @@
                 v-for="contact in contacts"
                 :key="contact.slug"
                 :to="`/lawyers/${contact.slug}`"
-                class="text-white"
+                class="text-white block"
               >
                 {{ contact.name }}
               </nuxt-link>
@@ -72,7 +72,10 @@ export default {
       .where({
         slug: { $in: info.contact },
       })
+      .only(['slug', 'name'])
       .fetch()
+
+    console.log(contacts)
 
     const practiceAreas = await $content('practice-areas')
       .only(['path', 'title'])
