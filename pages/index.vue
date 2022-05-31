@@ -155,76 +155,81 @@
         </div>
       </div>
     </section>
-    <section id="lawyers" class="container">
-      <g-title
-        :heading="lawyers.heading"
-        :subheading="lawyers.subheading"
-        class="text-primary md:w-7/12"
-      />
-      <div class="flex flex-col md:flex-row">
-        <div class="md:w-7/12">
-          <div class="mx-4 md:mx-0 md:ml-8">
-            <div class="my-8 space-y-8 max-w-lg">
-              <div
-                v-for="lawyer in lawyers.lawyers"
-                :key="lawyer.name"
-                class="space-y-2 px-5 md:px-0"
-              >
-                <n-link
-                  :to="featuredLawyers[lawyers.lawyers.indexOf(lawyer)].path"
-                  class="flex items-center text-secondary uppercase font-semibold"
-                >
-                  <img
-                    :src="
-                      featuredLawyers[lawyers.lawyers.indexOf(lawyer)].image
-                    "
-                    :alt="featuredLawyers[lawyers.lawyers.indexOf(lawyer)].name"
-                    class="h-8 w-8 rounded-full object-cover object-top mr-2" />{{
-                    lawyer.name
-                  }}<chevron-icon class="w-5 transform"
-                /></n-link>
-                <p class="text-sm">
-                  {{ lawyer.description }}
-                </p>
+    <section id="lawyers" class="container flex justify-between pb-10">
+      <div class="md:w-6/12">
+        <g-title
+          :heading="lawyers.heading"
+          :subheading="lawyers.subheading"
+          class="text-primary"
+        />
+        <div class="flex flex-col md:flex-row">
+          <div>
+            <div class="mx-4 md:mx-0 md:ml-8">
+              <div class="my-8 space-y-8 max-w-lg">
                 <div
-                  class="flex flex-col md:flex-row space-y-2 md:space-y-0 justify-between text-sm"
+                  v-for="lawyer in lawyers.lawyers"
+                  :key="lawyer.name"
+                  class="space-y-2 px-5 md:px-0"
                 >
-                  <a :href="`mailto:${lawyer.email}`" class="flex space-x-2">
-                    <email-icon class="w-5 fill-current text-primary" />
-                    <span>
-                      {{ lawyer.email }}
-                    </span>
-                  </a>
-                  <div class="flex space-x-2">
-                    <!-- <phone-icon
+                  <n-link
+                    :to="featuredLawyers[lawyers.lawyers.indexOf(lawyer)].path"
+                    class="flex items-center text-secondary uppercase font-semibold"
+                  >
+                    <img
+                      :src="
+                        featuredLawyers[lawyers.lawyers.indexOf(lawyer)].image
+                      "
+                      :alt="
+                        featuredLawyers[lawyers.lawyers.indexOf(lawyer)].name
+                      "
+                      class="h-8 w-8 rounded-full object-cover object-top mr-2" />{{
+                      lawyer.name
+                    }}<chevron-icon class="w-5 transform"
+                  /></n-link>
+                  <p class="text-sm">
+                    {{ lawyer.description }}
+                  </p>
+                  <div
+                    class="flex flex-col md:flex-row space-y-2 md:space-y-0 justify-between text-sm"
+                  >
+                    <a :href="`mailto:${lawyer.email}`" class="flex space-x-2">
+                      <email-icon class="w-5 fill-current text-primary" />
+                      <span>
+                        {{ lawyer.email }}
+                      </span>
+                    </a>
+                    <div class="flex space-x-2">
+                      <!-- <phone-icon
                       v-if="lawyer.phone"
                       class="w-5 fill-current text-primary"
                     />
                     <span>
                       {{ lawyer.phone }}
                     </span> -->
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
 
-            <div class="flex">
-              <n-link
-                class="bg-primary rounded px-10 py-3 text-sm inline-flex items-center capitalize text-white"
-                to="/lawyers"
-              >
-                See all our lawyers
-                <chevron-icon class="w-4" />
-              </n-link>
+              <div class="flex pb-20">
+                <n-link
+                  class="bg-primary rounded px-10 py-3 text-sm inline-flex items-center capitalize text-white"
+                  to="/lawyers"
+                >
+                  See all our lawyers
+                  <chevron-icon class="w-4" />
+                </n-link>
+              </div>
             </div>
           </div>
         </div>
-        <div class="md:block hidden">
-          <img :src="lawyers.image" :alt="lawyers.image" />
-        </div>
+      </div>
+
+      <div class="md:flex hidden items-end">
+        <img :src="lawyers.image" :alt="lawyers.image" class="object-fill" />
       </div>
     </section>
-    <section id="awards" class="bg-primary -mb-16">
+    <section id="awards" class="bg-primary">
       <div class="container flex flex-col items-center space-y-8">
         <h2 class="text-white text-2xl font-semibold">{{ awards.heading }}</h2>
         <div
