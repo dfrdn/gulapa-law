@@ -20,7 +20,7 @@ admissions:
   - Philippine Bar, 1997 (Top 7)
 education:
   - University of the Philippines College of Law, Bachelor of Laws 1996 (Dean’s
-    Medal, Top 5)
+    Medal for Academic Excellence, Top 5)
 matters:
   - "Acquisition by the joint venture of CRH plc and Aboitiz Equity Ventures of
     the portfolio of Philippine assets disposed by the Lafarge Group. "
