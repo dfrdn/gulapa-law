@@ -20,7 +20,7 @@ admissions:
   - Philippine Bar, 1997 (Top 7)
 education:
   - University of the Philippines College of Law, Bachelor of Laws 1996 (Dean’s
-    Medal, Top 5)
+    Medal for Academic Excellence, Top 5)
 matters:
   - "Acquisition by the joint venture of CRH plc and Aboitiz Equity Ventures of
     the portfolio of Philippine assets disposed by the Lafarge Group. "
@@ -35,10 +35,13 @@ matters:
   - Investment in the 330 MW Tiwi/MakBan geothermal steam extraction facilities
   - Investment in the 1000 MW Sta. Rita natural gas power plant and the 500 MW
     San Lorenzo natural gas power plant
-  - "Acquisition by Bayer of Monsanto’s Philippine business Project financing of
-    the Ilijan gas project (1200 MW), Sta. Rita gas project (1000 MW), San
-    Lorenzo gas project (500 MW) and the Mindanao-Phividec coal-fired project
-    (210 MW). "
+  - Acquisition by Bayer of Monsanto’s Philippine business
+  - Project financing of the Ilijan gas project (1200 MW), Sta. Rita gas project
+    (1000 MW)
+  - San Lorenzo gas project (500 MW) and the Mindanao-Phividec coal-fired
+    project (210 MW)
+  - Solar Pacific Pristine Power’s 15.2 MW Solar PV Energy with battery energy
+    storage system in Palau.
 offices:
   - manila
 practices:
