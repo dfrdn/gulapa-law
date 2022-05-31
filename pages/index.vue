@@ -155,7 +155,7 @@
         </div>
       </div>
     </section>
-    <section id="lawyers" class="container mb-20">
+    <section id="lawyers" class="container">
       <g-title
         :heading="lawyers.heading"
         :subheading="lawyers.subheading"
@@ -219,12 +219,12 @@
             </div>
           </div>
         </div>
-        <!-- <div class="md:block hidden">
+        <div class="md:block hidden">
           <img :src="lawyers.image" :alt="lawyers.image" />
-        </div> -->
+        </div>
       </div>
     </section>
-    <section id="awards" class="bg-primary -mb-18">
+    <section id="awards" class="bg-primary -mb-16">
       <div class="container flex flex-col items-center space-y-8">
         <h2 class="text-white text-2xl font-semibold">{{ awards.heading }}</h2>
         <div
@@ -262,6 +262,30 @@
         </n-link>
       </div>
     </section>
+    <section id="blog">
+      <div class="container flex flex-col items-center space-y-8">
+        <h2 class="text-primary text-3xl font-semibold">G-News</h2>
+        <div class="md:w-full">
+          <g-blog
+            v-for="blog in [...blogs].sort(a, (b) => b.date - a.date)"
+            :key="blog.slug"
+            :details="
+              combine(
+                blog,
+                authors.find((lawyer) => lawyer.name === blog.author)
+              )
+            "
+          />
+        </div>
+        <n-link
+          class="bg-secondary rounded px-10 py-3 text-sm inline-flex items-center capitalize text-white"
+          to="/blog"
+        >
+          See all the news about Gulapa
+          <chevron-icon class="w-4" />
+        </n-link>
+      </div>
+    </section>
   </div>
 </template>
 
@@ -287,6 +311,11 @@ export default Vue.extend({
       .where({ slug: { $in: practices.practices } })
       .fetch()
 
+    const blogs = await $content('blog').sortBy('date', 'desc').limit(2).fetch()
+    const authors = await $content('lawyers')
+      .only(['slug', 'image', 'name'])
+      .fetch()
+
     return {
       hero,
       about,
@@ -297,7 +326,14 @@ export default Vue.extend({
       awards,
       featuredLawyers,
       officeLocations,
+      blogs,
+      authors,
     }
+  },
+  methods: {
+    combine(blog, author) {
+      return { ...blog, author }
+    },
   },
   head() {
     return {
