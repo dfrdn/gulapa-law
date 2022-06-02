@@ -44,6 +44,7 @@ matters:
     storage system in Palau.
 offices:
   - manila
+  - cebu
 practices:
   - government-contracts
   - energy
