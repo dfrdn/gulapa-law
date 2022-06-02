@@ -45,6 +45,7 @@ recognitions:
     (Asian Legal Business)
 offices:
   - manila
+  - cebu
 practices:
   - dispute-resolution
   - real-estate-and-construction
