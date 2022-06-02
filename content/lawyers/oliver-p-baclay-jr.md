@@ -34,6 +34,7 @@ recognitions:
     Asia Pacific (2022)
 offices:
   - manila
+  - cebu
   - new-york
 practices:
   - i-tech-intellectual-property
