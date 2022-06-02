@@ -35,6 +35,7 @@ recognitions:
   - Recommended Lawyer in Projects & Energy, The Legal500 (2022)
 offices:
   - manila
+  - cebu
 practices:
   - banking-and-finance
   - corporate-and-m-a
