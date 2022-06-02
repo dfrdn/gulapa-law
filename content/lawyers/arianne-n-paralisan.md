@@ -14,6 +14,7 @@ matters:
   - Engineering, Procurement, and Construction, Cordova 20 MLD Seawater Reverse
     Osmosis Desalination Plant
 offices:
+  - manila
   - cebu
 practices:
   - dispute-resolution
