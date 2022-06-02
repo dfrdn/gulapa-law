@@ -24,6 +24,7 @@ recognitions:
   - "Recommended Individual in Corporate/M&A, The Legal500 (2019) "
 offices:
   - manila
+  - cebu
   - san-francisco
 practices:
   - i-tech-intellectual-property
