@@ -10,8 +10,10 @@
             variant === 'partner' ? '' : 'w-20 h-28 md:h-auto md:w-auto',
           ]"
         >
-          <img
+          <NuxtImg
             :src="details.image"
+            sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
+            preset="lawyers"
             class="w-full object-cover object-top block"
             :class="[variant === 'partner' ? 'partner' : 'associate']"
             :alt="details.name"

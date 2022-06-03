@@ -48,7 +48,20 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    // https://image.nuxtjs.org/getting-started/installation
+    '@nuxt/image',
   ],
+
+  image: {
+    presets: {
+      lawyers: {
+        modifiers: {
+          format: 'webp',
+          quality: '60',
+        },
+      },
+    },
+  },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},

@@ -4,8 +4,8 @@ position: Underbar Associate
 startDate: 2022-04-22T16:16:09.372Z
 email: dannah.galindez@gulapalaw.com
 mobile: N/A
-description: "Dannah is an underbar associate of the firm. "
-image: /img/profile.svg
+description: 'Dannah is an underbar associate of the firm. '
+image: /img/female-profile.png
 admissions:
   - Philippine Bar, 2022 (Exemplary Passer)
 education:

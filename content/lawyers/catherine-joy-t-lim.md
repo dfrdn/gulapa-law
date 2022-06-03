@@ -4,8 +4,8 @@ position: Underbar Associate
 startDate: 2022-04-22T16:09:41.381Z
 email: catherine.lim@gulapalaw.com
 mobile: N/A
-description: "Catherine is an underbar associate of the firm. "
-image: /img/profile.svg
+description: 'Catherine is an underbar associate of the firm. '
+image: /img/female-profile.png
 admissions:
   - Philippine Bar, 2022
 education:

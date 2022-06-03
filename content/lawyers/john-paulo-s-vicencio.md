@@ -4,8 +4,8 @@ position: Underbar Associate
 startDate: 2022-04-20T18:08:25.382Z
 email: jp.vicencio@gulapalaw.com
 mobile: N/A
-description: "JP is an underbar associate of the firm. "
-image: /img/male-profile.svg
+description: 'JP is an underbar associate of the firm. '
+image: /img/male-profile.png
 admissions:
   - Philippine Bar, 2022
 education:

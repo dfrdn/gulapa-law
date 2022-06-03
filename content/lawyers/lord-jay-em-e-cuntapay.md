@@ -4,8 +4,8 @@ position: Underbar Associate
 startDate: 2022-04-22T16:07:09.847Z
 email: jayem.cuntapay@gulapalaw.com
 mobile: N/A
-description: "Jay-em is an underbar associate  of the firm. "
-image: /img/male-profile.svg
+description: 'Jay-em is an underbar associate  of the firm. '
+image: /img/male-profile.png
 admissions:
   - Philippine Bar, 2022
 education:
