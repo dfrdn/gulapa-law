@@ -8,4 +8,4 @@ Gulapa & Baclay LLP is the New York affiliate of Gulapa Law, a law firm based in
 
 At present, Gulapa Law is already assisting several US companies in their investments and transactions in the Philippines and business collaborations in the ASEAN region. 
 
-Gulapa Law hopes that Gulapa & Baclay LLP would serve as a platform to promote the Philippines as an investment hub and also a gateway to the ASEAN economic region.
+Gulapa & Baclay LLP continues to serve as a platform to promote the Philippines as an investment hub and a gateway to the ASEAN economic region.
