@@ -12,6 +12,7 @@ education:
   - Ateneo de Manila University School of Law, Juris Doctor, 2013
 offices:
   - manila
+  - new-york
 practices:
   - corporate-and-m-a
 ---
