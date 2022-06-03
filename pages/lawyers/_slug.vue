@@ -109,9 +109,15 @@
               {{ '> ' + educ }}
             </p>
           </div>
-          <!-- <div class="space-y-4">
+          <div class="space-y-4">
             <h2
-              v-if="info.matters"
+              v-if="info.matters.length == 1"
+              class="uppercase text-lg text-primary font-bold"
+            >
+              Notable Matter Handled
+            </h2>
+            <h2
+              v-if="info.matters.length > 1"
               class="uppercase text-lg text-primary font-bold"
             >
               Notable Matters Handled
@@ -119,7 +125,7 @@
             <p v-for="matter in info.matters">
               {{ '> ' + matter }}
             </p>
-          </div> -->
+          </div>
           <div class="space-y-4">
             <h2
               v-if="info.recognitions"
