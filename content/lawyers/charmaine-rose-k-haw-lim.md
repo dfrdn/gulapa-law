@@ -27,7 +27,10 @@ offices:
   - cebu
   - san-francisco
 practices:
-  - i-tech-intellectual-property
-  - dispute-resolution
+  - aviation
   - corporate-and-m-a
+  - dispute-resolution
+  - energy
+  - projects-and-infrastructure
+  - fashion-entertainment-media-fem
 ---
