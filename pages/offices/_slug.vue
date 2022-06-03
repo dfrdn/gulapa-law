@@ -49,7 +49,10 @@
       </div>
     </section>
 
-    <section class="bg-primary text-white">
+    <section
+      class="bg-primary text-white"
+      v-if="office.slug != 'san-francisco'"
+    >
       <div class="container">
         <g-title
           heading="What We Do"
