@@ -68,7 +68,13 @@
         <div class="mt-8 space-y-10 md:w-9/12 w-full px-10 md:px-0">
           <div class="space-y-4">
             <h2
-              v-if="practiceAreas"
+              v-if="practiceAreas && practiceAreas.length == 1"
+              class="uppercase text-lg text-primary font-bold"
+            >
+              Practice Area
+            </h2>
+            <h2
+              v-if="practiceAreas && practiceAreas.length > 1"
               class="uppercase text-lg text-primary font-bold"
             >
               Practice Areas
@@ -89,10 +95,16 @@
           </div>
           <div class="space-y-4">
             <h2
-              v-if="info.admissions"
+              v-if="info.admissions && info.admissions.length == 1"
               class="uppercase text-lg text-primary font-bold"
             >
-              Admission/s
+              Admission
+            </h2>
+            <h2
+              v-if="info.admissions && info.admissions.length > 1"
+              class="uppercase text-lg text-primary font-bold"
+            >
+              Admissions
             </h2>
             <p v-for="admission in info.admissions">
               {{ `> ${admission}` }}
@@ -111,13 +123,13 @@
           </div>
           <div class="space-y-4">
             <h2
-              v-if="info.matters.length == 1"
+              v-if="info.matters && info.matters.length == 1"
               class="uppercase text-lg text-primary font-bold"
             >
               Notable Matter Handled
             </h2>
             <h2
-              v-if="info.matters.length > 1"
+              v-if="info.matters && info.matters.length > 1"
               class="uppercase text-lg text-primary font-bold"
             >
               Notable Matters Handled
