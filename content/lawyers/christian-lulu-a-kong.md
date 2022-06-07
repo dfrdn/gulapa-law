@@ -13,6 +13,7 @@ education:
     (Valedictorian) "
 offices:
   - cebu
+  - manila
 practices:
   - corporate-and-m-a
   - dispute-resolution
