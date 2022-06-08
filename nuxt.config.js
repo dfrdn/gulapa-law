@@ -23,7 +23,7 @@ export default {
       },
       {
         property: 'og:image',
-        content: 'https://glaw.netlify.app/gulapalaw-meta.jpg',
+        content: 'https://glaw.netlify.app/img/gulapalaw-meta.jpg',
       },
 
       // <!-- Open Graph / Twitter -->
@@ -36,7 +36,7 @@ export default {
       },
       {
         property: 'twitter:image',
-        content: 'https://glaw.netlify.app/gulapalaw-meta.jpg',
+        content: 'https://glaw.netlify.app/img/gulapalaw-meta.jpg',
       },
     ],
     link: [
