@@ -12,7 +12,7 @@
             preset="lawyers"
             :src="author.image"
             :alt="author.name"
-            class="h-12 w-12 rounded-full object-fill"
+            class="h-12 w-12 rounded-full object-cover object-top mr-2"
           />
         </nuxt-link>
         <div>
@@ -33,7 +33,9 @@
     </div>
 
     <div>
-      <img
+      <nuxt-img
+        sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
+        format="webp"
         :src="blog.image"
         :alt="blog.title"
         class="object-cover w-screen blogImage"
