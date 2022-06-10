@@ -6,7 +6,10 @@
 
       <div class="flex space-x-4">
         <nuxt-link :to="author.path">
-          <img
+          <nuxt-img
+            preload
+            sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
+            preset="lawyers"
             :src="author.image"
             :alt="author.name"
             class="h-12 w-12 rounded-full object-fill"

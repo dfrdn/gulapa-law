@@ -27,7 +27,13 @@
         {{ hero.button }}
       </button> -->
       <div class="-mb-56 md:-mb-24">
-        <img :src="hero.image" :alt="hero.image" />
+        <nuxt-img
+          preload
+          sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
+          preset="lawyers"
+          :src="hero.image"
+          :alt="hero.image"
+        />
       </div>
       <div class="px-2">
         <div
@@ -96,7 +102,9 @@
           class="place-self-center rounded overflow-hidden relative w-60 h-60 bg-primary text-center"
           :to="location.path"
         >
-          <img
+          <nuxt-img
+            sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
+            preset="lawyers"
             :src="location.image"
             :alt="location.location"
             class="h-full object-cover opacity-30"
@@ -175,7 +183,9 @@
                     :to="featuredLawyers[lawyers.lawyers.indexOf(lawyer)].path"
                     class="flex items-center text-secondary uppercase font-semibold"
                   >
-                    <img
+                    <nuxt-img
+                      sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
+                      preset="lawyers"
                       :src="
                         featuredLawyers[lawyers.lawyers.indexOf(lawyer)].image
                       "

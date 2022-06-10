@@ -14,7 +14,9 @@
         </div>
         <div class="flex text-secondary space-x-8 items-center">
           <div class="flex">
-            <img
+            <nuxt-img
+              preset="lawyers"
+              sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
               :src="details.author.image"
               :alt="details.author.name"
               class="h-6 w-6 rounded-full object-cover object-top mr-2"
