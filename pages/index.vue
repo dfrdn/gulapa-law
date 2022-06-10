@@ -27,13 +27,7 @@
         {{ hero.button }}
       </button> -->
       <div class="-mb-56 md:-mb-24">
-        <nuxt-img
-          preload
-          sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
-          preset="lawyers"
-          :src="hero.image"
-          :alt="hero.image"
-        />
+        <nuxt-img preload format="webp" :src="hero.image" :alt="hero.image" />
       </div>
       <div class="px-2">
         <div
@@ -77,7 +71,13 @@
               </div>
             </div>
             <div class="md:w-7/12 flex flex-col md:order-2 mt-8 md:-mt-12">
-              <img :src="about.image" alt="about image" class="self-end" />
+              <nuxt-img
+                sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
+                preset="lawyers"
+                :src="about.image"
+                alt="about image"
+                class="self-end"
+              />
             </div>
           </div>
         </div>
@@ -236,7 +236,12 @@
       </div>
 
       <div class="md:flex hidden items-end">
-        <img :src="lawyers.image" :alt="lawyers.image" class="object-fill" />
+        <nuxt-img
+          preset="lawyers"
+          :src="lawyers.image"
+          :alt="lawyers.image"
+          class="object-fill"
+        />
       </div>
     </section>
     <section id="awards" class="bg-primary">
