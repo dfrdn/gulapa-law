@@ -18,6 +18,7 @@ matters:
     Stamps Integrated System (cigarettes)
 offices:
   - manila
+  - cebu
 practices:
   - dispute-resolution
   - data-privacy-act-compliance
