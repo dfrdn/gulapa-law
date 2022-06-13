@@ -1,6 +1,6 @@
 ---
 name: Sandra Jane Soon Dionaldo
-position: Underbar Associate
+position: Junior Associate
 startDate: 2022-04-22T16:14:39.018Z
 email: sandra.soon@gulapalaw.com
 mobile: N/A
