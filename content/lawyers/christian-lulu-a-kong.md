@@ -5,7 +5,7 @@ startDate: 2022-06-06T10:23:58.568Z
 email: christian.kong@gulapalaw.com
 mobile: N/A
 description: Christian is a junior associate of the firm
-image: /img/male-profile.png
+image: /img/kong.jpg
 admissions:
   - Philippine Bar, 2022
 education:
