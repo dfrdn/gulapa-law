@@ -9,6 +9,7 @@ description: The firm’s lawyers have extensive and significant experience in
 notables: []
 contact:
   - oscar-carlo-f-cajucom
+  - shwaid
 offices:
   - manila
   - new-york
