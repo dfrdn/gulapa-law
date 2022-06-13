@@ -5,7 +5,7 @@ startDate: 2022-06-07T02:28:45.685Z
 email: calvin.lianza@gulapalaw.com
 mobile: N/A
 description: Calvin is a junior associate of the firm.
-image: /img/ck-copy.jpg
+image: /img/ck-copy-small.jpeg
 offices:
   - manila
   - cebu
