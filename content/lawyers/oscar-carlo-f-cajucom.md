@@ -17,7 +17,7 @@ admissions:
   - Philippine Bar, 2013
 education:
   - American Bar Association Criminal Justice Advocacy Mock Trial Competition
-    (2012, Chicago, IL))
+    (2012, Chicago, IL)
   - Ateneo de Manila University School of Law, Juris Doctor, 2012 (Second
     Honors; Ateneo Law Journal (2009-2012)
 matters:
