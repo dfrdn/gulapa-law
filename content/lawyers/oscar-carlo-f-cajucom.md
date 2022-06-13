@@ -37,7 +37,7 @@ matters:
   - Secured an acquittal for an entertainment writer in a libel suit filed by a
     world champion and renowned celebrity boxer.
   - Secured an acquittal for an aircraft mechanic in a falsification case
-    involving the test flight report for a helicopter that fatally crashed while
+    involving the test flight report for a airlplane that fatally crashed while
     transporting a high government official in 2012.
 recognitions:
   - Recommended Lawyer in Dispute Resolution, The Legal500 (2022)
