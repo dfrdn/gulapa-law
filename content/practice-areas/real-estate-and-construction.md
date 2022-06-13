@@ -21,6 +21,7 @@ notables:
 contact:
   - aris-l-gulapa
   - angel
+  - shwaid
 offices:
   - manila
   - san-francisco
