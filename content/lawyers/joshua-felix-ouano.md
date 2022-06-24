@@ -1,0 +1,20 @@
+---
+name: Joshua Felix Ouano
+position: Junior Associate
+startDate: 2022-06-08T07:57:01.022Z
+email: joshua.ouano@gulapalaw.com
+mobile: " "
+description: Josh is a junior associate of the firm.
+image: /img/josh-profile-picture.jpg
+admissions:
+  - Philippine Bar, 2022
+education:
+  - University of San Carlos – School of Law and Governance, Juris Doctor, 2021
+    (Ranked 16th)
+offices:
+  - manila
+  - cebu
+practices:
+  - corporate-and-m-a
+  - dispute-resolution
+---
