@@ -1,6 +1,7 @@
 hero:
   heading: Innovate, Achieve and Excel
-  subheading: Gulapa Law has extensive and significant experience in various legal
+  subheading:
+    Gulapa Law has extensive and significant experience in various legal
     fields. Its practice area includes general corporate, mergers and
     acquisitions (M&A), projects and infrastructure (such as Public-Private
     Partnership projects), banking and finance, real estate and construction,
@@ -8,39 +9,41 @@ hero:
     intellectual property, and dispute resolution.
   button: Learn More About Our Firm
   points:
-    - heading: "INNOVATE  "
+    - heading: 'INNOVATE  '
       details: We take advantage of legal developments to provide out of the box
         solutions using technological tools for cost-efficient legal services.
       icon: /img/collaboration_icon.svg
-    - heading: "ACHIEVE  "
-      details: We work with our clients to achieve their commercial goals within what
+    - heading: 'ACHIEVE  '
+      details:
+        We work with our clients to achieve their commercial goals within what
         is not legally prohibited.
       icon: /img/legal-experts_icon.svg
-    - heading: "EXCEL  "
+    - heading: 'EXCEL  '
       details: We handle any matter, including those that others would consider
         ordinary, extraordinarily well.
       icon: /img/awards_icon.svg
   background: /img/manila.jpg
-  image: /img/header_img_4.png
+  image: /img/header_img_7.jpg
 about:
   heading: Who We Are
   subheading: We are here to help you with your legal needs
-  description: The Firm was established by Aris L. Gulapa in September 2015. Since
+  description:
+    The Firm was established by Aris L. Gulapa in September 2015. Since
     then, the Firm has admitted 8 partners. From a complement of 6 lawyers in
     2015, the Firm now has 35 legal professionals and is now officially known as
     “Gulapa & Lim” or “Gulapa Law”.
   button: Learn More
   image: /img/whoweare-landing.jpeg
   timeline:
-    - year: "2015"
+    - year: '2015'
       event: Gulapa Law was Established
-    - year: "2017"
+    - year: '2017'
       event: Established New York Office
-    - year: "2018"
+    - year: '2018'
       event: Established San Francisco Representative Office
-    - year: "2020"
+    - year: '2020'
       event: Established Cebu Office
-    - year: "2022"
+    - year: '2022'
       event: Established Vietnam Office
 offices:
   heading: Our Offices
@@ -73,14 +76,15 @@ lawyers:
   subheading: Get to know our lawyers
   lawyers:
     - name: Aris L. Gulapa
-      description: Aris is the founding partner of Gulapa Law. He established the firm
+      description:
+        Aris is the founding partner of Gulapa Law. He established the firm
         after accumulating a wealth of experience from his legal practice in
         Manila, Vietnam, Singapore, Tokyo, and New York.
       email: aris.gulapa@gulapalaw.com
-      phone: " "
+      phone: ' '
     - name: Charmaine Rose K. Haw-Lim
       email: charms.haw@gulapalaw.com
-      phone: " "
+      phone: ' '
       description: Charms is the managing partner of Gulapa Law. She served as a
         consultant at the Asian Development Bank under its Office of General
         Counsel (Sovereign and Non-Sovereign Operations) before she joined
@@ -89,12 +93,12 @@ lawyers:
 awards:
   featured:
     - award: Projects, Infrastructure & Energy, Band 3
-      year: "2022"
+      year: '2022'
       body: Chambers & Partners (Asia Pacific)
     - award: Competition (Recommended Law Firm)
-      year: "2022"
+      year: '2022'
       body: Asialaw Profiles
     - award: Projects & Infrastructure Firm of the Year
-      year: "2021"
+      year: '2021'
       body: Asia Business Law Journal
   heading: Gains and Recognitions

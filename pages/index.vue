@@ -26,7 +26,7 @@
       >
         {{ hero.button }}
       </button> -->
-      <div class="-mb-56 md:-mb-24">
+      <div class="-mb-52 md:-mb-36">
         <nuxt-img preload format="webp" :src="hero.image" :alt="hero.image" />
       </div>
       <div class="px-2">
@@ -70,13 +70,13 @@
                 </n-link>
               </div>
             </div>
-            <div class="md:w-7/12 flex flex-col md:order-2 mt-8 md:-mt-12">
+            <div class="md:w-7/12 flex justify-end md:order-2 md:-mt-12">
               <nuxt-img
                 sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
                 preset="lawyers"
                 :src="about.image"
                 alt="about image"
-                class="self-end"
+                class="self-end md:w-9/12"
               />
             </div>
           </div>
