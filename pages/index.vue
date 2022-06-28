@@ -50,7 +50,7 @@
       </div>
     </header>
     <section id="about" class="bg-primary text-white">
-      <div class="container mt-52 md:mt-20">
+      <div class="container mt-60 md:mt-20">
         <div>
           <g-title
             :heading="about.heading"
@@ -70,13 +70,15 @@
                 </n-link>
               </div>
             </div>
-            <div class="md:w-7/12 flex justify-end md:order-2 md:-mt-12">
+            <div
+              class="md:w-7/12 mt-8 flex md:justify-end md:order-2 md:-mt-12"
+            >
               <nuxt-img
                 sizes="xl:100vw lg:100vw md:100vw sm:100vw xs:100vw"
                 preset="lawyers"
                 :src="about.image"
                 alt="about image"
-                class="self-end md:w-9/12"
+                class="self-end md:w-9/12 w-full"
               />
             </div>
           </div>
