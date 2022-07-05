@@ -36,4 +36,6 @@ practices:
   - immigration
   - government-contracts
   - real-estate-and-construction
+  - projects-and-infrastructure
+  - tax
 ---
