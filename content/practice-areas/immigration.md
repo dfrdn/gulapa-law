@@ -6,6 +6,7 @@ description: The firm services clients with Philippine immigration concerns and
   Gulapa & Baclay LLP.
 contact:
   - aris-l-gulapa
+  - shwaid
 offices:
   - manila
   - san-francisco
