@@ -3,7 +3,7 @@ name: Dan Kevin C. Mandocdoc
 position: Partner
 startDate: 2021-12-31T17:18:13.040Z
 email: dake.mandocdoc@gulapalaw.com
-mobile: N/A
+mobile: (+63)286587835 to 36
 description: Dake is a partner of the firm. He is a part-time lecturer at the
   Ateneo de Manila University School of Law.
 image: /img/dake_hgp2888-copy.jpg
