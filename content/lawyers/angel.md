@@ -3,7 +3,7 @@ name: Angel P. Machuca
 position: Partner
 startDate: 2019-01-01T07:40:28.767Z
 email: angel.machuca@gulapalaw.com
-mobile: N/A
+mobile: (+63)286587835 to 36
 description: >-
   Angel is a partner of the firm.
 
