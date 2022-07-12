@@ -3,7 +3,7 @@ name: Charmaine Rose K. Haw-Lim
 position: Partner
 startDate: 2017-12-31T17:02:56.637Z
 email: charms.haw@gulapalaw.com
-mobile: N/A
+mobile: (+63)286587835 to 36
 description: >+
   Charms is the managing partner of Gulapa Law. She served as a consultant at
   the Asian Development Bank under its Office of General Counsel (Sovereign and
