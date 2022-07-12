@@ -3,7 +3,7 @@ name: Melissa Ester E. Chavez-Dee
 position: Partner
 startDate: 2018-07-31T17:05:13.949Z
 email: melissa.chavez@gulapalaw.com
-mobile: N/A
+mobile: (+63)286587835 to 36
 description: Mel is a partner of the firm. She was awarded the Next Generation
   Partner in Corporate and M&A award by The Legal 500 in 2020, 2021, and 2022.
 image: /img/1-melissa.jpg
