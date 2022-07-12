@@ -3,8 +3,8 @@ name: Lord Jay-em E. Cuntapay
 position: Underbar Associate
 startDate: 2022-04-22T16:07:09.847Z
 email: jayem.cuntapay@gulapalaw.com
-mobile: N/A
-description: 'Jay-em is an underbar associate  of the firm. '
+mobile: (+63)286587835 to 36
+description: "Jay-em is an underbar associate  of the firm. "
 image: /img/male-profile.png
 admissions:
   - Philippine Bar, 2022
