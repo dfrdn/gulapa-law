@@ -3,7 +3,7 @@ name: Christine Joy A. Abu-Bangcola
 position: Junior Associate
 startDate: 2021-02-28T17:13:11.523Z
 email: christine.bangcola@gulapalaw.com
-mobile: N/A
+mobile: (+63)286587835 to 36
 description: Tin is a Senior Associate of the firm. She was awarded the
   Recommended Lawyer in Dispute Resolution by The Legal 500 in 2022.
 image: /img/tin_hgp2993-copy.jpg
