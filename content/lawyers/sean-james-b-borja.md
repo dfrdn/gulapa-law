@@ -3,7 +3,7 @@ name: Sean James B. Borja
 position: Junior Associate
 startDate: 2019-03-01T15:45:25.280Z
 email: sean.borja@gulapalaw.com
-mobile: " "
+mobile: (+63)286587835 to 36
 description: Sean is a junior associate of the firm.
 image: /img/sean-2_hgp7302-copy.jpg
 admissions:
