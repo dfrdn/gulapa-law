@@ -1,6 +1,6 @@
 ---
 name: John Paulo S. Vicencio
-position: Underbar Associate
+position: Junior Associate
 startDate: 2022-04-20T18:08:25.382Z
 email: jp.vicencio@gulapalaw.com
 mobile: (+63)286587835 to 36
