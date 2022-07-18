@@ -3,7 +3,7 @@ name: Al-Shwaid L. Ismael
 position: Partner
 startDate: 2020-10-18T17:17:41.437Z
 email: alshwaid.ismael@gulapalaw.com
-mobile: N/A
+mobile: (+63)32 2387254
 description: "Shwaid is a partner of the firm. He is presently the Managing
   Partner of the firm’s Cebu office, Gulapa & Ismael, and a partner of the
   firm’s New York office, Gulapa & Baclay.  \r
