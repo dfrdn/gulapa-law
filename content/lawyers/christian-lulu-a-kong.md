@@ -3,7 +3,7 @@ name: Christian Lulu A. Kong
 position: Junior Associate
 startDate: 2022-06-06T10:23:58.568Z
 email: christian.kong@gulapalaw.com
-mobile: N/A
+mobile: (+63)32 2387254
 description: Christian is a junior associate of the firm
 image: /img/kong.jpg
 admissions:
