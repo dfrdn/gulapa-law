@@ -1,6 +1,6 @@
 ---
 name: Catherine Joy T. Lim
-position: Underbar Associate
+position: Junior Associate
 startDate: 2022-04-22T16:09:41.381Z
 email: catherine.lim@gulapalaw.com
 mobile: (+63)286587835 to 36
