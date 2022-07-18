@@ -5,7 +5,7 @@ startDate: 2022-04-22T16:16:09.372Z
 email: dannah.galindez@gulapalaw.com
 mobile: (+63)286587835 to 36
 description: "Dannah is an underbar associate of the firm. "
-image: /img/female-profile.png
+image: /img/dannah-galindez.jpg
 admissions:
   - Philippine Bar, 2022 (Exemplary Passer)
 education:
