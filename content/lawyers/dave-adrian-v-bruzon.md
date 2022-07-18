@@ -1,6 +1,6 @@
 ---
 name: Dave Adrian V. Bruzon
-position: Underbar Associate
+position: Junior Associate
 startDate: 2022-04-22T16:12:56.570Z
 email: dave.bruzon@gulapalaw.com
 mobile: (+63)286587835 to 36
