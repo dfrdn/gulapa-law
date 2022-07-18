@@ -6,7 +6,7 @@ email: dave.bruzon@gulapalaw.com
 mobile: (+63)286587835 to 36
 description: "Dave is an underbar associate of the firm. He is also a Certified
   Public Accountant. "
-image: /img/male-profile.png
+image: /img/dave-bruzon.jpg
 admissions:
   - Philippine Bar, 2022 (Exemplary)
 education:
