@@ -5,7 +5,7 @@ startDate: 2022-04-20T18:08:25.382Z
 email: jp.vicencio@gulapalaw.com
 mobile: (+63)286587835 to 36
 description: "JP is an underbar associate of the firm. "
-image: /img/male-profile.png
+image: /img/jp-vicencio.jpg
 admissions:
   - Philippine Bar, 2022
 education:
