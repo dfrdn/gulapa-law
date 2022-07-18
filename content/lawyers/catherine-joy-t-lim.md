@@ -5,7 +5,7 @@ startDate: 2022-04-22T16:09:41.381Z
 email: catherine.lim@gulapalaw.com
 mobile: (+63)286587835 to 36
 description: "Catherine is an underbar associate of the firm. "
-image: /img/female-profile.png
+image: /img/cath-lim.jpg
 admissions:
   - Philippine Bar, 2022
 education:
