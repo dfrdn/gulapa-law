@@ -1,6 +1,6 @@
 ---
 name: Dannah Mikhaela Galindez
-position: Underbar Associate
+position: Junior Associate
 startDate: 2022-04-22T16:16:09.372Z
 email: dannah.galindez@gulapalaw.com
 mobile: (+63)286587835 to 36
