@@ -1,6 +1,6 @@
 ---
 name: Lord Jay-em E. Cuntapay
-position: Underbar Associate
+position: Junior Associate
 startDate: 2022-04-22T16:07:09.847Z
 email: jayem.cuntapay@gulapalaw.com
 mobile: (+63)286587835 to 36
