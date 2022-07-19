@@ -4,7 +4,7 @@ position: Junior Associate
 startDate: 2022-04-22T16:09:41.381Z
 email: catherine.lim@gulapalaw.com
 mobile: (+63)286587835 to 36
-description: Cath is an associate of the firm.
+description: Cath is a junior associate of the firm.
 image: /img/cath-lim.jpg
 admissions:
   - Philippine Bar, 2022
