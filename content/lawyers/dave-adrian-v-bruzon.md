@@ -4,7 +4,8 @@ position: Junior Associate
 startDate: 2022-04-22T16:12:56.570Z
 email: dave.bruzon@gulapalaw.com
 mobile: (+63)286587835 to 36
-description: Dave is an associate of the firm. He is also a Certified Public Accountant.
+description: Dave is a junior associate of the firm. He is also a Certified
+  Public Accountant.
 image: /img/dave-bruzon.jpg
 admissions:
   - Philippine Bar, 2022 (Exemplary)
