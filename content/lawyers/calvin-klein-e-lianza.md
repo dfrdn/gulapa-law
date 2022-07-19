@@ -7,6 +7,10 @@ mobile: (+63)32 2387254
 description: Calvin is a junior associate of the firm. He is also a Certified
   Public Accountant.
 image: /img/ck-copy.jpg
+admissions:
+  - Philippine Bar, 2022 (Exemplary)
+education:
+  - University of Cebu - School of Law, Juris Doctor, 2020 (Valedictorian)
 offices:
   - manila
   - cebu
