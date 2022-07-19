@@ -4,7 +4,7 @@ position: Junior Associate
 startDate: 2022-06-08T07:57:01.022Z
 email: joshua.ouano@gulapalaw.com
 mobile: " (+63)32 2387254"
-description: Josh is an associate of the firm.
+description: Josh is a junior associate of the firm.
 image: /img/josh-profile-picture.jpg
 admissions:
   - Philippine Bar, 2022
