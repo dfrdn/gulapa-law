@@ -4,7 +4,7 @@ position: Junior Associate
 startDate: 2022-04-22T16:07:09.847Z
 email: jayem.cuntapay@gulapalaw.com
 mobile: (+63)286587835 to 36
-description: Jay-em is an associate of the firm.
+description: Jay-em is a junior associate of the firm.
 image: /img/jay-em-cuntapay.jpg
 admissions:
   - Philippine Bar, 2022
