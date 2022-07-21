@@ -7,7 +7,7 @@ mobile: (+63)286587835 to 36
 description: Maisie is a junior associate of the firm.
 image: /img/maisie-zabala.jpg
 admissions:
-  - Philippine Bar, 2022
+  - Philippine Bar, 2022 (Exemplary)
 education:
   - "Ateneo de Manila University School of Law, Juris Doctor, 2021, Second
     Honors "
