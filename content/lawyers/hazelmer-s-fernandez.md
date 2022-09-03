@@ -1,14 +1,10 @@
 ---
 name: Hazelmer S. Fernandez
-position: Junior Associate
+position: Senior Associate
 startDate: 2020-09-30T17:41:48.639Z
 email: hazelmer.fernandez@gulapalaw.com
 mobile: (+63)286587835 to 36
-description: "Hazel is a junior associate of the firm.\r
-
-
-
-  \r\n"
+description: Hazel is a senior associate of the firm.
 image: /img/hazel_hgp3009-copy.jpg
 admissions:
   - Philippine Bar, 2018
