@@ -1,10 +1,10 @@
 ---
 name: Ann Danzel P. Albaña
-position: Junior Associate
+position: Senior Associate
 startDate: 2019-10-01T15:49:51.741Z
 email: ada.albana@gulapalaw.com
 mobile: (+63)286587835 to 36
-description: Ada is a junior associate of the firm.
+description: Ada is a senior associate of the firm.
 image: /img/ada-qcp02600.jpeg
 admissions:
   - Philippine Bar, 2019
