@@ -9,7 +9,7 @@ award:
   - "Corporate/M&A (Recommended Law Firm) (2022) "
   - "Real Estate (Recommended Law Firm) (2022) "
   - "Energy (Recommended Law Firm) (2022) "
-  - Infrastructure (Recommended Law Firm) (2022)
+  - Infrastructure (Highly Recommended Law Firm) (2022)
   - Technology and telecommunications (Other Notable Law Firm) (2022)
   - Intellectual Property (Other Notable Law Firm) (2022)
   - Dispute Resolution (Other Notable Law Firm) (2022)
