@@ -15,5 +15,7 @@ education:
 offices:
   - manila
 practices:
-  - general-corporate
+  - corporate-and-m-a
+  - dispute-resolution
+  - labour-and-employment
 ---
