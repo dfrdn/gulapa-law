@@ -11,9 +11,7 @@ description: >-
   Center, Inc. (PDRCI).
 
 
-
-
-  **\*\**Caloy is on extended and full leave of absence from the firm until September 2024.**
+  **\*\*Caloy is on extended and full leave of absence from the firm until September 2024.**
 image: /img/caloy-3_hgp7278-copy.jpg
 admissions:
   - Philippine Bar, 2013
