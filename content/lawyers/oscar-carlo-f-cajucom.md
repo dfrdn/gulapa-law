@@ -7,19 +7,22 @@ mobile: (+63)286587835 to 36
 description: >-
   Caloy is a partner of the firm and head of its litigation and dispute
   resolution department. He is a part-time lecturer at the Ateneo de Manila
-  University School of Law, the University of Makati, and the Far Eastern
-  University Institute of Law.
+  University School of Law and a member of the Philippine Dispute Resolution
+  Center, Inc. (PDRCI). 
 
 
-  He is also the Corporate Secretary of the Ayala Alabang Village Association, Inc. and a member of the Philippine Dispute Resolution Center, Inc. (PDRCI)
+  ***\**Caloy is on extended and full leave of absence from the firm until September 2024.**
 image: /img/caloy-3_hgp7278-copy.jpg
 admissions:
   - Philippine Bar, 2013
 education:
+  - Leiden University, Master of Laws on Advanced Studies in International
+    Dispute Settlement and Arbitration, 2023 (Summa Cum Laude; Leiden Journal of
+    International Law (2022-2023))
   - American Bar Association Criminal Justice Advocacy Mock Trial Competition
     (2012, Chicago, IL)
   - Ateneo de Manila University School of Law, Juris Doctor, 2012 (Second
-    Honors; Ateneo Law Journal (2009-2012)
+    Honors; Ateneo Law Journal (2009-2012))
 matters:
   - Represented the Philippine SEA Games Organizational Committee, Inc. in
     successfully repelling an injunction sought to enjoin the bidding, award,
@@ -31,14 +34,14 @@ matters:
     project.
   - Obtained an arbitral award in favor of a shipowner against the shipbuilder
     involving the construction of a Ro-Ro vessel worth almost PhP 150 Million.
+  - Secured an acquittal for an aircraft mechanic in a falsification case
+    involving the test flight report for an airlplane that fatally crashed while
+    transporting a high government official in 2012.
+  - Secured an acquittal for an entertainment writer in a libel suit filed by a
+    world champion and renowned celebrity boxer.
   - Representing the rehabilitation receiver of a distressed corporation against
     insurers in an arbitration involving a multi-Billion peso insurance claim
     for damage and loss to property caused by a major typhoon.
-  - Secured an acquittal for an entertainment writer in a libel suit filed by a
-    world champion and renowned celebrity boxer.
-  - Secured an acquittal for an aircraft mechanic in a falsification case
-    involving the test flight report for a airlplane that fatally crashed while
-    transporting a high government official in 2012.
 recognitions:
   - Recommended Lawyer in Dispute Resolution, The Legal500 (2022)
   - Finalist, Dispute Resolution Lawyer of the Year, Philippine Law Awards 2020
