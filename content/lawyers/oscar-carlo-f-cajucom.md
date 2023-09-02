@@ -8,10 +8,12 @@ description: >-
   Caloy is a partner of the firm and head of its litigation and dispute
   resolution department. He is a part-time lecturer at the Ateneo de Manila
   University School of Law and a member of the Philippine Dispute Resolution
-  Center, Inc. (PDRCI). 
+  Center, Inc. (PDRCI).
 
 
-  ***\**Caloy is on extended and full leave of absence from the firm until September 2024.**
+
+
+  **\*\**Caloy is on extended and full leave of absence from the firm until September 2024.**
 image: /img/caloy-3_hgp7278-copy.jpg
 admissions:
   - Philippine Bar, 2013
@@ -35,13 +37,13 @@ matters:
   - Obtained an arbitral award in favor of a shipowner against the shipbuilder
     involving the construction of a Ro-Ro vessel worth almost PhP 150 Million.
   - Secured an acquittal for an aircraft mechanic in a falsification case
-    involving the test flight report for an airlplane that fatally crashed while
+    involving the test flight report for an airplane that fatally crashed while
     transporting a high government official in 2012.
-  - Secured an acquittal for an entertainment writer in a libel suit filed by a
-    world champion and renowned celebrity boxer.
   - Representing the rehabilitation receiver of a distressed corporation against
     insurers in an arbitration involving a multi-Billion peso insurance claim
     for damage and loss to property caused by a major typhoon.
+  - Secured an acquittal for an entertainment writer in a libel suit filed by a
+    world champion and renowned celebrity boxer.
 recognitions:
   - Recommended Lawyer in Dispute Resolution, The Legal500 (2022)
   - Finalist, Dispute Resolution Lawyer of the Year, Philippine Law Awards 2020
