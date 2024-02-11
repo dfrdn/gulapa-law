@@ -5,7 +5,7 @@ startDate: 2023-09-20T10:28:54.814Z
 email: thuy.nguyen@gulapalaw.com
 mobile: "0"
 description: Thuy is a senior associate of the firm.
-image: /img/thuy_vietnam.jpg
+image: /img/ngt.jpg-77-1-.jpg
 admissions:
   - Ho Chi Minh Bar Association, 2010
 education:
