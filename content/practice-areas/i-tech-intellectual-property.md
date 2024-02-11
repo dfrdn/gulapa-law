@@ -16,4 +16,5 @@ offices:
   - manila
   - san-francisco
   - new-york
+  - ho-chi-minh-vietnam
 ---
