@@ -21,7 +21,6 @@ recognitions:
   - Next Generation Partner in Corporate and M&A, The Legal 500 (2024, 2023,
     2022, 2021, 2020)
   - Recommended Lawyer in Competition, The Legal500 (2024)
-  - Next Generation Partner in Banking and Finance, The Legal 500 (2024)
 offices:
   - manila
   - cebu
