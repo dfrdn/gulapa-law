@@ -15,6 +15,8 @@ matters:
   - Doing business in the Philippines
   - Various commercial contracts and agreements
   - Infrastructure projects
+recognitions:
+  - Recommended Lawyer in Tax, The Legal500 (2024, 2023)
 offices:
   - manila
   - cebu
