@@ -2,7 +2,7 @@
 heading: About
 description: Who we are
 ---
-The Firm, known as “Gulapa Law”, was established by Aris L. Gulapa in September 2015. Since then, the Firm has admitted 8 partners, namely, Charmaine Rose K. Haw-Lim, Melissa Ester E. Chavez-Dee, Angel P. Machuca, Teodulo Antonio G. San Juan, Jr., Oliver P. Baclay, Al-Shwaid L. Ismael, Oscar Carlo F. Cajucom, and Dan Kevin C. Mandocdoc. From a boutique law firm which had an initial complement of 6 lawyers in 2015, the Firm now has 36 legal professionals.
+The Firm, known as “Gulapa Law”, was established by Aris L. Gulapa in September 2015. Since then, the Firm has admitted 8 partners, namely, Charmaine Rose K. Haw-Lim, Melissa Ester E. Chavez-Dee, Angel P. Machuca, Teodulo Antonio G. San Juan, Jr., Oliver P. Baclay, Al-Shwaid L. Ismael, Oscar Carlo F. Cajucom, and Dan Kevin C. Mandocdoc. From a boutique law firm which had an initial complement of 6 lawyers in 2015, the Firm now has 40 legal professionals.
 
 In 2017, the Firm became the first Philippine-based law firm to set up a presence in New York City through its affiliate, Gulapa & Baclay LLP.
 
