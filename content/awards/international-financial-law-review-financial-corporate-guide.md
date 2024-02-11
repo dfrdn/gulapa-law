@@ -6,9 +6,8 @@ description: "IFLR analyses the global legal market and interprets in-house
   intelligence around three core practice areas namely deal analysis, expert
   opinion, and best practice. "
 award:
-  - Ranked in Tier 3, Project Finance (2022)
-  - Ranked in Tier 4, Banking and Finance (2022)
-  - Ranked in Tier 2, Project Development (2022)
-  - Ranked in Tier 2, Project Finance (2022)
-  - Notable Law Firm, Restructuring and Insolvency (2022)
+  - Ranked in Tier 2, Project Finance (2023)
+  - Ranked in Tier 4, Banking and Finance (2023)
+  - Ranked in Tier 2, Project Development (2023)
+  - Ranked in Tier 3, Restructuring and Insolvency (2023)
 ---
