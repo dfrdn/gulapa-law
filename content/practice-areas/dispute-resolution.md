@@ -15,4 +15,5 @@ offices:
   - new-york
   - san-francisco
   - cebu
+  - ho-chi-minh-vietnam
 ---
