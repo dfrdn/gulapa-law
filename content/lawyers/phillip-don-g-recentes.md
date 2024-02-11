@@ -16,6 +16,12 @@ matters:
   - "Public Infrastructure, ADB North-South Commuter Rail Project "
   - Government Contracts, The New Philippine ePassport and Internal Revenue
     Stamps Integrated System (cigarettes)
+recognitions:
+  - Recommended Lawyer in Labour and Employment, The Legal500 (2024, 2023)
+  - Recommended Lawyer in Immigration, The Legal500 (2023)
+  - Rising Star in Immigration, The Legal500 (2024)
+  - Recommender Lawyer in Technology Media and Telecommunications, The Legal500
+    (2024)
 offices:
   - manila
   - cebu
