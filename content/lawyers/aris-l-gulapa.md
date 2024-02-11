@@ -41,12 +41,12 @@ recognitions:
     2019, 2018, 2017 and 2016)
   - Recommended Lawyer in Technology, Media and Telecoms, The Legal500 (2022,
     2020)
-  - Recommended Lawyer in Corporate/M&A, The Legal 500 (2022, 2021, 2020, 2019,
-    2018, 2017 and 2016)
+  - Leading Individual in Corporate/M&A, The Legal500 (2024)
   - Recommended Lawyer in Projects & Energy, The Legal 500 (2022, 2021, 2020,
     2019, 2018, 2017 and 2016)
-  - Recommended Lawyer in Competition, The Legal500 (2022)
-  - Highly regarded lawyer in Project Development and M&A, IFLR1000 (2021,
+  - Leading Individual in Competition, The Legal500 (2024)
+  - Recommended Lawyer in Aviation, The Legal500 (2024)
+  - Highly regarded lawyer in Project Development and M&A, IFLR1000 (2022,2021,
     2020); Notable lawyer, IFLR1000 (2019 and 2018)
   - Distinguished Practitioner Commended in Infrastructure and Energy, Asialaw
     Profiles (2022, 2021, 2020)
@@ -55,6 +55,7 @@ offices:
   - manila
   - new-york
   - san-francisco
+  - ho-chi-minh-vietnam
 practices:
   - general-corporate
   - asean-trade
