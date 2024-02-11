@@ -28,7 +28,7 @@ recognitions:
   - Outstanding Practitioner in the Philippines Award, Asialaw Regional Awards
     (2019)
   - Dealmaker of the Year, Asia Business Law Journal (2017)
-  - Ranked in Projects, Infrastructure, and Energy (Band 2), Chambers & Partners
+  - Ranked in Projects, Infrastructure, and Energy (Band 1), Chambers & Partners
     Asia Pacific and Chambers & Partners Global (2022, 2021, 2020); (Band 3),
     Chambers & Partners Asia Pacific and Chambers & Partners Global (2019, 2018,
     and 2017); Up and coming, Chambers & Partners Asia Pacific & Chambers &
