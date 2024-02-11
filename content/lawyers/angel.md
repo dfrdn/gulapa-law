@@ -20,13 +20,13 @@ matters:
   - SM Prime – Pasay Reclamation Development Project
   - North South Commuter Railway Project
 recognitions:
-  - Rising Star in Project Development, International Financial Law Review (2021)
-  - "Rising Star in Project Development, International Financial Law Review
-    (2019) "
-  - Next Generation Partner in Real Estate and Construction, The Legal500 (2022,
-    2021, 2020)
-  - Next Generation Lawyer in Real Estate and Construction, The Legal500 (2019)
+  - Rising Star in Project Development, International Financial Law Review
+    (2023, 2022, 2021, 2019)
+  - Next Generation Partner in Real Estate and Construction, The Legal500 (2024,
+    2023, 2022, 2021, 2020)
   - Recommended Lawyer in Projects & Energy, The Legal500 (2022)
+  - Recommended Lawyer in Banking and Finance, The Legal500 (2024, 2023)
+  - Recommended Lawyer in Aviation, The Legal500 (2024)
 offices:
   - manila
   - cebu
