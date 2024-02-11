@@ -27,6 +27,8 @@ recognitions:
   - Recommended Lawyer in Projects & Energy, The Legal500 (2022)
   - Recommended Lawyer in Banking and Finance, The Legal500 (2024, 2023)
   - Recommended Lawyer in Aviation, The Legal500 (2024)
+  - Up and Coming in Projects, Infrastructure, and Energy (Band 2), Chambers &
+    Partners Asia Pacific (2024, 2023)
 offices:
   - manila
   - cebu
