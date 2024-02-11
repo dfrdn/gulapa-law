@@ -5,7 +5,7 @@ startDate: 2023-12-01T07:04:33.549Z
 email: earl.padayao@gulapalaw.com
 mobile: "0"
 description: Earl is a junior associate of the firm.
-image: /img/kcctest_999.jpg
+image: /img/earl_edited.jpeg
 admissions:
   - Philippine Bar, 2023
 education:
