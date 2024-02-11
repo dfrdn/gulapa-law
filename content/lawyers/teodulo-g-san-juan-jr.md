@@ -42,6 +42,8 @@ matters:
     project (210 MW)
   - Solar Pacific Pristine Power’s 15.2 MW Solar PV Energy with battery energy
     storage system in Palau.
+recognitions:
+  - Recommended Lawyer in Projects & Energy, The Legal 500 (2023)
 offices:
   - manila
   - cebu
