@@ -20,8 +20,13 @@ matters:
   - Bundled Regional Airports Project
   - Various franchising agreements for Francorp Philippines
 recognitions:
-  - "Next Generation Partner in Projects and Energy, The Legal 500 (2021, 2020) "
+  - "Next Generation Partner in Projects and Energy, The Legal 500 (2024, 2023,
+    2022, 2021, 2020) "
   - "Recommended Individual in Corporate/M&A, The Legal500 (2019) "
+  - Managing Partner of the Year, Nominee, Asian Legal Business Philippine Law
+    Awards (2020)
+  - Woman Lawyer of the Year, Nominee, Asian Legal Business Philippine Law
+    Awards (2019, 2018, 2017)
 offices:
   - manila
   - cebu
