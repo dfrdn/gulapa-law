@@ -23,4 +23,5 @@ offices:
   - cebu
   - new-york
   - san-francisco
+  - ho-chi-minh-vietnam
 ---
