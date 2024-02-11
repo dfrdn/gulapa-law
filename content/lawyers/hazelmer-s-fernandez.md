@@ -11,6 +11,8 @@ admissions:
 education:
   - University of St. Lasalle College of Law, Juris Doctor, 2017 (Salutatorian)
 matters: []
+recognitions:
+  - Key Lawyer in Dispute Resolution, The Legal500 (2023)
 offices:
   - manila
 practices:
