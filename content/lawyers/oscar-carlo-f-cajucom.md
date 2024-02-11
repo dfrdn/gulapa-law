@@ -43,9 +43,10 @@ matters:
   - Secured an acquittal for an entertainment writer in a libel suit filed by a
     world champion and renowned celebrity boxer.
 recognitions:
-  - Recommended Lawyer in Dispute Resolution, The Legal500 (2022)
+  - Recommended Lawyer in Dispute Resolution, The Legal500 (2023, 2022)
   - Finalist, Dispute Resolution Lawyer of the Year, Philippine Law Awards 2020
     (Asian Legal Business)
+  - Recommended Lawyer in Labour and employment, The Legal500 (2024, 2023)
 offices:
   - manila
   - cebu
