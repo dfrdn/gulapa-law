@@ -1,7 +1,7 @@
 ---
 name: Brian Jay Vincent D. Go
 position: Junior Associate
-startDate: 2023-12-01T07:22:14.467Z
+startDate: 2023-11-16T07:22:14.467Z
 email: brian.go@gulapalaw.com
 mobile: ...
 description: Brian is a junior associate of the firm.
