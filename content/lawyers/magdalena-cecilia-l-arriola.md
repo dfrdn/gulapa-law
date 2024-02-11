@@ -5,7 +5,7 @@ startDate: 2022-10-02T16:00:00.000Z
 email: ces.arriola@gulapalaw.com
 mobile: NA
 description: Ces is an associate of the firm.
-image: /img/ces-arriola-business-picture.jpeg
+image: /img/ces-arriola.jpg
 admissions:
   - Philippine Bar, 2022 (Exemplary)
 education:
