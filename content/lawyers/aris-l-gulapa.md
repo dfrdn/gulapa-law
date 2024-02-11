@@ -39,12 +39,12 @@ recognitions:
     and 2018)
   - Leading individual in Real Estate and Construction, The Legal500 (2020,
     2019, 2018, 2017 and 2016)
+  - Recommended Lawyer in Banking and Finance, The Legal500 (2024)
   - Recommended Lawyer in Technology, Media and Telecoms, The Legal500 (2022,
     2020)
   - Leading Individual in Corporate/M&A, The Legal500 (2024)
   - Recommended Lawyer in Projects & Energy, The Legal 500 (2022, 2021, 2020,
     2019, 2018, 2017 and 2016)
-  - Leading Individual in Banking and Finance, The Legal500 (2024)
   - Leading Individual in Competition, The Legal500 (2024)
   - Recommended Lawyer in Aviation, The Legal500 (2024)
   - Highly regarded lawyer in Project Development and M&A, IFLR1000 (2022,2021,
