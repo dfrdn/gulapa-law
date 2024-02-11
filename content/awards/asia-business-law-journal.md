@@ -10,4 +10,6 @@ award:
   - Honorable Mention, International Arbitration (2021)
   - Honorable Mention, Banking and Finance (2021)
   - Honorable Mention, Competition and Corporate/M&A (2021)
+  - Phillippine Firm of the Year in Projects and Project Financing (2022)
+  - Philippine Firm of the Year in Projects & Energy (2023)
 ---
