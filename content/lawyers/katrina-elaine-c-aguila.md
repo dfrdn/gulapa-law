@@ -18,6 +18,7 @@ education:
     Jessup Moot Captain)
 offices:
   - manila
+  - ho-chi-minh-vietnam
 practices:
   - corporate-and-m-a
   - dispute-resolution
