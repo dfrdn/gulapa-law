@@ -22,6 +22,9 @@ matters:
   - Philippine Phosphate Fertilizer Corporation Corporate Rehabilitation
   - Various outbound cross-border  investments by the MFT Group
   - Various investments and matters relating to the health sector
+recognitions:
+  - Recommended Lawyer in Technology, Media and Telecoms, The Legal500 (2024,
+    2023)
 offices:
   - manila
   - cebu
