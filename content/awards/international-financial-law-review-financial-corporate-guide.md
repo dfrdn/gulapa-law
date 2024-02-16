@@ -1,5 +1,5 @@
 ---
-awardbody: International Financial Law Review -- Financial & Corporate Guide
+awardbody: International Financial Law Review - Financial & Corporate Guide
 description: "IFLR analyses the global legal market and interprets in-house
   expert opinion for capital markets, corporate and finance. IFLR delivers
   in-house counsel and private practice credible insight and accurate
