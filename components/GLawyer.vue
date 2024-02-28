@@ -87,6 +87,7 @@ export default {
         cebu: 'CEB',
         'new-york': 'NY',
         'san-francisco': 'SF',
+        vietnam: 'VN',
       }
       const sorter = ['MNL', 'CEB', 'NY', 'SF']
       const offices = this.details.offices
