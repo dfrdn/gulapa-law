@@ -89,7 +89,7 @@ export default {
         'san-francisco': 'SF',
         vietnam: 'VN',
       }
-      const sorter = ['MNL', 'CEB', 'NY', 'SF']
+      const sorter = ['MNL', 'CEB', 'NY', 'SF', 'VN']
       const offices = this.details.offices
         .map((office) => all[office])
         .sort((a, b) => sorter.indexOf(a) - sorter.indexOf(b))
