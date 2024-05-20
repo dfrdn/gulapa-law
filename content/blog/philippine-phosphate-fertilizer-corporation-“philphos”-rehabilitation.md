@@ -1,5 +1,6 @@
 ---
-title: Case No. R-ORM-15-00072-SP
+title: Voluntary Rehabilitation of Philippine Phosphate Fertilizer Corporation
+  Case No. R-TAC-17-00328-SP
 author: Aris L. Gulapa
 date: 2021-08-02T10:58:41.025Z
 image: /img/awards.jpg
@@ -65,5 +66,7 @@ Further, the Rehabilitation Receiver is allowing the creditors to schedule one-o
 
 **Notice:** The Rehabilitation Receiver has filed, on October 7, 2016, a Notice of Change of Address with the Rehabilitation Court. Thus, please send all pleadings, notices, orders, resolutions, and other papers intended for him shall to the following address:\
 Gulapa Law Office, Unit 12-A, 12/F Marco Polo Ortigas Manila, Sapphire Road Ortigas Center Pasig City 1605
+
+**Notice:** The Rehabilitation Court has cancelled the hearing on May 21, 2024. The Rehabilitation Court also issued a Notice of Hearing dated May 15, 2024 setting a hearing on **July 16, 2024 at 8:30 AM**. 
 
 <!--EndFragment-->
