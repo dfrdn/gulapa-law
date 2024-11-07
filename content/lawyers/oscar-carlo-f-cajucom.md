@@ -4,14 +4,10 @@ position: Partner
 startDate: 2021-04-30T17:14:42.935Z
 email: caloy.cajucom@gulapalaw.com
 mobile: (+63)286587835 to 36
-description: >-
-  Caloy is a partner of the firm and head of its litigation and dispute
-  resolution department. He is a part-time lecturer at the Ateneo de Manila
-  University School of Law and a member of the Philippine Dispute Resolution
-  Center, Inc. (PDRCI).
-
-
-  **Caloy is on extended and full leave of absence from the firm until September 2024.**
+description: Caloy is a partner of the firm and head of its litigation and
+  dispute resolution department. He is a part-time lecturer at the Ateneo de
+  Manila University School of Law and a member of the Philippine Dispute
+  Resolution Center, Inc. (PDRCI).
 image: /img/caloy-3_hgp7278-copy.jpg
 admissions:
   - Philippine Bar, 2013
