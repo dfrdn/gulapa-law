@@ -7,7 +7,11 @@ mobile: (+63)286587835 to 36
 description: Caloy is a partner of the firm and head of its litigation and
   dispute resolution department. He is a part-time lecturer at the Ateneo de
   Manila University School of Law and a member of the Philippine Dispute
-  Resolution Center, Inc. (PDRCI).
+  Resolution Center, Inc. (PDRCI) and the International Council for Commercial
+  Arbitration (ICCA). He previously worked as Assistant Legal Counsel at the
+  Permanent Court of Arbitration in The Hague and finished his Advanced LLM in
+  International Dispute Settlement and Arbitration from Leiden University
+  graduating Summa Cum Laude.
 image: /img/caloy-3_hgp7278-copy.jpg
 admissions:
   - Philippine Bar, 2013
@@ -38,9 +42,12 @@ matters:
     for damage and loss to property caused by a major typhoon.
   - Secured an acquittal for an entertainment writer in a libel suit filed by a
     world champion and renowned celebrity boxer.
+  - Assisted various arbitral tribunals in registry cases pending before the
+    Permanent Court of Arbitration, including investment treaty and
+    contract-based arbitrations
 recognitions:
   - Recommended Lawyer in Dispute Resolution, The Legal500 (2023, 2022)
-  - Finalist, Dispute Resolution Lawyer of the Year, Philippine Law Awards 2020
+  - Finalist, Dispute Resolution Lawyer of the Year, Philippine Law Awards 2022
     (Asian Legal Business)
   - Recommended Lawyer in Labour and employment, The Legal500 (2024, 2023)
 offices:
