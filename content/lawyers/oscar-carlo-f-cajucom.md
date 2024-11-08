@@ -56,6 +56,6 @@ offices:
 practices:
   - dispute-resolution
   - real-estate-and-construction
-  - human-resources-immigration
   - government-contracts
+  - international-arbitration
 ---
