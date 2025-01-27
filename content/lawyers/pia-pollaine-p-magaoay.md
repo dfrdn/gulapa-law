@@ -17,4 +17,7 @@ offices:
 practices:
   - corporate-and-m-a
   - dispute-resolution
+  - real-estate-and-construction
+  - government-contracts
+  - i-tech-intellectual-property
 ---
