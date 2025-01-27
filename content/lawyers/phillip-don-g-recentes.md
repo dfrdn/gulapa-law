@@ -33,4 +33,5 @@ practices:
   - corporate-and-m-a
   - energy
   - projects-and-infrastructure
+  - fashion-entertainment-media-fem
 ---
