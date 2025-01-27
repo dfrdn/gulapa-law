@@ -19,4 +19,6 @@ practices:
   - dispute-resolution
   - projects-and-infrastructure
   - government-contracts
+  - energy
+  - banking-and-finance
 ---
