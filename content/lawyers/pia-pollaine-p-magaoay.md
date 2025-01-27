@@ -20,4 +20,6 @@ practices:
   - real-estate-and-construction
   - government-contracts
   - i-tech-intellectual-property
+  - immigration
+  - fashion-entertainment-media-fem
 ---
