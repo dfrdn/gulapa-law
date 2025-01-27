@@ -70,4 +70,7 @@ practices:
   - projects-and-infrastructure
   - corporate-and-m-a
   - competition-and-anti-trust
+  - international-arbitration
+  - energy
+  - banking-and-finance
 ---
