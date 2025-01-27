@@ -18,6 +18,7 @@ practices:
   - dispute-resolution
   - government-contracts
   - projects-and-infrastructure
-  - labour-and-employment
   - aviation
+  - labour-and-employment
+  - fashion-entertainment-media-fem
 ---
