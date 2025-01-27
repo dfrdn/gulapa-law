@@ -27,4 +27,5 @@ practices:
   - projects-and-infrastructure
   - real-estate-and-construction
   - labour-and-employment
+  - energy
 ---
