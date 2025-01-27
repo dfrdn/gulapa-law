@@ -17,5 +17,6 @@ practices:
   - corporate-and-m-a
   - dispute-resolution
   - energy
-  - competition-and-anti-trust
+  - doing-business-in-new-york
+  - tax
 ---
