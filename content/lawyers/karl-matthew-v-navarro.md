@@ -19,4 +19,6 @@ practices:
   - i-tech-intellectual-property
   - labour-and-employment
   - projects-and-infrastructure
+  - aviation
+  - energy
 ---
