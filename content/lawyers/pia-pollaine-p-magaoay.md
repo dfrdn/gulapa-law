@@ -22,4 +22,7 @@ practices:
   - i-tech-intellectual-property
   - immigration
   - fashion-entertainment-media-fem
+  - banking-and-finance
+  - energy
+  - projects-and-infrastructure
 ---
