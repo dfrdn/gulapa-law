@@ -19,4 +19,7 @@ practices:
   - fashion-entertainment-media-fem
   - banking-and-finance
   - i-tech-intellectual-property
+  - energy
+  - projects-and-infrastructure
+  - real-estate-and-construction
 ---
