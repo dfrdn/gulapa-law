@@ -16,4 +16,7 @@ offices:
 practices:
   - corporate-and-m-a
   - dispute-resolution
+  - i-tech-intellectual-property
+  - labour-and-employment
+  - projects-and-infrastructure
 ---
