@@ -30,4 +30,7 @@ practices:
   - data-privacy-act-compliance
   - labour-and-employment
   - immigration
+  - corporate-and-m-a
+  - energy
+  - projects-and-infrastructure
 ---
