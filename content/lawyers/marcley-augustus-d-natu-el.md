@@ -1,10 +1,10 @@
 ---
 name: Marcley Augustus D. Natu-el
-position: Senior Associate
+position: Partner
 startDate: 2021-06-01T07:32:29.769Z
 email: marcley.natuel@gulapalaw.com
 mobile: (+63)32 2387254
-description: Marcley is a senior associate of the firm.
+description: Marcley is a partner of the firm.
 image: /img/marcley.jpg
 admissions:
   - Philippine Bar, 2019 (Top 2)
@@ -23,4 +23,6 @@ offices:
 practices:
   - dispute-resolution
   - corporate-and-m-a
+  - tax
+  - projects-and-infrastructure
 ---
