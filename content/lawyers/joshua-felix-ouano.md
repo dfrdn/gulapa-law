@@ -15,10 +15,10 @@ offices:
   - manila
   - cebu
 practices:
-  - corporate-and-m-a
-  - dispute-resolution
   - competition-and-anti-trust
-  - aviation
+  - corporate-and-m-a
   - projects-and-infrastructure
+  - aviation
   - energy
+  - real-estate-and-construction
 ---
