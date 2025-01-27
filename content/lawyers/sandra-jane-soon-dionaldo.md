@@ -16,4 +16,7 @@ offices:
 practices:
   - corporate-and-m-a
   - dispute-resolution
+  - fashion-entertainment-media-fem
+  - banking-and-finance
+  - i-tech-intellectual-property
 ---
