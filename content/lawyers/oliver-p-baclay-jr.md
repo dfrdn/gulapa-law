@@ -38,6 +38,7 @@ offices:
   - new-york
 practices:
   - i-tech-intellectual-property
-  - innovation-competition
   - fashion-entertainment-media-fem
+  - doing-business-in-new-york
+  - dispute-resolution
 ---
