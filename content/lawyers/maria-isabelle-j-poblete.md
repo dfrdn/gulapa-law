@@ -25,4 +25,7 @@ practices:
   - government-contracts
   - corporate-and-m-a
   - i-tech-intellectual-property
+  - projects-and-infrastructure
+  - energy
+  - competition-and-anti-trust
 ---
