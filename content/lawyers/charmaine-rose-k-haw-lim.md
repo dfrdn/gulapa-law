@@ -38,4 +38,5 @@ practices:
   - energy
   - projects-and-infrastructure
   - fashion-entertainment-media-fem
+  - banking-and-finance
 ---
