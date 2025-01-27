@@ -17,4 +17,5 @@ offices:
 practices:
   - corporate-and-m-a
   - dispute-resolution
+  - competition-and-anti-trust
 ---
