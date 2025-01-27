@@ -21,4 +21,7 @@ practices:
   - aviation
   - labour-and-employment
   - fashion-entertainment-media-fem
+  - energy
+  - banking-and-finance
+  - real-estate-and-construction
 ---
