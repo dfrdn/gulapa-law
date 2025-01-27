@@ -20,5 +20,6 @@ practices:
   - competition-and-anti-trust
   - i-tech-intellectual-property
   - energy
+  - real-estate-and-construction
   - labour-and-employment
 ---
