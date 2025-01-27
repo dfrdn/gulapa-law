@@ -18,4 +18,5 @@ practices:
   - corporate-and-m-a
   - dispute-resolution
   - competition-and-anti-trust
+  - i-tech-intellectual-property
 ---
