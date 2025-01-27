@@ -19,4 +19,6 @@ practices:
   - dispute-resolution
   - competition-and-anti-trust
   - i-tech-intellectual-property
+  - energy
+  - labour-and-employment
 ---
