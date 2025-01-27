@@ -30,4 +30,9 @@ practices:
   - energy
   - competition-and-anti-trust
   - data-privacy-act-compliance
+  - doing-business-in-new-york
+  - fashion-entertainment-media-fem
+  - government-contracts
+  - immigration
+  - banking-and-finance
 ---
