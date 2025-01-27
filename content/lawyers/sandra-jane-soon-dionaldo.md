@@ -22,4 +22,7 @@ practices:
   - energy
   - projects-and-infrastructure
   - real-estate-and-construction
+  - aviation
+  - labour-and-employment
+  - immigration
 ---
