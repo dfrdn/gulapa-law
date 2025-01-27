@@ -19,4 +19,5 @@ practices:
   - tax
   - dispute-resolution
   - corporate-and-m-a
+  - real-estate-and-construction
 ---
