@@ -38,4 +38,5 @@ practices:
   - real-estate-and-construction
   - projects-and-infrastructure
   - fashion-entertainment-media-fem
+  - aviation
 ---
