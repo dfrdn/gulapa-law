@@ -16,4 +16,8 @@ offices:
 practices:
   - corporate-and-m-a
   - dispute-resolution
+  - government-contracts
+  - projects-and-infrastructure
+  - labour-and-employment
+  - aviation
 ---
