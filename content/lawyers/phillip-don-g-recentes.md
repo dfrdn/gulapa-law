@@ -34,4 +34,5 @@ practices:
   - energy
   - projects-and-infrastructure
   - fashion-entertainment-media-fem
+  - government-contracts
 ---
