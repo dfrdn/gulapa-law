@@ -11,8 +11,8 @@ admissions:
 education:
   - University of Cebu School of Law, Juris Doctor,  2021 (Valedictorian)
 offices:
-  - manila
   - cebu
+  - manila
 practices:
   - corporate-and-m-a
   - dispute-resolution
@@ -25,4 +25,8 @@ practices:
   - aviation
   - labour-and-employment
   - immigration
+  - asean-trade
+  - competition-and-anti-trust
+  - data-privacy-act-compliance
+  - government-contracts
 ---
