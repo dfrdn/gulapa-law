@@ -58,4 +58,5 @@ practices:
   - real-estate-and-construction
   - government-contracts
   - international-arbitration
+  - labour-and-employment
 ---
