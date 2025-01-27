@@ -16,4 +16,7 @@ offices:
 practices:
   - corporate-and-m-a
   - dispute-resolution
+  - energy
+  - projects-and-infrastructure
+  - real-estate-and-construction
 ---
