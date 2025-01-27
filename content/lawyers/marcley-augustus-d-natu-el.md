@@ -28,4 +28,6 @@ practices:
   - real-estate-and-construction
   - labour-and-employment
   - energy
+  - competition-and-anti-trust
+  - data-privacy-act-compliance
 ---
