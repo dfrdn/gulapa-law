@@ -24,8 +24,8 @@ recognitions:
 offices:
   - manila
 practices:
-  - general-corporate
   - i-tech-intellectual-property
   - dispute-resolution
   - labour-and-employment
+  - real-estate-and-construction
 ---
