@@ -6,7 +6,7 @@ email: dake.mandocdoc@gulapalaw.com
 mobile: (+63)286587835 to 36
 description: Dake is a partner of the firm. He is a part-time lecturer at the
   Ateneo de Manila University School of Law.
-image: /img/dake_hgp2888-copy.jpg
+image: /img/1scf7067.jpg
 admissions:
   - Philippine Bar, 2014
 education:
@@ -17,11 +17,14 @@ education:
     Honors; Ateneo Law Journal)
   - Ateneo de Manila University, Legal Management, 2009 (Honorable Mention)
 matters:
+  - UP-PGH Cancer Center PPP Project
+  - Clark International Airport Technology and Communications Project
   - Clark International Airport Expansion PPP Project
   - Bundled Regional Airports Project
   - Philippine Phosphate Fertilizer Corporation Corporate Rehabilitation
-  - Various outbound cross-border  investments by the MFT Group
+  - Various outbound cross-border investments by the MFT Group
   - Various investments and matters relating to the health sector
+  - Acquisitions of companies utilizing financial and/or information technologies
 recognitions:
   - Recommended Lawyer in Technology, Media and Telecoms, The Legal500 (2024,
     2023)
@@ -34,4 +37,5 @@ practices:
   - real-estate-and-construction
   - projects-and-infrastructure
   - fashion-entertainment-media-fem
+  - energy
 ---
