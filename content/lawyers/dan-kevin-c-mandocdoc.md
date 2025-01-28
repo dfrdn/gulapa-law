@@ -26,8 +26,9 @@ matters:
   - Various investments and matters relating to the health sector
   - Acquisitions of companies utilizing financial and/or information technologies
 recognitions:
-  - Recommended Lawyer in Technology, Media and Telecoms, The Legal500 (2024,
-    2023)
+  - Recommended Lawyer in Technology, Media and Telecoms, The Legal500 (2025,
+    2024, 2023)
+  - Rising Star Partner in Project Development, IFLR1000 (2024)
 offices:
   - manila
   - cebu
