@@ -1,7 +1,7 @@
 ---
 name: April Joy A. Abellano
 position: Junior Associate
-startDate: 2024-04-05T11:17:34.446Z
+startDate: 2024-04-22T11:17:34.446Z
 email: april.abellano@gulapalaw.com
 mobile: (+63)286587835 to 36
 description: A﻿pril Joy A. Abellano is a junior associate of the firm.
