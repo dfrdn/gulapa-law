@@ -12,7 +12,6 @@ education:
   - Ateneo de Manila University – Law School, Juris Doctor, 2023 (Second Honors)
 offices:
   - manila
-  - cebu
 practices:
   - corporate-and-m-a
   - government-contracts
