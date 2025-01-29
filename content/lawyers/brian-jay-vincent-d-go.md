@@ -15,13 +15,13 @@ offices:
   - cebu
 practices:
   - corporate-and-m-a
-  - dispute-resolution
   - government-contracts
   - projects-and-infrastructure
   - aviation
+  - dispute-resolution
+  - energy
   - labour-and-employment
   - fashion-entertainment-media-fem
-  - energy
   - banking-and-finance
   - real-estate-and-construction
 ---
