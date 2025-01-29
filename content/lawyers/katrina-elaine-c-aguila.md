@@ -17,8 +17,8 @@ education:
   - Ateneo de Manila University School of Law, Juris Doctor, 2013 (Vis Moot;
     Jessup Moot Captain)
 offices:
-  - manila
   - ho-chi-minh-vietnam
+  - manila
 practices:
   - corporate-and-m-a
   - dispute-resolution
