@@ -5,7 +5,7 @@ startDate: 2022-04-22T16:11:06.634Z
 email: maisie.zabala@gulapalaw.com
 mobile: (+63)286587835 to 36
 description: Maisie is a junior associate of the firm.
-image: /img/maisie-zabala.jpg
+image: /img/1scf7266.jpg
 admissions:
   - Philippine Bar, 2022 (Exemplary)
 education:
