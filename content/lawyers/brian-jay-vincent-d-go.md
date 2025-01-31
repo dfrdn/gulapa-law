@@ -23,4 +23,6 @@ practices:
   - fashion-entertainment-media-fem
   - banking-and-finance
   - real-estate-and-construction
+  - i-tech-intellectual-property
+  - tax
 ---
