@@ -9,7 +9,7 @@ image: /img/img_9725.jpeg
 admissions:
   - Philippine Bar, 2025 (14th Place)
 education:
-  - University of San Carlos College of Law (Valedictorian)
+  - University of San Carlos College of Law, Juris Doctor, 2024 (Valedictorian)
 recognitions: []
 offices:
   - manila
