@@ -5,7 +5,7 @@ startDate: 2023-11-20T09:39:11.808Z
 email: gayle.palermo@gulapalaw.com
 mobile: "0"
 description: Gayle is a junior associate of the firm.
-image: /img/female-profile.png
+image: /img/palermo_portrait.jpg
 admissions:
   - Philippine Bar, 2023
 education:
@@ -19,4 +19,9 @@ practices:
   - energy
   - doing-business-in-new-york
   - tax
+  - competition-and-anti-trust
+  - real-estate-and-construction
+  - government-contracts
+  - i-tech-intellectual-property
+  - labour-and-employment
 ---
