@@ -5,7 +5,7 @@ startDate: 2024-02-05T03:45:55.753Z
 email: micah.espion@gulapalaw.com
 mobile: "0"
 description: Micah is a junior associate of the firm.
-image: /img/female-profile.png
+image: /img/img_9960.jpg
 admissions:
   - Philippine Bar, 2023
 education:
@@ -21,4 +21,6 @@ practices:
   - government-contracts
   - energy
   - banking-and-finance
+  - aviation
+  - i-tech-intellectual-property
 ---
