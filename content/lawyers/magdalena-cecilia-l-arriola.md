@@ -1,6 +1,6 @@
 ---
 name: Magdalena Cecilia L. Arriola
-position: Junior Associate
+position: Senior Associate
 startDate: 2022-10-02T16:00:00.000Z
 email: ces.arriola@gulapalaw.com
 mobile: NA
