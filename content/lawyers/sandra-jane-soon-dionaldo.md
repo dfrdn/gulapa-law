@@ -1,6 +1,6 @@
 ---
 name: Sandra Jane Soon Dionaldo
-position: Junior Associate
+position: Senior Associate
 startDate: 2022-04-22T16:14:39.018Z
 email: sandra.soon@gulapalaw.com
 mobile: (+63)32 2387254
