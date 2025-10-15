@@ -1,6 +1,6 @@
 ---
 name: Juli Ann Rosette M. Sibi
-position: Junior Associate
+position: Senior Associate
 startDate: 2024-07-22T14:32:07.701Z
 email: juli.sibi@gulapalaw.com
 mobile: (+63)286587835 to 36
