@@ -1,6 +1,6 @@
 ---
 name: Joshua Felix Ouano
-position: Junior Associate
+position: Senior Associate
 startDate: 2022-06-08T07:57:01.022Z
 email: joshua.ouano@gulapalaw.com
 mobile: " (+63)32 2387254"
