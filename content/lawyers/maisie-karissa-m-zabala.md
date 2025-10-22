@@ -1,6 +1,6 @@
 ---
 name: Maisie Karissa M. Zabala
-position: Junior Associate
+position: Senior Associate
 startDate: 2022-04-22T16:11:06.634Z
 email: maisie.zabala@gulapalaw.com
 mobile: (+63)286587835 to 36
