@@ -6,12 +6,12 @@ email: caloy.cajucom@gulapalaw.com
 mobile: (+63)286587835 to 36
 description: Caloy is a partner of the firm and head of its litigation and
   dispute resolution department. He is a part-time lecturer at the Ateneo de
-  Manila University School of Law and a member of the Philippine Dispute
-  Resolution Center, Inc. (PDRCI) and the International Council for Commercial
-  Arbitration (ICCA). He previously worked as Assistant Legal Counsel at the
-  Permanent Court of Arbitration in The Hague and finished his Advanced LLM in
-  International Dispute Settlement and Arbitration from Leiden University
-  graduating Summa Cum Laude.
+  Manila University School of Law and the University of Cebu School of Law. He
+  is also a member of the Philippine Dispute Resolution Center, Inc. (PDRCI) and
+  the International Council for Commercial Arbitration (ICCA). He previously
+  worked as Assistant Legal Counsel at the Permanent Court of Arbitration in The
+  Hague and finished his Advanced LLM in International Dispute Settlement and
+  Arbitration from Leiden University graduating Summa Cum Laude.
 image: /img/caloy-3_hgp7278-copy.jpg
 admissions:
   - Philippine Bar, 2013
@@ -24,28 +24,39 @@ education:
   - Ateneo de Manila University School of Law, Juris Doctor, 2012 (Second
     Honors; Ateneo Law Journal (2009-2012))
 matters:
+  - Representing a renewable energy company in a Singapore-seated arbitration
+    involving a share transfer dispute before the Singapore International
+    Arbitration Centre (SIAC)
+  - Representing a group of companies and individuals in a domestic arbitration
+    involving an indemnity claim under a share purchase agreement before the
+    Philippine Dispute Resolution Center (PDRC)
   - Represented the Philippine SEA Games Organizational Committee, Inc. in
     successfully repelling an injunction sought to enjoin the bidding, award,
     execution, and implementation of the information systems used for the 2019
     Southeast Asian Games.
-  - Obtained an interim measure of protection in aid of arbitration and a
-    favorable arbitral award in the amount of more than PhP 800 Million for a
-    contractor and against the government involving a nationwide infrastructure
-    project.
+  - Obtained an interim measure of protection in aid of arbitration from a court
+    and a favorable arbitral award from a tribunal of the Construction Industry
+    Arbitration Commission (CIAC) in the amount of more than PhP 800 Million for
+    a contractor and against the government involving a nationwide
+    infrastructure project. The arbitral award has been confirmed with finality
+    by the Supreme Court.
   - Obtained an arbitral award in favor of a shipowner against the shipbuilder
     involving the construction of a Ro-Ro vessel worth almost PhP 150 Million.
   - Secured an acquittal for an aircraft mechanic in a falsification case
     involving the test flight report for an airplane that fatally crashed while
     transporting a high government official in 2012.
   - Representing the rehabilitation receiver of a distressed corporation against
-    insurers in an arbitration involving a multi-Billion peso insurance claim
-    for damage and loss to property caused by a major typhoon.
+    insurers in an ad hoc arbitration involving a multi-Billion peso insurance
+    claim for damage and loss to property caused by a major typhoon
   - Secured an acquittal for an entertainment writer in a libel suit filed by a
     world champion and renowned celebrity boxer.
   - Assisted various arbitral tribunals in registry cases pending before the
     Permanent Court of Arbitration, including investment treaty and
     contract-based arbitrations
 recognitions:
+  - Up and Coming in Dispute Resolution, Chambers & Partners Asia-Pacific (2026)
+  - Recommended Lawyer in Dispute Resolution, The Legal500 (2026)
+  - Recommended Lawyer in Labour and Employment, The Legal500 (2026)
   - Recommended Lawyer in Dispute Resolution, The Legal500 (2023, 2022)
   - Finalist, Dispute Resolution Lawyer of the Year, Philippine Law Awards 2022
     (Asian Legal Business)
